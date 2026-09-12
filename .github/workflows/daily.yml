@@ -1,0 +1,26 @@
+name: Daily News Fetch
+
+on:
+  schedule:
+    # 每天 UTC 22:00 = 台灣時間隔天 06:00
+    - cron: "0 22 * * *"
+  workflow_dispatch:  # 允許手動按一次測試
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # 若有 requirements.txt 再取消下一行註解
+      # - name: Install dependencies
+      #   run: pip install -r requirements.txt
+
+      - name: Run fetch script
+        run: python fetch_rss.py
