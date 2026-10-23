@@ -42,6 +42,14 @@ def main() -> None:
         result["stories"] = curate._cap(result["stories"] + [s for s in old["stories"] if s["id"] not in kept_ids])
         result["headline"] = result["headline"] or old.get("headline", "")
 
+    # 之前沒翻成功的（標題還是英文），再翻一次
+    for s in result["stories"]:
+        if s.get("zh_title") == s.get("title"):
+            s["zh_title"] = curate.translate(s["title"])
+            if s.get("zh_summary") and s["zh_summary"] == s.get("summary", "")[:300]:
+                s["zh_summary"] = curate.translate(s["zh_summary"])
+    result.setdefault("translate_errors", curate.ERRORS[:10])
+
     digest = {"date": today, "generated_at": datetime.now(ZoneInfo("Asia/Taipei")).isoformat(), **result}
     (DATA / f"{today}.json").write_text(json.dumps(digest, ensure_ascii=False, indent=2), "utf-8")
     print(f"今日選出 {len(result['stories'])} 則（{result['engine']}）")

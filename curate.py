@@ -124,26 +124,75 @@ def curate_with_claude(cands: list[dict]) -> dict:
 
 
 # ---------------- 免費備案 ----------------
+def _gtx(text: str) -> str:
+    """Google 翻譯免費網頁介面（不需 key）。"""
+    import requests
+    r = requests.get("https://translate.googleapis.com/translate_a/single",
+                     params={"client": "gtx", "sl": "en", "tl": "zh-TW", "dt": "t", "q": text},
+                     headers={"User-Agent": "Mozilla/5.0"}, timeout=20)
+    r.raise_for_status()
+    return "".join(part[0] for part in r.json()[0] if part and part[0])
+
+
+def _deep(text: str) -> str:
+    from deep_translator import GoogleTranslator
+    return GoogleTranslator(source="en", target="zh-TW").translate(text)
+
+
+def _mymemory(text: str) -> str:
+    import requests
+    r = requests.get("https://api.mymemory.translated.net/get",
+                     params={"q": text[:480], "langpair": "en|zh-TW"}, timeout=20)
+    r.raise_for_status()
+    out = r.json()["responseData"]["translatedText"]
+    if not out or "MYMEMORY WARNING" in out.upper():
+        raise RuntimeError(out)
+    return out
+
+
+ERRORS: list[str] = []
+_FAILS: dict[str, int] = {}
+
+
+def translate(text: str) -> str:
+    """依序嘗試多個免費翻譯，全部失敗才保留英文。"""
+    import time
+    if not text:
+        return ""
+    for name, fn in (("gtx", _gtx), ("deep-translator", _deep), ("mymemory", _mymemory)):
+        if _FAILS.get(name, 0) >= 4:  # 一直失敗的就跳過，避免拖慢
+            continue
+        for attempt in range(2):
+            try:
+                out = fn(text)
+                if out and out.strip() != text.strip():
+                    _FAILS[name] = 0
+                    return out
+                raise RuntimeError("回傳內容與原文相同")
+            except Exception as exc:
+                _FAILS[name] = _FAILS.get(name, 0) + 1
+                msg = f"{name}: {type(exc).__name__}: {str(exc)[:150]}"
+                if msg not in ERRORS:
+                    ERRORS.append(msg)
+                    print(f"  [翻譯錯誤] {msg}")
+                time.sleep(1 + attempt)
+    return text
+
+
 def curate_fallback(cands: list[dict]) -> dict:
-    try:
-        from deep_translator import GoogleTranslator
-        tr = GoogleTranslator(source="en", target="zh-TW")
-        translate = lambda s: tr.translate(s) if s else ""
-    except Exception as exc:
-        print(f"  [翻譯不可用] {exc}，保留英文")
-        translate = lambda s: s
     stories = []
     for c in cands:
         cat = c["guess"]
         if sum(1 for s in stories if s["category"] == cat) >= config.MAX_PER_CATEGORY[cat]:
             continue
-        try:
-            zh_title, zh_summary = translate(c["title"]), translate(c["summary"][:300])
-        except Exception:
-            zh_title, zh_summary = c["title"], c["summary"][:300]
-        stories.append({**c, "category": cat, "importance": 3, "zh_title": zh_title,
-                        "zh_summary": zh_summary, "why_it_matters": "", "tags": []})
-    return {"headline": "", "stories": stories, "engine": "keyword + Google Translate"}
+        stories.append({**c, "category": cat, "importance": 3,
+                        "zh_title": translate(c["title"]),
+                        "zh_summary": translate(c["summary"][:300]),
+                        "why_it_matters": "", "tags": []})
+    ok = sum(1 for s in stories if s["zh_title"] != s["title"])
+    print(f"  翻譯成功 {ok}/{len(stories)} 則")
+    return {"headline": "", "stories": stories, "engine": "keyword + free translate",
+            "translated": f"{ok}/{len(stories)}", "translate_errors": ERRORS[:10]}
 
 
 def _cap(stories: list[dict]) -> list[dict]:
