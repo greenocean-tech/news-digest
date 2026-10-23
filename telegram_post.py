@@ -79,6 +79,8 @@ def main(dry_run: bool = False) -> None:
         print(f"[TG 發文失敗] {body.get('error_code')}: {body.get('description')}")
         if body.get("error_code") == 400 and "chat not found" in str(body.get("description")):
             print("  → 檢查 TELEGRAM_CHAT_ID 是否正確（公開頻道要含 @）")
+        if body.get("error_code") == 404:
+            print("  → TELEGRAM_BOT_TOKEN 格式不對：應該只有「數字:英數字」一串，不要多複製其他文字")
         if body.get("error_code") == 401:
             print("  → TELEGRAM_BOT_TOKEN 不正確，請重新從 @BotFather 複製")
         if body.get("error_code") == 403:
