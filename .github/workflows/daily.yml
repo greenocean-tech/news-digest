@@ -44,15 +44,21 @@ jobs:
           git commit -m "Daily digest $(TZ=Asia/Taipei date +%F)"
           git push
 
-      - name: Post to Facebook Page
+      - name: Post to Telegram / Facebook
         env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
           FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
         run: |
-          # 等 GitHub Pages 更新完，FB 連結預覽才抓得到今天的頁面
-          if [ -n "$FB_PAGE_TOKEN" ]; then sleep 90; fi
-          python facebook_post.py
-          git add data/fb_posted.json 2>/dev/null || true
-          git diff --cached --quiet && exit 0
-          git commit -m "Record Facebook post $(TZ=Asia/Taipei date +%F)"
-          git push
+          # 等 GitHub Pages 更新完，連結才會是今天的頁面
+          if [ -n "$TELEGRAM_BOT_TOKEN$FB_PAGE_TOKEN" ]; then sleep 90; fi
+          status=0
+          python telegram_post.py || status=1
+          python facebook_post.py || status=1
+          git add data/tg_posted.json data/fb_posted.json 2>/dev/null || true
+          if ! git diff --cached --quiet; then
+            git commit -m "Record social posts $(TZ=Asia/Taipei date +%F)"
+            git push
+          fi
+          exit $status

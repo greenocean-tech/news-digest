@@ -22,6 +22,11 @@
 
 之後每天自動執行，不用再管。
 
+## Telegram 頻道自動發文（選用）
+
+每天產生日報後，自動在 Telegram 頻道發一則今日重點（標題直接連到原文）。
+設定 `TELEGRAM_BOT_TOKEN`、`TELEGRAM_CHAT_ID` 兩個 Secrets 即啟用。預覽：`python telegram_post.py --dry-run`
+
 ## Facebook 粉專自動發文（選用）
 
 每天產生日報後，自動在粉專發一篇「今日重點＋網站連結」。設定 `FB_PAGE_ID`、`FB_PAGE_TOKEN` 兩個 Secrets 即啟用，沒設定就略過。
@@ -45,6 +50,7 @@ run_news.bat                (跑完會自動打開網頁)
 | `digest.py` | 主程式 |
 | `sources.py` | 抓 RSS / NewsAPI、去重 |
 | `curate.py` | 挑重點、翻譯（Claude；沒 key 時改用 Google 免費翻譯） |
+| `telegram_post.py` | 發文到 Telegram 頻道 |
 | `facebook_post.py` | 發文到 Facebook 粉專 |
 | `build_site.py` | 產生 `docs/` 網站與 `feed.xml` |
 | `data/` | 每日結果 JSON（之後要接社群發文可直接讀） |
