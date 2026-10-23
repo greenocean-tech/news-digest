@@ -56,7 +56,7 @@ jobs:
           status=0
           python telegram_post.py || status=1
           python facebook_post.py || status=1
-          for f in data/tg_posted.json data/fb_posted.json; do [ -f "$f" ] && git add "$f"; done
+          for f in data/tg_posted.json data/fb_posted.json; do if [ -f "$f" ]; then git add "$f"; fi; done
           if ! git diff --cached --quiet; then
             git commit -m "Record social posts $(TZ=Asia/Taipei date +%F)"
             git push
