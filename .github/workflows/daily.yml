@@ -43,3 +43,16 @@ jobs:
           git diff --cached --quiet && echo "沒有變更" && exit 0
           git commit -m "Daily digest $(TZ=Asia/Taipei date +%F)"
           git push
+
+      - name: Post to Facebook Page
+        env:
+          FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
+          FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
+        run: |
+          # 等 GitHub Pages 更新完，FB 連結預覽才抓得到今天的頁面
+          if [ -n "$FB_PAGE_TOKEN" ]; then sleep 90; fi
+          python facebook_post.py
+          git add data/fb_posted.json 2>/dev/null || true
+          git diff --cached --quiet && exit 0
+          git commit -m "Record Facebook post $(TZ=Asia/Taipei date +%F)"
+          git push
