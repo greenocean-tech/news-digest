@@ -9,6 +9,7 @@
 """
 import json
 import os
+import re
 import sys
 from datetime import datetime
 from html import escape
@@ -44,6 +45,32 @@ def build_message(d: dict) -> str:
     return "\n".join(lines)
 
 
+def clean_token(raw: str) -> str | None:
+    """從貼上的內容中找出「數字:英數字」權杖；容許多餘文字、換行、空白、bot 前綴。"""
+    compact = re.sub(r"\s+", "", raw)
+    m = re.search(r"(\d{5,15}:[A-Za-z0-9_-]{30,})", compact)
+    return m.group(1) if m else None
+
+
+def clean_chat(raw: str) -> str:
+    """接受 @name、name、t.me/name、https://t.me/name 或 -100 開頭的數字。"""
+    c = raw.strip()
+    m = re.search(r"t\.me/([A-Za-z0-9_]+)", c)
+    if m:
+        return "@" + m.group(1)
+    if re.fullmatch(r"-?\d+", c):
+        return c
+    return c if c.startswith("@") else "@" + c
+
+
+def tg(token: str, method: str, payload: dict | None = None) -> dict:
+    try:
+        r = requests.post(f"https://api.telegram.org/bot{token}/{method}", json=payload or {}, timeout=30)
+        return r.json()
+    except Exception as exc:  # 不印出網址，避免露出權杖
+        return {"ok": False, "error_code": "network", "description": type(exc).__name__}
+
+
 def main(dry_run: bool = False) -> None:
     files = sorted(DATA.glob("20*.json"))
     if not files:
@@ -58,22 +85,30 @@ def main(dry_run: bool = False) -> None:
         print(message)
         return
 
-    token, chat = os.getenv("TELEGRAM_BOT_TOKEN"), os.getenv("TELEGRAM_CHAT_ID")
-    if not token or not chat:
+    raw_token, raw_chat = os.getenv("TELEGRAM_BOT_TOKEN") or "", os.getenv("TELEGRAM_CHAT_ID") or ""
+    if not raw_token or not raw_chat:
         print("[TG] 沒有 TELEGRAM_BOT_TOKEN / TELEGRAM_CHAT_ID，略過")
         return
+    token, chat = clean_token(raw_token), clean_chat(raw_chat)
+    if not token:
+        # 只描述格式，不印出內容
+        compact = re.sub(r"\s+", "", raw_token)
+        hint = (f"長度 {len(compact)}，{'有' if ':' in compact else '沒有'}冒號，"
+                f"{'看起來像頻道帳號（@ 開頭）' if compact.startswith('@') else '不是「數字:英數字」格式'}")
+        print(f"::error title=Telegram 權杖格式不對::TELEGRAM_BOT_TOKEN {hint}。可能貼反了，或只複製到一部分。")
+        sys.exit(1)
+    me = tg(token, "getMe")
+    if not me.get("ok"):
+        print(f"::error title=Telegram 權杖無效::{me.get('error_code')}: {me.get('description')}（請到 @BotFather 用 /token 重新取得）")
+        sys.exit(1)
+    print(f"[TG] 機器人 @{me['result'].get('username')} 驗證成功，發到 {chat}")
     posted = json.loads(POSTED.read_text("utf-8")) if POSTED.exists() else {}
     if d["date"] in posted:
         print(f"[TG] {d['date']} 已經發過，略過")
         return
 
-    try:
-        r = requests.post(f"https://api.telegram.org/bot{token.strip()}/sendMessage",
-                          json={"chat_id": chat.strip(), "text": message, "parse_mode": "HTML",
-                                "link_preview_options": {"is_disabled": True}}, timeout=30)
-        body = r.json()
-    except Exception as exc:  # 不印出網址，避免露出權杖
-        body = {"ok": False, "error_code": "network", "description": type(exc).__name__}
+    body = tg(token, "sendMessage", {"chat_id": chat, "text": message, "parse_mode": "HTML",
+                                     "link_preview_options": {"is_disabled": True}})
     if not body.get("ok"):
         print(f"::error title=Telegram 發文失敗::{body.get('error_code')}: {body.get('description')}")
         print(f"[TG 發文失敗] {body.get('error_code')}: {body.get('description')}")
