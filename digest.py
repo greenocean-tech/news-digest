@@ -1,0 +1,57 @@
+"""每日主程式：抓新聞 → 挑重點翻譯 → 存 data/ → 產生 docs/ 網站。
+
+本機執行：python digest.py
+環境變數：ANTHROPIC_API_KEY（建議）、NEWSAPI_KEY（選用），可寫在 .env 檔
+"""
+import json
+from datetime import datetime
+from pathlib import Path
+from zoneinfo import ZoneInfo
+
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except ImportError:
+    pass
+
+import build_site
+import curate
+import sources
+
+ROOT = Path(__file__).parent
+DATA = ROOT / "data"
+SEEN = DATA / "seen.json"
+
+
+def main() -> None:
+    DATA.mkdir(exist_ok=True)
+    today = datetime.now(ZoneInfo("Asia/Taipei")).strftime("%Y-%m-%d")
+    seen = json.loads(SEEN.read_text("utf-8")) if SEEN.exists() else []
+
+    print(f"== {today} 抓取新聞 ==")
+    items = sources.fetch_all(set(seen))
+
+    print("== 挑選與翻譯 ==")
+    result = curate.curate(items)
+
+    # 同一天跑第二次：保留早上已選的新聞，再合併新的
+    today_file = DATA / f"{today}.json"
+    if today_file.exists():
+        old = json.loads(today_file.read_text("utf-8"))
+        kept_ids = {s["id"] for s in result["stories"]}
+        result["stories"] = curate._cap(result["stories"] + [s for s in old["stories"] if s["id"] not in kept_ids])
+        result["headline"] = result["headline"] or old.get("headline", "")
+
+    digest = {"date": today, "generated_at": datetime.now(ZoneInfo("Asia/Taipei")).isoformat(), **result}
+    (DATA / f"{today}.json").write_text(json.dumps(digest, ensure_ascii=False, indent=2), "utf-8")
+    print(f"今日選出 {len(result['stories'])} 則（{result['engine']}）")
+
+    # 記住已看過的新聞，避免明天重複（只留最近 3000 筆）
+    seen = (seen + [it["id"] for it in items])[-3000:]
+    SEEN.write_text(json.dumps(seen), "utf-8")
+
+    build_site.build()
+
+
+if __name__ == "__main__":
+    main()
