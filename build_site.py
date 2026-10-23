@@ -103,6 +103,13 @@ def build() -> None:
     links = "".join(f'<li><a href="{d["date"]}.html">{nice_date(d["date"])}</a> · {len(d["stories"])} 則</li>' for d in days)
     (DOCS / "archive.html").write_text(page(f"歷史日報 | {config.SITE_TITLE}", f'<h1 style="margin-top:28px">歷史日報</h1><ul class="archive">{links}</ul>'), "utf-8")
     (DOCS / "feed.xml").write_text(feed_xml(days), "utf-8")
+    # 給其他網站（例如 Afterword /news 頁）讀的資料：最近 7 天
+    keep = ("id", "category", "importance", "zh_title", "zh_summary", "why_it_matters",
+            "tags", "title", "url", "source", "published")
+    public = {"site": config.SITE_URL, "updated": days[0].get("generated_at", "") if days else "",
+              "days": [{"date": d["date"], "headline": d.get("headline", ""),
+                        "stories": [{k: s.get(k) for k in keep} for s in d["stories"]]} for d in days[:7]]}
+    (DOCS / "latest.json").write_text(json.dumps(public, ensure_ascii=False), "utf-8")
     (DOCS / ".nojekyll").write_text("")
     print(f"網站已產生：docs/（{len(days)} 天）")
 
