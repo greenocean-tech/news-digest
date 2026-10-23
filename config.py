@@ -2,8 +2,8 @@
 News Digest 設定檔 — 想加減新聞來源、改每類篇數，都在這裡改。
 """
 
-SITE_TITLE = "綠洋科技日報"
-SITE_TAGLINE = "每天早上 6 點，用繁體中文看懂美國 AI、新創與財經大事"
+SITE_TITLE = "綠洋 SI 日報"
+SITE_TAGLINE = "GreenOcean SI Daily｜當 AI 成為 SI，每天早上 6 點用繁體中文看懂美國 AI、新創與財經大事"
 SITE_URL = "https://greenocean-tech.github.io/news-digest/"  # 開好 GitHub Pages 後確認網址
 
 # 只收最近幾小時內的新聞

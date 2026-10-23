@@ -1,4 +1,4 @@
-# news-digest｜綠洋科技日報
+# news-digest｜綠洋 SI 日報（GreenOcean SI Daily）
 
 每天台灣時間早上 6:00 自動：
 
