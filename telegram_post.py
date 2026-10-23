@@ -121,6 +121,11 @@ def main(dry_run: bool = False) -> None:
             print("  → TELEGRAM_BOT_TOKEN 格式不對：應該只有「數字:英數字」一串，不要多複製其他文字")
         if body.get("error_code") == 401:
             print("  → TELEGRAM_BOT_TOKEN 不正確，請重新從 @BotFather 複製")
+        if body.get("error_code") in (400, 403):
+            info = tg(token, "getChat", {"chat_id": chat}).get("result") or {}
+            print(f"::error title=Telegram 診斷::機器人 @{me['result'].get('username')}；"
+                  f"TELEGRAM_CHAT_ID={chat} 對應到頻道「{info.get('title', '找不到')}」"
+                  f"(@{info.get('username', '-')}, {info.get('type', '-')})")
         if body.get("error_code") == 403:
             print("  → 機器人還不是頻道管理員，請到頻道設定把它加為管理員")
         sys.exit(1)
