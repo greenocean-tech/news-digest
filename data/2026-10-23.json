@@ -1,6 +1,6 @@
 {
   "date": "2026-10-23",
-  "generated_at": "2026-10-23T18:45:06.038706+08:00",
+  "generated_at": "2026-10-23T18:47:32.675390+08:00",
   "headline": "",
   "stories": [
     {
@@ -13,8 +13,8 @@
       "guess": "ai_company",
       "category": "ai_company",
       "importance": 3,
-      "zh_title": "Canva’s first AI image model plans designs before generating them",
-      "zh_summary": "Canva is diving even deeper into AI with the launch of an image generation model that competes directly with those from OpenAI, Microsoft, and Google. The model, called Canva Craft, uses a two-stage architecture that allows it to plan a design before generating an image, allowing for \"greater precis",
+      "zh_title": "Canva 的第一個 AI 影像模型在生成之前規劃設計",
+      "zh_summary": "Canva 進一步深入人工智慧領域，推出了圖像生成模型，與 OpenAI、微軟和Google的圖像生成模型直接競爭。該模型名為 Canva Craft，採用兩階段架構，允許在生成圖像之前規劃設計，從而實現「更精確的設計」。",
       "why_it_matters": "",
       "tags": []
     },
@@ -28,8 +28,8 @@
       "guess": "ai_company",
       "category": "ai_company",
       "importance": 3,
-      "zh_title": "OpenAI, Anthropic, and Nvidia had record lobbying quarters",
-      "zh_summary": "It was a busy summer for AI lobbyists. Anthropic, OpenAI, and Nvidia each had their highest-spending lobbying quarter between July and September, federal disclosures show. Nvidia spent the most of the group at $2.2 million, followed by Anthropic's $2.1 million and OpenAI's $1.5 million. Compared to ",
+      "zh_title": "OpenAI、Anthropic 和 Nvidia 的遊說季度創紀錄",
+      "zh_summary": "對於人工智慧遊說者來說，這是一個忙碌的夏天。聯邦披露的資訊顯示，Anthropic、OpenAI 和 Nvidia 在 7 月至 9 月期間分別經歷了支出最高的遊說季度。 Nvidia 花費最多，為 220 萬美元，其次是 Anthropic 的 210 萬美元和 OpenAI 的 150 萬美元。相比",
       "why_it_matters": "",
       "tags": []
     },
@@ -43,8 +43,8 @@
       "guess": "finance",
       "category": "finance",
       "importance": 3,
-      "zh_title": "The U.S. stock market is fracturing into two camps, and it’s leaving investors with a brutal case of whiplash",
-      "zh_summary": "The artificial-intelligence trade is on the ropes. CNN’s “Fear & Greed” index is screaming fear, and the yield on the 10-year Treasury note just clinched its biggest daily drop since the collapse of Silicon Valley Bank.",
+      "zh_title": "美國股市正在分裂成兩個陣營，這給投資者帶來了殘酷的打擊",
+      "zh_summary": "人工智慧貿易岌岌可危。美國有線電視新聞網（CNN）的「恐懼與貪婪」指數令人尖叫，十年期公債殖利率剛創下自矽谷銀行倒閉以來的最大單日跌幅。",
       "why_it_matters": "",
       "tags": []
     },
@@ -58,8 +58,8 @@
       "guess": "finance",
       "category": "finance",
       "importance": 3,
-      "zh_title": "This hot AI-fueled stock has been in a rut. It just beat earnings expectations by 36%.",
-      "zh_summary": "A company beating earnings expectations by 36% and revenue expectations by 15% would usually see a post-results bump. But not for Bloom Energy, the fuel-cell maker that has flourished due to data-center demand.",
+      "zh_title": "這支由人工智慧驅動的熱門股票一直處於停滯狀態。其獲利僅超出預期 36%。",
+      "zh_summary": "一家公司的獲利預期超出 36%，收入預期超出 15%，通常會在業績公佈後出現上漲。但對於因資料中心需求而蓬勃發展的燃料電池製造商布魯姆能源公司(Bloom Energy)來說卻並非如此。",
       "why_it_matters": "",
       "tags": []
     },
@@ -73,8 +73,8 @@
       "guess": "ai_company",
       "category": "ai_company",
       "importance": 3,
-      "zh_title": "Critical PHP web security flaws spark global alarm as Google, OpenAI and Amazon respond",
-      "zh_summary": "Critical PHP security flaws trigger global warnings as Google, OpenAI and Amazon respond to potential cyber threats.",
+      "zh_title": "關鍵的 PHP 網路安全漏洞引發全球警報，Google、OpenAI 和亞馬遜都回應",
+      "zh_summary": "隨著 Google、OpenAI 和 Amazon 應對潛在的網路威脅，PHP 的關鍵安全漏洞引發了全球警告。",
       "why_it_matters": "",
       "tags": []
     },
@@ -88,8 +88,8 @@
       "guess": "finance",
       "category": "finance",
       "importance": 3,
-      "zh_title": "This market signal just occurred for only the second time since 1999. Here’s what happened and what it means.",
-      "zh_summary": "An unusual occurrence with breadth and the stock market just occurred.",
+      "zh_title": "這一市場訊號自 1999 年以來僅第二次出現。以下是發生的情況及其意義。",
+      "zh_summary": "一場不尋常的事件剛剛發生，涉及範圍廣泛，股市也剛發生。",
       "why_it_matters": "",
       "tags": []
     },
@@ -103,8 +103,8 @@
       "guess": "ai_company",
       "category": "ai_company",
       "importance": 3,
-      "zh_title": "Nvidia's Huang heads to Kazakhstan for the first time — and he's not the only one with big plans",
-      "zh_summary": "Jensen Huang's first Kazakhstan visit highlights the country's growing AI ambitions and global business appeal.",
+      "zh_title": "英偉達的黃仁勳首次前往哈薩克斯坦——而且他並不是唯一一個有宏偉計劃的人",
+      "zh_summary": "黃仁勳首次造訪哈薩克凸顯了該國日益增長的人工智慧雄心和全球商業吸引力。",
       "why_it_matters": "",
       "tags": []
     },
@@ -118,8 +118,8 @@
       "guess": "ai_company",
       "category": "ai_company",
       "importance": 3,
-      "zh_title": "Uber rival inDrive eyes 2027 robotaxi tests in Central Asia with Pony.ai and Nvidia",
-      "zh_summary": "inDrive plans to begin testing Pony.ai's robotaxis in Kazakhstan's capital in the first half of 2027.",
+      "zh_title": "Uber 競爭對手 inDrive 計劃與 Pony.ai 和 Nvidia 合作，於 2027 年在中亞進行機器人計程車測試",
+      "zh_summary": "inDrive計劃於2027年上半年開始在哈薩克首都測試小馬智行的機器人計程車。",
       "why_it_matters": "",
       "tags": []
     },
@@ -133,8 +133,8 @@
       "guess": "ai_company",
       "category": "ai_company",
       "importance": 3,
-      "zh_title": "Designing an AI serving harness built to last",
-      "zh_summary": "The next competitive advantage in enterprise AI has less to do with which model you choose than with what you build around it. That’s an important shift. For the past several years, much of the AI conversation has centered on model capability: bigger models, better reasoning, larger context windows,",
+      "zh_title": "設計持久耐用的人工智慧服務線束",
+      "zh_summary": "企業人工智慧的下一個競爭優勢與您選擇的模型無關，而是與您圍繞該模型建立的內容有關。這是一個重要的轉變。在過去的幾年裡，人工智慧的大部分討論都集中在模型能力上：更大的模型、更好的推理、更大的上下文視窗、",
       "why_it_matters": "",
       "tags": []
     },
@@ -148,8 +148,8 @@
       "guess": "ai_startup",
       "category": "ai_startup",
       "importance": 3,
-      "zh_title": "The Social Society Helping Women Join the AI Boom",
-      "zh_summary": "WIRED spoke with the founders of the Aged Intelligence Society, a fast-growing events startup that brings women together to “solve midlife problems using frontier tools.”",
+      "zh_title": "社會協會幫助女性加入人工智慧熱潮",
+      "zh_summary": "《連線》採訪了老年情報協會的創始人，這是一家快速發展的新創公司，旨在將女性聚集在一起「使用前沿工具解決中年問題」。",
       "why_it_matters": "",
       "tags": []
     },
@@ -163,8 +163,8 @@
       "guess": "ai_startup",
       "category": "ai_startup",
       "importance": 3,
-      "zh_title": "Nirva raises $33M for a pendant that only listens to you",
-      "zh_summary": "Nirva will ship its $249 ambient AI pendant by the end of the year.",
+      "zh_title": "Nirva 為一款只聽你聲音的吊墜籌集了 3300 萬美元",
+      "zh_summary": "Nirva 將於今年底推出售價 249 美元的環境 AI 吊墜。",
       "why_it_matters": "",
       "tags": []
     },
@@ -178,8 +178,8 @@
       "guess": "finance",
       "category": "finance",
       "importance": 3,
-      "zh_title": "Sellers are back in tech, while bear market grips Chinese stocks",
-      "zh_summary": "Here are the key things investors need to know to start the trading day.",
+      "zh_title": "科技股賣家回歸，中國股市陷入熊市",
+      "zh_summary": "以下是投資者在開始交易日時需要了解的關鍵事項。",
       "why_it_matters": "",
       "tags": []
     },
@@ -193,8 +193,8 @@
       "guess": "finance",
       "category": "finance",
       "importance": 3,
-      "zh_title": "The mobile ambitions of SpaceX see telecom stocks get hit again. What the latest developments mean.",
-      "zh_summary": "Reports of Starlink’s discussions with cell-tower owners were taken badly by shareholders of Verizon, AT&T and T-Mobile.",
+      "zh_title": "SpaceX 的行動野心導致電信股再次受到打擊。最新進展意味著什麼。",
+      "zh_summary": "Verizon、AT&T 和 T-Mobile 的股東對 Starlink 與手機訊號塔所有者討論的報告感到非常不滿。",
       "why_it_matters": "",
       "tags": []
     },
@@ -208,11 +208,12 @@
       "guess": "finance",
       "category": "finance",
       "importance": 3,
-      "zh_title": "Meta turns Muse sharing back on",
-      "zh_summary": "Meta has re-enabled Muse sharing after security researchers had reported that public conversation links could be easy to find. The researchers said they had been able to find Muse pages like a marketing company's internal revenue review and a small business owner's loan application. Researchers at C",
+      "zh_title": "Meta 重新開啟 Muse 分享",
+      "zh_summary": "在安全研究人員報告公共對話連結很容易找到後，Meta 重新啟用了 Muse 共享。研究人員表示，他們已經能夠找到 Muse 頁面，例如行銷公司的內部收入審查和小型企業主的貸款申請。 C 的研究人員",
       "why_it_matters": "",
       "tags": []
     }
   ],
-  "engine": "keyword + Google Translate"
+  "engine": "none",
+  "translate_errors": []
 }
