@@ -47,8 +47,11 @@ def build_message(d: dict) -> str:
 
 def clean_token(raw: str) -> str | None:
     """從貼上的內容中找出「數字:英數字」權杖；容許多餘文字、換行、空白、bot 前綴。"""
-    compact = re.sub(r"\s+", "", raw)
-    m = re.search(r"(\d{5,15}:[A-Za-z0-9_-]{30,})", compact)
+    pattern = r"(?<![A-Za-z0-9])(\d{5,15}:[A-Za-z0-9_-]{30,50})(?![A-Za-z0-9_-])"
+    raw = re.sub(r"(?i)bot(?=\d{5,15}:)", " ", raw)  # 去掉 bot 前綴
+    m = re.search(pattern, raw)  # 先在原文找（整段 BotFather 訊息也可以）
+    if not m:
+        m = re.search(pattern, re.sub(r"\s+", "", raw))  # 權杖中間被換行切斷時
     return m.group(1) if m else None
 
 
