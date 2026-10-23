@@ -10,7 +10,7 @@
 
 1. **API key 放進 GitHub Secrets**
    Repo → Settings → Secrets and variables → Actions → New repository secret
-   - `ANTHROPIC_API_KEY`：到 https://console.anthropic.com 申請（建議，翻譯品質關鍵）
+   - `ANTHROPIC_API_KEY`：到 https://platform.claude.com/settings/keys 申請（建議，翻譯品質關鍵）
    - `NEWSAPI_KEY`：你申請的 NewsAPI.org key（選用，沒有也能跑）
 2. **允許 Actions 寫入 repo**
    Settings → Actions → General → Workflow permissions → 選 **Read and write permissions** → Save
