@@ -67,14 +67,20 @@ def main(dry_run: bool = False) -> None:
         print(f"[TG] {d['date']} 已經發過，略過")
         return
 
-    r = requests.post(f"https://api.telegram.org/bot{token}/sendMessage",
-                      json={"chat_id": chat, "text": message, "parse_mode": "HTML",
-                            "link_preview_options": {"is_disabled": True}}, timeout=30)
-    body = r.json()
+    try:
+        r = requests.post(f"https://api.telegram.org/bot{token.strip()}/sendMessage",
+                          json={"chat_id": chat.strip(), "text": message, "parse_mode": "HTML",
+                                "link_preview_options": {"is_disabled": True}}, timeout=30)
+        body = r.json()
+    except Exception as exc:  # 不印出網址，避免露出權杖
+        body = {"ok": False, "error_code": "network", "description": type(exc).__name__}
     if not body.get("ok"):
+        print(f"::error title=Telegram 發文失敗::{body.get('error_code')}: {body.get('description')}")
         print(f"[TG 發文失敗] {body.get('error_code')}: {body.get('description')}")
         if body.get("error_code") == 400 and "chat not found" in str(body.get("description")):
             print("  → 檢查 TELEGRAM_CHAT_ID 是否正確（公開頻道要含 @）")
+        if body.get("error_code") == 401:
+            print("  → TELEGRAM_BOT_TOKEN 不正確，請重新從 @BotFather 複製")
         if body.get("error_code") == 403:
             print("  → 機器人還不是頻道管理員，請到頻道設定把它加為管理員")
         sys.exit(1)

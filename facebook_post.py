@@ -73,6 +73,7 @@ def main(dry_run: bool = False) -> None:
     body = r.json()
     if "id" not in body:
         err = body.get("error", {})
+        print(f"::error title=Facebook 發文失敗::{err.get('code')}: {err.get('message')}")
         print(f"[FB 發文失敗] {err.get('code')} {err.get('type')}: {err.get('message')}")
         sys.exit(1)
     posted[d["date"]] = body["id"]
