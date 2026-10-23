@@ -65,3 +65,14 @@ AI_WORDS = ["ai", "artificial intelligence", "llm", "model", "gpt", "machine lea
 
 # Claude 模型（翻譯與挑選重點）
 CLAUDE_MODEL = "claude-sonnet-5-5"   # 想省錢可改成 "claude-haiku-5-5"
+
+# ---- 自家產品推廣（每日頁面中間一張卡片 + 頁尾一行）；不想顯示就把 PROMO 設成 None ----
+PROMO = {
+    "label": "綠洋科技出品",
+    "title": "Afterword｜有些話，即使你不能親口說，也該送到",
+    "body": ("AI 讓世界變得越來越快，但有些話只有你能說。寫下給重要的人的話，"
+             "若你連續 30 天沒有登入，Afterword 會以 Email 私下送給你指定的人。內容加密儲存，我們不閱讀、不出售。"),
+    "cta": "寫下我的話 →",
+    "url": "https://last-words-theta.vercel.app/zh-TW?utm_source=si-daily&utm_medium=web&utm_campaign=promo",
+    "footer": "想留下給重要的人的話？試試 Afterword",
+}

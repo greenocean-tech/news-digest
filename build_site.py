@@ -31,6 +31,10 @@ h2{font-size:19px;margin:40px 0 12px;padding-bottom:6px;border-bottom:2px solid 
 .tag{background:var(--accent-soft);color:var(--accent);border-radius:999px;padding:1px 10px}
 .orig{font-size:13px;color:var(--muted);font-style:italic}
 .hot{color:var(--accent);font-weight:700}
+.promo{display:block;text-decoration:none;border:1px solid var(--line);border-left:4px solid #b02a2e;background:var(--card);border-radius:10px;padding:18px 20px;margin:28px 0}
+.promo:hover{border-color:#b02a2e}.promo small{color:var(--muted);font-size:12px;letter-spacing:.06em}
+.promo strong{display:block;font-size:17px;margin:4px 0 6px}.promo p{margin:0 0 8px;color:var(--muted);font-size:15px}
+.promo span{color:#b02a2e;font-weight:600;font-size:15px}
 .archive li{margin:6px 0}footer{color:var(--muted);font-size:13px;padding:40px 0;text-align:center}
 """
 
@@ -45,7 +49,23 @@ def page(title: str, body: str, desc: str = "") -> str:
 <header><div class="wrap top"><a class="brand" href="index.html">{escape(config.SITE_TITLE[:2])}<span>{escape(config.SITE_TITLE[2:])}</span></a>
 <nav><a href="index.html">今日</a><a href="archive.html">歷史</a><a href="feed.xml">RSS</a></nav></div></header>
 <main class="wrap">{body}</main>
-<footer class="wrap">{escape(config.SITE_TAGLINE)}<br>摘要由 AI 改寫整理，詳細內容請點標題閱讀原文。</footer></body></html>"""
+<footer class="wrap">{escape(config.SITE_TAGLINE)}<br>{promo_footer()}摘要由 AI 改寫整理，詳細內容請點標題閱讀原文。</footer></body></html>"""
+
+
+def promo_card() -> str:
+    p = getattr(config, "PROMO", None)
+    if not p:
+        return ""
+    return (f'<a class="promo" href="{escape(p["url"])}" target="_blank" rel="noopener">'
+            f'<small>{escape(p["label"])}</small><strong>{escape(p["title"])}</strong>'
+            f'<p>{escape(p["body"])}</p><span>{escape(p["cta"])}</span></a>')
+
+
+def promo_footer() -> str:
+    p = getattr(config, "PROMO", None)
+    if not p:
+        return ""
+    return f'<a href="{escape(p["url"])}" target="_blank" rel="noopener">{escape(p["footer"])}</a><br>'
 
 
 def nice_date(d: str) -> str:
@@ -67,10 +87,16 @@ def day_body(d: dict) -> str:
     parts = [f'<p class="date">{nice_date(d["date"])}</p><h1>今日 AI 與財經重點</h1>']
     if d.get("headline"):
         parts.append(f'<div class="lead">{escape(d["headline"])}</div>')
+    shown = 0
     for cat, label in config.CATEGORY_LABELS.items():
         stories = [s for s in d["stories"] if s["category"] == cat]
         if stories:
             parts.append(f"<section><h2>{label}</h2>{''.join(story_html(s) for s in stories)}</section>")
+            shown += 1
+            if shown == 1:
+                parts.append(promo_card())  # 第一個分類之後放推廣卡片
+    if shown <= 1:
+        parts.append(promo_card() if shown == 0 else "")
     if not d["stories"]:
         parts.append("<p>今天沒有抓到新的重要新聞。</p>")
     return "".join(parts)
