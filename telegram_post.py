@@ -18,6 +18,7 @@ from pathlib import Path
 import requests
 
 import config
+import share
 
 ROOT = Path(__file__).parent
 DATA = ROOT / "data"
@@ -42,6 +43,8 @@ def build_message(d: dict) -> str:
             lines += [f'• <a href="{escape(s["url"])}">{escape(s["zh_title"])}</a>' for s in stories]
             lines.append("")
     lines.append(f'👉 <a href="{page}">完整摘要</a>')
+    lines.append(f'📤 一鍵分享：<a href="{escape(share.x_intent(d))}">X</a>｜'
+                 f'<a href="{escape(share.threads_intent(d))}">Threads</a>')
     return "\n".join(lines)
 
 

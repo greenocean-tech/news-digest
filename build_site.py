@@ -6,6 +6,7 @@ from html import escape
 from pathlib import Path
 
 import config
+import share
 
 ROOT = Path(__file__).parent
 DATA, DOCS = ROOT / "data", ROOT / "docs"
@@ -35,6 +36,9 @@ h2{font-size:19px;margin:40px 0 12px;padding-bottom:6px;border-bottom:2px solid 
 .promo:hover{border-color:#b02a2e}.promo small{color:var(--muted);font-size:12px;letter-spacing:.06em}
 .promo strong{display:block;font-size:17px;margin:4px 0 6px}.promo p{margin:0 0 8px;color:var(--muted);font-size:15px}
 .promo span{color:#b02a2e;font-weight:600;font-size:15px}
+.share{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin:32px 0 8px;color:var(--muted);font-size:15px}
+.share a{border:1px solid var(--line);background:var(--card);border-radius:999px;padding:6px 16px;text-decoration:none;font-weight:600}
+.share a:hover{border-color:var(--accent);color:var(--accent)}
 .archive li{margin:6px 0}footer{color:var(--muted);font-size:13px;padding:40px 0;text-align:center}
 """
 
@@ -99,7 +103,15 @@ def day_body(d: dict) -> str:
         parts.append(promo_card() if shown == 0 else "")
     if not d["stories"]:
         parts.append("<p>今天沒有抓到新的重要新聞。</p>")
+    else:
+        parts.append(share_bar(d))
     return "".join(parts)
+
+
+def share_bar(d: dict) -> str:
+    return (f'<div class="share"><span>覺得有用？分享給朋友：</span>'
+            f'<a href="{escape(share.x_intent(d))}" target="_blank" rel="noopener">分享到 X</a>'
+            f'<a href="{escape(share.threads_intent(d))}" target="_blank" rel="noopener">分享到 Threads</a></div>')
 
 
 def feed_xml(days: list[dict]) -> str:
