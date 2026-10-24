@@ -60,6 +60,13 @@ def main() -> None:
 
     build_site.build()
 
+    try:
+        import card
+        if digest["stories"]:
+            print(f"IG 圖卡：{card.make_card(digest)}")
+    except Exception as exc:  # 圖卡失敗不影響日報
+        print(f"::warning title=IG 圖卡產生失敗::{exc}")
+
 
 if __name__ == "__main__":
     main()

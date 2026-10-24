@@ -3,3 +3,4 @@ requests>=2.31
 anthropic>=0.40
 deep-translator>=1.11
 python-dotenv>=1.0
+pillow>=10.0

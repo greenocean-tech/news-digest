@@ -77,6 +77,30 @@ def tg(token: str, method: str, payload: dict | None = None) -> dict:
         return {"ok": False, "error_code": "network", "description": type(exc).__name__}
 
 
+def send_card(token: str, chat: str, d: dict) -> bool:
+    """發 IG 圖卡（照片）＋可直接複製的 IG 文案；失敗只警告，不影響主貼文。"""
+    path = ROOT / "docs" / "cards" / f"{d['date']}.png"
+    if not path.exists():
+        print("[TG] 今天沒有圖卡，略過")
+        return False
+    try:
+        import card
+        caption = card.ig_caption(d)[:1000]  # Telegram 圖片說明上限 1024 字
+        with path.open("rb") as fh:
+            r = requests.post(f"https://api.telegram.org/bot{token}/sendPhoto",
+                              data={"chat_id": chat, "caption": caption},
+                              files={"photo": (path.name, fh, "image/png")}, timeout=60)
+        body = r.json()
+        if body.get("ok"):
+            print("[TG] 已發 IG 圖卡")
+            return True
+        else:
+            print(f"::warning title=Telegram 圖卡發送失敗::{body.get('error_code')}: {body.get('description')}")
+    except Exception as exc:
+        print(f"::warning title=Telegram 圖卡發送失敗::{type(exc).__name__}")
+    return False
+
+
 def main(dry_run: bool = False) -> None:
     files = sorted(DATA.glob("20*.json"))
     if not files:
@@ -108,9 +132,14 @@ def main(dry_run: bool = False) -> None:
         print(f"::error title=Telegram 權杖無效::{me.get('error_code')}: {me.get('description')}（請到 @BotFather 用 /token 重新取得）")
         sys.exit(1)
     print(f"[TG] 機器人 @{me['result'].get('username')} 驗證成功，發到 {chat}")
+
     posted = json.loads(POSTED.read_text("utf-8")) if POSTED.exists() else {}
+    card_key = f"{d['date']}-card"
     if d["date"] in posted:
-        print(f"[TG] {d['date']} 已經發過，略過")
+        print(f"[TG] {d['date']} 文字已經發過")
+        if card_key not in posted and send_card(token, chat, d):
+            posted[card_key] = True
+            POSTED.write_text(json.dumps(posted, indent=2), "utf-8")
         return
 
     body = tg(token, "sendMessage", {"chat_id": chat, "text": message, "parse_mode": "HTML",
@@ -133,6 +162,8 @@ def main(dry_run: bool = False) -> None:
             print("  → 機器人還不是頻道管理員，請到頻道設定把它加為管理員")
         sys.exit(1)
     posted[d["date"]] = body["result"]["message_id"]
+    if send_card(token, chat, d):
+        posted[card_key] = True
     POSTED.write_text(json.dumps(posted, indent=2), "utf-8")
     print(f"[TG] 已發文到 {chat}（message_id {posted[d['date']]}）")
 
