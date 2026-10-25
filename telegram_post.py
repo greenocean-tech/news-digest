@@ -36,9 +36,14 @@ def build_message(d: dict) -> str:
         import earnings
         cal = d["earnings"]
         lines.append(f"<b>📅 {escape(earnings.headline(cal))}</b>")
+        week = None
         for day in cal.get("days", []):
-            lines.append(f"{escape(day['label'])}：" + "、".join(
-                f"{escape(i['symbol'])}({escape(i['time'])})" for i in day["items"]))
+            if day.get("week") != week:
+                week = day.get("week")
+                lines.append(f"<i>{escape(week or '')}</i>")
+            lines.append(f"{escape(day['label'])}：" + "、".join(escape(earnings.item_text(i)) for i in day["items"]))
+        if not cal.get("days"):
+            lines.append("追蹤清單中的公司，這兩週都沒有公布財報。")
         lines.append("")
     if d.get("headline"):
         lines += [escape(d["headline"]), ""]

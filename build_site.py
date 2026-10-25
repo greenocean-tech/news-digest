@@ -45,6 +45,8 @@ h2{font-size:19px;margin:40px 0 12px;padding-bottom:6px;border-bottom:2px solid 
 .er-day{flex:0 0 auto;min-width:86px;white-space:nowrap;font-weight:700;font-size:14px;color:var(--accent)}
 .tk{display:inline-block;margin:2px 10px 2px 0;font-size:14px;color:var(--muted)}.tk b{color:var(--ink)}
 .er-note{font-size:12px;color:var(--muted);margin:8px 0 0}
+.er-week{font-size:13px;font-weight:700;color:var(--muted);margin:12px 0 2px;letter-spacing:.08em}
+.tk em{font-style:normal;color:var(--accent);font-size:13px}
 .archive li{margin:6px 0}footer{color:var(--muted);font-size:13px;padding:40px 0;text-align:center}
 """
 
@@ -118,14 +120,20 @@ def day_body(d: dict) -> str:
 
 def earnings_html(cal: dict) -> str:
     import earnings
-    rows = []
+    rows, week = [], None
     for day in cal.get("days", []):
-        chips = "".join(f'<span class="tk"><b>{escape(i["symbol"])}</b> {escape(i["time"])}</span>'
-                        for i in day["items"])
+        if day.get("week") != week:
+            week = day.get("week")
+            rows.append(f'<p class="er-week">{escape(week or "")}</p>')
+        chips = "".join(
+            f'<span class="tk"><b>{escape(i["symbol"])}</b> {escape(i.get("zh_name", ""))}'
+            f' <em>{escape(i["time"])}</em></span>' for i in day["items"])
         rows.append(f'<div class="er-row"><span class="er-day">{escape(day["label"])}</span><div>{chips}</div></div>')
-    body = "".join(rows) or "<p>本週沒有 S&P 100 公司公布財報。</p>"
-    return (f'<section class="earnings"><h2>📅 {escape(earnings.headline(cal))}</h2>{body}'
-            f'<p class="er-note">共 {cal.get("count", 0)} 檔｜資料來源：{escape(cal.get("source", ""))}，'
+    body = "".join(rows) or "<p>追蹤清單中的公司，這兩週都沒有公布財報。</p>"
+    none = cal.get("none") or []
+    none_html = f'<p class="er-note">這兩週沒有財報：{escape("、".join(none))}</p>' if none and rows else ""
+    return (f'<section class="earnings"><h2>📅 {escape(earnings.headline(cal))}</h2>{body}{none_html}'
+            f'<p class="er-note">資料來源：{escape(cal.get("source", ""))}｜盤後公布＝台灣隔天清晨｜'
             f'日期可能變動，請以公司公告為準</p></section>')
 
 

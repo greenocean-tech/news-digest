@@ -51,14 +51,14 @@ def main() -> None:
                 s["zh_summary"] = curate.translate(s["zh_summary"])
     result.setdefault("translate_errors", curate.ERRORS[:10])
 
-    # 每週一：本週 S&P 100 財報行事曆
+    # 每週一：追蹤股本週＋下週財報行事曆
     now_tw = datetime.now(ZoneInfo("Asia/Taipei"))
     if now_tw.weekday() == 0 or os.getenv("FORCE_EARNINGS") == "1":
         import earnings
         cal = earnings.weekly_calendar(now_tw.date())
         if cal:
             result["earnings"] = cal
-            print(f"本週財報：{cal['count']} 檔（{cal['source']}）")
+            print(f"兩週內財報：{cal['count']} 檔（{cal['source']}）")
     if today_file.exists() and "earnings" not in result:
         old_earn = json.loads(today_file.read_text("utf-8")).get("earnings")
         if old_earn:

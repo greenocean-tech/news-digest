@@ -79,3 +79,10 @@ PROMO = {
 
 # 顯示在 IG 圖卡底部的 Telegram 頻道（留空就不顯示）
 TELEGRAM_CHANNEL = "t.me/GREENOcean_news"
+
+# ---- 每週一財報行事曆：追蹤清單（本週＋下週）。要增減公司就改這裡 ----
+EARNINGS_WATCHLIST = [
+    ("TSM", "台積電"), ("NVDA", "輝達"), ("AMD", "超微"), ("SPCX", "SpaceX"),
+    ("META", "Meta"), ("KLAC", "科磊"), ("AMAT", "應用材料"), ("DELL", "戴爾"),
+    ("ARM", "安謀"), ("MU", "美光"), ("SKHY", "SK 海力士"), ("SNDK", "SanDisk"),
+]
