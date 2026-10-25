@@ -116,6 +116,10 @@ def weekly_calendar(day: date) -> dict | None:
         for e in errors:
             print(f"::warning title=財報行事曆抓取失敗::{e}")
         return None
+    # 同一家公司的多種股票只列一次（GOOGL/GOOG）
+    dup = {"GOOG": "GOOGL"}
+    items = [i for i in items if not (i["symbol"] in dup and any(
+        j["symbol"] == dup[i["symbol"]] and j["date"] == i["date"] for j in items))]
     seen, uniq = set(), []
     for it in sorted(items, key=lambda x: (x["date"], x["time"] != "盤前", -x["market_cap"])):
         k = (it["date"], it["symbol"])

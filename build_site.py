@@ -39,6 +39,12 @@ h2{font-size:19px;margin:40px 0 12px;padding-bottom:6px;border-bottom:2px solid 
 .share{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin:32px 0 8px;color:var(--muted);font-size:15px}
 .share a{border:1px solid var(--line);background:var(--card);border-radius:999px;padding:6px 16px;text-decoration:none;font-weight:600}
 .share a:hover{border-color:var(--accent);color:var(--accent)}
+.earnings{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px 20px;margin:18px 0 8px}
+.earnings h2{border:0;margin:0 0 10px;padding:0;font-size:17px;display:block}
+.er-row{display:flex;gap:12px;padding:8px 0;border-top:1px solid var(--line)}
+.er-day{flex:0 0 auto;min-width:86px;white-space:nowrap;font-weight:700;font-size:14px;color:var(--accent)}
+.tk{display:inline-block;margin:2px 10px 2px 0;font-size:14px;color:var(--muted)}.tk b{color:var(--ink)}
+.er-note{font-size:12px;color:var(--muted);margin:8px 0 0}
 .archive li{margin:6px 0}footer{color:var(--muted);font-size:13px;padding:40px 0;text-align:center}
 """
 
@@ -89,6 +95,8 @@ def story_html(s: dict) -> str:
 
 def day_body(d: dict) -> str:
     parts = [f'<p class="date">{nice_date(d["date"])}</p><h1>今日 AI 與財經重點</h1>']
+    if d.get("earnings"):
+        parts.append(earnings_html(d["earnings"]))
     if d.get("headline"):
         parts.append(f'<div class="lead">{escape(d["headline"])}</div>')
     shown = 0
@@ -106,6 +114,19 @@ def day_body(d: dict) -> str:
     else:
         parts.append(share_bar(d))
     return "".join(parts)
+
+
+def earnings_html(cal: dict) -> str:
+    import earnings
+    rows = []
+    for day in cal.get("days", []):
+        chips = "".join(f'<span class="tk"><b>{escape(i["symbol"])}</b> {escape(i["time"])}</span>'
+                        for i in day["items"])
+        rows.append(f'<div class="er-row"><span class="er-day">{escape(day["label"])}</span><div>{chips}</div></div>')
+    body = "".join(rows) or "<p>本週沒有 S&P 100 公司公布財報。</p>"
+    return (f'<section class="earnings"><h2>📅 {escape(earnings.headline(cal))}</h2>{body}'
+            f'<p class="er-note">共 {cal.get("count", 0)} 檔｜資料來源：{escape(cal.get("source", ""))}，'
+            f'日期可能變動，請以公司公告為準</p></section>')
 
 
 def share_bar(d: dict) -> str:
@@ -145,7 +166,7 @@ def build() -> None:
     keep = ("id", "category", "importance", "zh_title", "zh_summary", "why_it_matters",
             "tags", "title", "url", "source", "published")
     public = {"site": config.SITE_URL, "updated": days[0].get("generated_at", "") if days else "",
-              "days": [{"date": d["date"], "headline": d.get("headline", ""),
+              "days": [{"date": d["date"], "headline": d.get("headline", ""), "earnings": d.get("earnings"),
                         "stories": [{k: s.get(k) for k in keep} for s in d["stories"]]} for d in days[:7]]}
     (DOCS / "latest.json").write_text(json.dumps(public, ensure_ascii=False), "utf-8")
     (DOCS / ".nojekyll").write_text("")

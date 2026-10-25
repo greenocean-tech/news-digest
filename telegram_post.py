@@ -32,6 +32,14 @@ def build_message(d: dict) -> str:
     dt = datetime.strptime(d["date"], "%Y-%m-%d")
     page = f"{config.SITE_URL}{d['date']}.html"
     lines = [f"<b>📰 {escape(config.SITE_TITLE)}｜{dt.month}/{dt.day}（{WEEKDAY[dt.weekday()]}）</b>", ""]
+    if d.get("earnings"):
+        import earnings
+        cal = d["earnings"]
+        lines.append(f"<b>📅 {escape(earnings.headline(cal))}</b>")
+        for day in cal.get("days", []):
+            lines.append(f"{escape(day['label'])}：" + "、".join(
+                f"{escape(i['symbol'])}({escape(i['time'])})" for i in day["items"]))
+        lines.append("")
     if d.get("headline"):
         lines += [escape(d["headline"]), ""]
     for cat, label in config.CATEGORY_LABELS.items():

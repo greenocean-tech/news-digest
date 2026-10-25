@@ -4,6 +4,7 @@
 環境變數：ANTHROPIC_API_KEY（建議）、NEWSAPI_KEY（選用），可寫在 .env 檔
 """
 import json
+import os
 from datetime import datetime
 from pathlib import Path
 from zoneinfo import ZoneInfo
@@ -49,6 +50,19 @@ def main() -> None:
             if s.get("zh_summary") and s["zh_summary"] == s.get("summary", "")[:300]:
                 s["zh_summary"] = curate.translate(s["zh_summary"])
     result.setdefault("translate_errors", curate.ERRORS[:10])
+
+    # 每週一：本週 S&P 100 財報行事曆
+    now_tw = datetime.now(ZoneInfo("Asia/Taipei"))
+    if now_tw.weekday() == 0 or os.getenv("FORCE_EARNINGS") == "1":
+        import earnings
+        cal = earnings.weekly_calendar(now_tw.date())
+        if cal:
+            result["earnings"] = cal
+            print(f"本週財報：{cal['count']} 檔（{cal['source']}）")
+    if today_file.exists() and "earnings" not in result:
+        old_earn = json.loads(today_file.read_text("utf-8")).get("earnings")
+        if old_earn:
+            result["earnings"] = old_earn
 
     digest = {"date": today, "generated_at": datetime.now(ZoneInfo("Asia/Taipei")).isoformat(), **result}
     (DATA / f"{today}.json").write_text(json.dumps(digest, ensure_ascii=False, indent=2), "utf-8")
