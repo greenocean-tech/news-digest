@@ -76,3 +76,6 @@ PROMO = {
     "url": "https://last-words-theta.vercel.app/zh-TW?utm_source=si-daily&utm_medium=web&utm_campaign=promo",
     "footer": "想留下給重要的人的話？試試 Afterword",
 }
+
+# 顯示在 IG 圖卡底部的 Telegram 頻道（留空就不顯示）
+TELEGRAM_CHANNEL = "t.me/GREENOcean_news"

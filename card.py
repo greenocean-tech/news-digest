@@ -122,11 +122,11 @@ def make_card(d: dict) -> Path:
     dw = draw.textlength(date_txt, font=font("Medium", 32))
     draw.text((W - PAD - dw, 112), date_txt, font=font("Medium", 32), fill=ACCENT)
     draw.line([(PAD, 246), (W - PAD, 246)], fill=(255, 255, 255, 60), width=2)
-    draw.text((PAD, 278), "今日 AI 與財經重點", font=font("Bold", 40), fill=ACCENT)
+    draw.text((PAD, 272), "今日 AI 與財經重點", font=font("Bold", 40), fill=ACCENT)
 
     # 新聞：先試排，確保不會擠到頁尾
     title_f, chip_f, src_f = font("Bold", 42), font("Bold", 26), font("Regular", 24)
-    top, bottom = 368, 1180
+    top, bottom = 360, 1192
     items, layout = pick(d), []
     for n in (4, 3, 2, 1):
         for max_lines in (3, 2):
@@ -151,8 +151,15 @@ def make_card(d: dict) -> Path:
 
     # 頁尾
     draw.line([(PAD, 1206), (W - PAD, 1206)], fill=(255, 255, 255, 60), width=2)
-    draw.text((PAD, 1232), "完整摘要與原文連結 → 個人檔案連結", font=font("Medium", 30), fill=INK)
-    draw.text((PAD, 1280), config.SITE_URL.replace("https://", "").rstrip("/"), font=font("Regular", 26), fill=MUTED)
+    tg = getattr(config, "TELEGRAM_CHANNEL", "")
+    if tg:
+        draw.text((PAD, 1228), "每天免費訂閱 Telegram", font=font("Medium", 28), fill=MUTED)
+        draw.text((PAD, 1268), tg, font=font("Bold", 40), fill=ACCENT)
+        note = "完整摘要 → 個人檔案連結"
+        nw = draw.textlength(note, font=font("Medium", 26))
+        draw.text((W - PAD - nw, 1280), note, font=font("Medium", 26), fill=MUTED)
+    else:
+        draw.text((PAD, 1232), "完整摘要與原文連結 → 個人檔案連結", font=font("Medium", 30), fill=INK)
 
     CARDS.mkdir(parents=True, exist_ok=True)
     out = CARDS / f"{d['date']}.png"
@@ -168,7 +175,10 @@ def ig_caption(d: dict) -> str:
         lines += [d["headline"], ""]
     for s in pick(d, 5):
         lines.append(f"▪️ {s['zh_title']}")
-    lines += ["", "📌 每天早上更新，完整摘要與原文連結在個人檔案",
+    lines += ["", "📌 每天早上更新，完整摘要與原文連結在個人檔案"]
+    if getattr(config, "TELEGRAM_CHANNEL", ""):
+        lines.append(f"📲 Telegram 免費訂閱：{config.TELEGRAM_CHANNEL}")
+    lines += [
               "", "#AI #人工智慧 #科技新聞 #美股 #新創 #OpenAI #輝達 #綠洋SI日報"]
     return "\n".join(lines)[:2100]  # IG 上限 2200 字
 
