@@ -1,0 +1,23 @@
+name: Earnings Calendar Check
+
+# 手動測試財報行事曆抓取（不會發文、不會改網站）
+on:
+  workflow_dispatch:
+    inputs:
+      week:
+        description: "週內任一天（YYYY-MM-DD），留空=今天"
+        required: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests
+      - env:
+          FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
+          WEEK: ${{ inputs.week }}
+        run: python earnings.py --week "${WEEK:-$(TZ=Asia/Taipei date +%F)}"
