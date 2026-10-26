@@ -43,6 +43,7 @@
 
 - **IG＋FB＋Threads**：每天在 Telegram 長按圖卡存到手機、複製文案，在 IG 發文時打開「Facebook」與「Threads」開關，一次發到三個平台
 - **X / Threads**：點 Telegram 貼文或網站上的「一鍵分享」，內容已經預先填好
+- **全自動發到 X / Threads**：用 IFTTT 讀取社群專用 RSS `https://greenocean-tech.github.io/news-digest/social.xml`（每天一則；標題＝X 貼文、內容＝Threads 貼文）
 
 ### 調整設定
 
@@ -118,6 +119,7 @@ After AI became SI (superintelligence), the world started moving faster than eve
 
 - **IG + FB + Threads**: in Telegram, long-press the daily card to save it and copy the caption. When posting on Instagram, turn on "Facebook" and "Threads" to publish to all three at once.
 - **X / Threads**: tap "one-tap share" in the Telegram post or on the website. The text is already filled in.
+- **Fully automatic X / Threads**: point IFTTT at the social feed `https://greenocean-tech.github.io/news-digest/social.xml` (one item per day; title = X post, description = Threads post).
 
 ### Configuration
 

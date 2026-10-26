@@ -143,6 +143,24 @@ def share_bar(d: dict) -> str:
             f'<a href="{escape(share.threads_intent(d))}" target="_blank" rel="noopener">分享到 Threads</a></div>')
 
 
+def social_xml(days: list[dict]) -> str:
+    """社群自動發文專用 RSS（IFTTT 等服務讀取）：每天一則。
+    標題＝X 貼文（已控制在 280 加權字數內，含連結空間）；內容＝Threads 貼文（含連結）。"""
+    items = []
+    for d in days[:7]:
+        if not d.get("stories"):
+            continue
+        when = d.get("generated_at") or f"{d['date']}T06:00:00+08:00"
+        pub = format_datetime(datetime.fromisoformat(when))
+        items.append(f"<item><title>{escape(share.x_text(d))}</title><link>{escape(share.page_url(d))}</link>"
+                     f"<guid isPermaLink=\"false\">{d['date']}-social</guid><pubDate>{pub}</pubDate>"
+                     f"<description>{escape(share.threads_text(d))}</description></item>")
+    return (f'<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel>'
+            f"<title>{escape(config.SITE_TITLE)}（社群）</title><link>{escape(config.SITE_URL)}</link>"
+            f"<description>每日一則，供自動發文到 X / Threads</description><language>zh-TW</language>"
+            f"{''.join(items)}</channel></rss>")
+
+
 def feed_xml(days: list[dict]) -> str:
     items = []
     for d in days[:14]:
@@ -170,6 +188,7 @@ def build() -> None:
     links = "".join(f'<li><a href="{d["date"]}.html">{nice_date(d["date"])}</a> · {len(d["stories"])} 則</li>' for d in days)
     (DOCS / "archive.html").write_text(page(f"歷史日報 | {config.SITE_TITLE}", f'<h1 style="margin-top:28px">歷史日報</h1><ul class="archive">{links}</ul>'), "utf-8")
     (DOCS / "feed.xml").write_text(feed_xml(days), "utf-8")
+    (DOCS / "social.xml").write_text(social_xml(days), "utf-8")
     # 給其他網站（例如 Afterword /news 頁）讀的資料：最近 7 天
     keep = ("id", "category", "importance", "zh_title", "zh_summary", "why_it_matters",
             "tags", "title", "url", "source", "published")
