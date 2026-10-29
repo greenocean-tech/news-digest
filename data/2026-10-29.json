@@ -1,8 +1,23 @@
 {
   "date": "2026-10-29",
-  "generated_at": "2026-10-29T09:17:47.252650+08:00",
+  "generated_at": "2026-10-29T09:21:22.642264+08:00",
   "headline": "",
   "stories": [
+    {
+      "id": "a480408f26a5",
+      "title": "Our next steps for Alphabet stock after earnings disappoint at nearly every turn",
+      "url": "https://www.cnbc.com/investingclub/2026/10/28/our-next-steps-for-alphabet-stock-after-earnings-disappoint-at-nearly-every-turn.html",
+      "source": "CNBC Technology",
+      "summary": "Alphabet whiffed.",
+      "published": "2026-10-29T01:11:10+00:00",
+      "guess": "finance",
+      "category": "finance",
+      "importance": 3,
+      "zh_title": "幾乎每次獲利都令人失望後，我們為Alphabet股票採取的下一步措施",
+      "zh_summary": "字母表嘶嘶作響。",
+      "why_it_matters": "",
+      "tags": []
+    },
     {
       "id": "fc7d1d71bde9",
       "title": "Google launches Gemini 4 Carbon with a ‘significant leap’ in cybersecurity",
@@ -169,21 +184,6 @@
       "tags": []
     },
     {
-      "id": "1fb5f6e24448",
-      "title": "Jim Cramer sees major implications from SK Hynix's home-run quarter",
-      "url": "https://www.cnbc.com/2026/10/28/cramer-sk-hynix-ai-chip-stocks.html",
-      "source": "CNBC Technology",
-      "summary": "CNBC’s Jim Cramer said SK Hynix’s blockbuster earnings showed that AI stocks can still rally.",
-      "published": "2026-10-28T23:00:27+00:00",
-      "guess": "finance",
-      "category": "finance",
-      "importance": 3,
-      "zh_title": "Jim Cramer看到SK海力士本壘打季度的重大影響",
-      "zh_summary": "CNBC的Jim Cramer表示， SK海力士的重磅收益表明，人工智能股票仍然可以反彈。",
-      "why_it_matters": "",
-      "tags": []
-    },
-    {
       "id": "1691b5ea579c",
       "title": "Anthropic’s public benefit structure creates unusual risks for IPO investors",
       "url": "https://www.cnbc.com/2026/10/28/anthropic-pbc-what-its-structure-means-for-investors-.html",
@@ -215,10 +215,10 @@
     }
   ],
   "engine": "keyword + free translate",
-  "translated": "14/14",
+  "translated": "1/1",
   "translate_errors": [
-    "gtx: HTTPError: 429 Client Error: Too Many Requests for url: https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=zh-TW&dt=t&q=Google+launches+Gemi",
+    "gtx: HTTPError: 429 Client Error: Too Many Requests for url: https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=zh-TW&dt=t&q=Our+next+steps+for+A",
     "deep-translator: TooManyRequests: Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per d",
-    "gtx: HTTPError: 429 Client Error: Too Many Requests for url: https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=zh-TW&dt=t&q=Google+has+released+"
+    "gtx: HTTPError: 429 Client Error: Too Many Requests for url: https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=zh-TW&dt=t&q=Alphabet+whiffed."
   ]
 }
