@@ -1,8 +1,23 @@
 {
   "date": "2026-10-29",
-  "generated_at": "2026-10-29T09:29:30.656991+08:00",
+  "generated_at": "2026-10-29T15:41:42.438498+08:00",
   "headline": "",
   "stories": [
+    {
+      "id": "dc11486065e8",
+      "title": "U.S. workers’ connection to their jobs hits lowest level since 2011, Gallup poll finds",
+      "url": "https://www.cnbc.com/2026/10/29/us-employee-engagement-gallup-poll.html",
+      "source": "CNBC Technology",
+      "summary": "Gallup finds U.S. worker engagement on the job sinking to a level not seen since 2011, with remote and hybrid employees and AI primary factors.",
+      "published": "2026-10-29T04:01:01+00:00",
+      "guess": "ai_company",
+      "category": "ai_company",
+      "importance": 3,
+      "zh_title": "蓋洛普民調發現，美國工人與工作的連結降至 2011 年以來的最低水平",
+      "zh_summary": "蓋洛普發現，美國員工的工作敬業度下降至 2011 年以來的最低水平，遠距和混合員工以及人工智慧是主要因素。",
+      "why_it_matters": "",
+      "tags": []
+    },
     {
       "id": "a480408f26a5",
       "title": "Our next steps for Alphabet stock after earnings disappoint at nearly every turn",
@@ -139,21 +154,6 @@
       "tags": []
     },
     {
-      "id": "6da995572c9c",
-      "title": "Meta quietly launched an ‘AI pet journal’ app",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1020410/meta-launched-ai-pet-journal-app-waddle-world",
-      "source": "The Verge AI",
-      "summary": "Meta has launched a \"tamagotchi-style\" pet game called Waddle World, with virtual creatures that chat with users and create doodles to illustrate conversations. According to its Apple and Play Store listings, the \"16-bit pet care game\" is not really a game, but \"a daily journal disguised as a pet.\" Users should talk, not type, with […]",
-      "published": "2026-10-28T11:27:30+00:00",
-      "guess": "ai_company",
-      "category": "ai_company",
-      "importance": 3,
-      "zh_title": "Meta悄悄推出「AI寵物日記」應用程式",
-      "zh_summary": "Meta推出了名為Waddle World的「tamagotchi風格」寵物遊戲，虛擬生物可以與用戶聊天並創建塗鴉來說明對話。根據Apple和Play商店的列表，「16位元寵物護理遊戲」並不是真正的遊戲，而是「偽裝成寵物的日記」。",
-      "why_it_matters": "",
-      "tags": []
-    },
-    {
       "id": "080c3c0e6eb7",
       "title": "The major reason Microsoft’s stock is heading higher after earnings",
       "url": "https://www.marketwatch.com/story/the-major-reason-microsofts-stock-is-heading-higher-after-earnings-c019a036?mod=mw_rss_topstories",
@@ -214,6 +214,7 @@
       "tags": []
     }
   ],
-  "engine": "none",
+  "engine": "keyword + free translate",
+  "translated": "1/1",
   "translate_errors": []
 }
