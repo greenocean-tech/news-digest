@@ -82,12 +82,25 @@ def clean_chat(raw: str) -> str:
     return c if c.startswith("@") else "@" + c
 
 
-def tg(token: str, method: str, payload: dict | None = None) -> dict:
-    try:
-        r = requests.post(f"https://api.telegram.org/bot{token}/{method}", json=payload or {}, timeout=30)
-        return r.json()
-    except Exception as exc:  # 不印出網址，避免露出權杖
-        return {"ok": False, "error_code": "network", "description": type(exc).__name__}
+def tg(token: str, method: str, payload: dict | None = None, tries: int = 4) -> dict:
+    """呼叫 Telegram；網路錯誤或 5xx/429 會等一下再試。"""
+    import time
+    last = {}
+    for attempt in range(tries):
+        try:
+            r = requests.post(f"https://api.telegram.org/bot{token}/{method}", json=payload or {}, timeout=30)
+            body = r.json()
+            retry = body.get("error_code") == 429 or r.status_code >= 500
+            if not retry:
+                return body
+            last = body
+            wait = (body.get("parameters") or {}).get("retry_after") or 5 * (attempt + 1)
+        except Exception as exc:  # 不印出網址，避免露出權杖
+            last = {"ok": False, "error_code": "network", "description": type(exc).__name__}
+            wait = 5 * (attempt + 1)
+        if attempt < tries - 1:
+            time.sleep(min(wait, 30))
+    return last
 
 
 def send_card(token: str, chat: str, d: dict) -> bool:
@@ -142,7 +155,10 @@ def main(dry_run: bool = False) -> None:
         sys.exit(1)
     me = tg(token, "getMe")
     if not me.get("ok"):
-        print(f"::error title=Telegram 權杖無效::{me.get('error_code')}: {me.get('description')}（請到 @BotFather 用 /token 重新取得）")
+        if me.get("error_code") == "network":
+            print(f"::error title=Telegram 連線失敗::{me.get('description')}（重試多次仍連不上 Telegram，通常是暫時性問題，下一個排程會自動補發）")
+        else:
+            print(f"::error title=Telegram 權杖無效::{me.get('error_code')}: {me.get('description')}（請到 @BotFather 用 /token 重新取得）")
         sys.exit(1)
     print(f"[TG] 機器人 @{me['result'].get('username')} 驗證成功，發到 {chat}")
 

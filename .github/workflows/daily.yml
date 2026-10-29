@@ -2,8 +2,12 @@ name: Daily News Digest
 
 on:
   schedule:
-    # 每天 UTC 22:00 = 台灣時間隔天 06:00
-    - cron: "0 22 * * *"
+    # 台灣時間 05:37 主排程，07:17、09:47 為備援（GitHub 排程常延遲或漏跑）。
+    # 同一天重跑只會補新聞、補發沒發成功的貼文，不會重複發文。
+    # 避開整點，整點時段 GitHub 最擁擠、最容易延遲。
+    - cron: "37 21 * * *"
+    - cron: "17 23 * * *"
+    - cron: "47 1 * * *"
   workflow_dispatch:  # 允許手動按一次測試
 
 permissions:
