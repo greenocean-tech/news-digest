@@ -1,8 +1,23 @@
 {
   "date": "2026-10-30",
-  "generated_at": "2026-10-30T09:19:37.173672+08:00",
+  "generated_at": "2026-10-30T10:39:09.075764+08:00",
   "headline": "",
   "stories": [
+    {
+      "id": "3f421dfac052",
+      "title": "You don’t need to believe in a god to get a religious exemption from using AI at work",
+      "url": "https://techcrunch.com/2026/10/29/you-dont-need-to-believe-in-a-god-to-get-a-religious-exemption-from-using-ai-at-work",
+      "source": "TechCrunch AI",
+      "summary": "David Durman, a University of Kentucky administrator, recently earned a religious exemption from using AI in the workplace.",
+      "published": "2026-10-30T01:20:48+00:00",
+      "guess": "ai_company",
+      "category": "ai_company",
+      "importance": 3,
+      "zh_title": "你不需要相信上帝就能獲得在工作中使用人工智慧的宗教豁免",
+      "zh_summary": "肯塔基大學行政人員戴維·杜爾曼 (David Durman) 最近獲得了在工作場所使用人工智慧的宗教豁免。",
+      "why_it_matters": "",
+      "tags": []
+    },
     {
       "id": "10cb46969038",
       "title": "Microsoft plans to raise $25 billion in debt as it pursues AI buildout",
@@ -169,21 +184,6 @@
       "tags": []
     },
     {
-      "id": "24f676feeb3a",
-      "title": "We urgently need to monitor AI agents’ actions in real time",
-      "url": "https://www.technologyreview.com/2026/10/29/1147824/monitor-ai-agents-actions-real-time",
-      "source": "MIT Technology Review AI",
-      "summary": "This summer, hundreds of OpenAI agents tried to cheat on a cybersecurity test. They broke out of their test environment and successfully hacked Hugging Face, a site that they believed held clues about how they’d be graded. Around the same time, another OpenAI agent accessed private files from an Australian government website. It’s a problem…",
-      "published": "2026-10-29T10:11:12+00:00",
-      "guess": "ai_company",
-      "category": "ai_company",
-      "importance": 3,
-      "zh_title": "我們迫切需要即時監控人工智慧代理的行為",
-      "zh_summary": "今年夏天，數百名 OpenAI 代理商試圖在網路安全測試中作弊。他們突破了測試環境，並成功入侵了 Hugging Face，他們認為該網站包含有關如何評分的線索。大約在同一時間，另一個 OpenAI 代理程式訪問了來自澳洲的私人文件",
-      "why_it_matters": "",
-      "tags": []
-    },
-    {
       "id": "0f01cbc40dfe",
       "title": "Jim Cramer says Wall Street is punishing the wrong tech stocks",
       "url": "https://www.cnbc.com/2026/10/29/jim-cramer-earnings-guilt-by-association.html",
@@ -275,9 +275,6 @@
     }
   ],
   "engine": "keyword + free translate",
-  "translated": "18/18",
-  "translate_errors": [
-    "gtx: HTTPError: 500 Server Error: Internal Server Error for url: https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=zh-TW&dt=t&q=Mintive+was+foun",
-    "gtx: HTTPError: 500 Server Error: Internal Server Error for url: https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=zh-TW&dt=t&q=This+summer%2C+h"
-  ]
+  "translated": "1/1",
+  "translate_errors": []
 }
