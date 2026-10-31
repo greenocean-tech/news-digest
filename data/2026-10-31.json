@@ -1,6 +1,6 @@
 {
   "date": "2026-10-31",
-  "generated_at": "2026-10-31T10:27:34.483432+08:00",
+  "generated_at": "2026-10-31T15:32:49.264026+08:00",
   "headline": "",
   "stories": [
     {
@@ -229,11 +229,6 @@
       "tags": []
     }
   ],
-  "engine": "keyword + free translate",
-  "translated": "1/1",
-  "translate_errors": [
-    "gtx: HTTPError: 429 Client Error: Too Many Requests for url: https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=zh-TW&dt=t&q=Nvidia+weighs+playin",
-    "deep-translator: TooManyRequests: Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per d",
-    "gtx: HTTPError: 429 Client Error: Too Many Requests for url: https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=zh-TW&dt=t&q=When+investors+get+n"
-  ]
+  "engine": "none",
+  "translate_errors": []
 }
