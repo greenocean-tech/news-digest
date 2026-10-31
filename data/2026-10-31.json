@@ -1,8 +1,23 @@
 {
   "date": "2026-10-31",
-  "generated_at": "2026-10-31T09:00:30.291657+08:00",
+  "generated_at": "2026-10-31T10:27:34.483432+08:00",
   "headline": "",
   "stories": [
+    {
+      "id": "c6b2d3ea7917",
+      "title": "Nvidia weighs playing the cosigner for Nscale’s AI data center in West Virginia",
+      "url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia",
+      "source": "TechCrunch AI",
+      "summary": "When investors get nervous about AI spending, it helps to have the chipmaker that sells the chips offer to cosign the loan.",
+      "published": "2026-10-31T01:20:05+00:00",
+      "guess": "ai_company",
+      "category": "ai_company",
+      "importance": 3,
+      "zh_title": "Nvidia為Nscale位於西維吉尼亞州的人工智能數據中心擔任聯署人",
+      "zh_summary": "當投資者對人工智慧支出感到緊張時，讓出售晶片的晶片製造商提出共同簽署貸款會有所幫助。",
+      "why_it_matters": "",
+      "tags": []
+    },
     {
       "id": "25a528e218b1",
       "title": "The biggest names in AI are backing a new way to opt out of scraping",
@@ -105,21 +120,6 @@
       "importance": 3,
       "zh_title": "這支網絡安全股將成為下一個加入標準普爾500指數的股票",
       "zh_summary": "Okta定於周三加入指數，取代Kenvue。",
-      "why_it_matters": "",
-      "tags": []
-    },
-    {
-      "id": "e391d6ffde58",
-      "title": "Cramer’s week ahead: Expect more volatility as tech earnings, midterms loom",
-      "url": "https://www.cnbc.com/2026/10/30/jim-cramer-week-ahead-apple-amd-jobs-report.html",
-      "source": "CNBC Technology",
-      "summary": "Investors await earnings from Apple, AMD, and other major companies, as well as the midterm elections and the monthly jobs report.",
-      "published": "2026-10-30T22:17:13+00:00",
-      "guess": "ai_company",
-      "category": "ai_company",
-      "importance": 3,
-      "zh_title": "克萊默未來一周：隨著科技業盈利、中期即將到來，預計將出現更大的波動",
-      "zh_summary": "投資者正在等待蘋果、AMD和其他主要公司的收益，以及中期選舉和每月就業報告。",
       "why_it_matters": "",
       "tags": []
     },
@@ -230,10 +230,10 @@
     }
   ],
   "engine": "keyword + free translate",
-  "translated": "15/15",
+  "translated": "1/1",
   "translate_errors": [
-    "gtx: HTTPError: 429 Client Error: Too Many Requests for url: https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=zh-TW&dt=t&q=The+biggest+names+in",
+    "gtx: HTTPError: 429 Client Error: Too Many Requests for url: https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=zh-TW&dt=t&q=Nvidia+weighs+playin",
     "deep-translator: TooManyRequests: Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per d",
-    "gtx: HTTPError: 429 Client Error: Too Many Requests for url: https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=zh-TW&dt=t&q=OpenAI%2C+Google%2C+"
+    "gtx: HTTPError: 429 Client Error: Too Many Requests for url: https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=zh-TW&dt=t&q=When+investors+get+n"
   ]
 }
