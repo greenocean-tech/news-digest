@@ -1,8 +1,23 @@
 {
   "date": "2026-11-01",
-  "generated_at": "2026-11-01T10:16:59.626977+08:00",
+  "generated_at": "2026-11-01T16:12:46.524883+08:00",
   "headline": "",
   "stories": [
+    {
+      "id": "7caf3d4d5788",
+      "title": "Companies promised AI gains— here's how the payoff showed up in earnings",
+      "url": "https://www.cnbc.com/2026/11/01/ai-investments-company-earnings.html",
+      "source": "CNBC Technology",
+      "summary": "Santander, Novartis and other companies say AI is beginning to boost revenue, cut costs or improve profitability as investors seek returns.",
+      "published": "2026-11-01T06:00:01+00:00",
+      "guess": "finance",
+      "category": "finance",
+      "importance": 3,
+      "zh_title": "公司承諾人工智慧收益－收益如何體現在收益中",
+      "zh_summary": "桑坦德銀行、諾華公司和其他公司表示，隨著投資者尋求回報，人工智慧開始增加收入、削減成本或提高獲利能力。",
+      "why_it_matters": "",
+      "tags": []
+    },
     {
       "id": "18a54eb8728d",
       "title": "An AI Agent Injected Drugs Into a Live Mouse’s Brain",
@@ -139,6 +154,7 @@
       "tags": []
     }
   ],
-  "engine": "none",
+  "engine": "keyword + free translate",
+  "translated": "1/1",
   "translate_errors": []
 }
