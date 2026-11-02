@@ -1,8 +1,38 @@
 {
   "date": "2026-11-02",
-  "generated_at": "2026-11-02T10:34:47.119730+08:00",
+  "generated_at": "2026-11-02T16:22:26.708774+08:00",
   "headline": "",
   "stories": [
+    {
+      "id": "0308d036d37a",
+      "title": "South Korea targets 'world's highest performance' sovereign AI model in record new budget",
+      "url": "https://www.cnbc.com/2026/11/02/south-korea-ai-spending-budget.html",
+      "source": "CNBC Technology",
+      "summary": "The 2027 budget will rise 12.8% to 820.9 trillion won, and will include a 21.3 trillion won investment into semiconductors, physical AI and AI data centers.",
+      "published": "2026-11-02T06:02:03+00:00",
+      "guess": "ai_company",
+      "category": "ai_company",
+      "importance": 3,
+      "zh_title": "韓國在創紀錄的新預算中瞄準「世界最高性能」主權人工智慧模型",
+      "zh_summary": "2027年預算將成長12.8%，達到820.9兆韓元，其中將包括對半導體、實體人工智慧和人工智慧資料中心的21.3兆韓元投資。",
+      "why_it_matters": "",
+      "tags": []
+    },
+    {
+      "id": "81125055cca3",
+      "title": "Marine sniper turned macro strategist says this bull market has six to 12 months left. Here’s his playbook.",
+      "url": "https://www.marketwatch.com/story/marine-sniper-turned-macro-strategist-says-this-bull-market-has-six-to-12-months-left-heres-his-playbook-8b48ce6e?mod=mw_rss_topstories",
+      "source": "MarketWatch Top Stories",
+      "summary": "Alex Barrow, founder of Macro Ops, says the bull market is on borrowed time and will ratchet back painfully for investors who aren’t prepared.",
+      "published": "2026-11-02T07:25:00+00:00",
+      "guess": "finance",
+      "category": "finance",
+      "importance": 3,
+      "zh_title": "海軍陸戰隊狙擊手轉型為宏觀策略師表示，本輪多頭市場還剩 6 到 12 個月。這是他的劇本。",
+      "zh_summary": "Macro Ops 創辦人 Alex Barrow 表示，多頭市場已經過時了，對於沒有做好準備的投資者來說，牛市將會痛苦地回歸。",
+      "why_it_matters": "",
+      "tags": []
+    },
     {
       "id": "afaec3edbdf7",
       "title": "This is the biggest threat to the AI-powered bull market",
@@ -154,7 +184,8 @@
       "tags": []
     }
   ],
-  "engine": "none",
+  "engine": "keyword + free translate",
+  "translated": "2/2",
   "translate_errors": [],
   "earnings": {
     "week_start": "2026-11-02",
