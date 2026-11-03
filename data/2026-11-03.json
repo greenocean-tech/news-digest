@@ -1,8 +1,23 @@
 {
   "date": "2026-11-03",
-  "generated_at": "2026-11-03T11:02:49.177303+08:00",
+  "generated_at": "2026-11-03T11:57:50.076900+08:00",
   "headline": "",
   "stories": [
+    {
+      "id": "4ed35bdfdb65",
+      "title": "Google takes Dreambeans to India in bid to bring AI-generated personal stories to the masses",
+      "url": "https://techcrunch.com/2026/11/02/google-takes-dreambeans-to-india-in-bid-to-bring-ai-generated-personal-stories-to-the-masses",
+      "source": "TechCrunch AI",
+      "summary": "Google's Dreambeans, its latest AI experiment, now supports 13 Indian languages.",
+      "published": "2026-11-03T03:30:00+00:00",
+      "guess": "ai_company",
+      "category": "ai_company",
+      "importance": 3,
+      "zh_title": "Google將 Dreambeans 帶到印度，旨在將人工智慧生成的個人故事帶給大眾",
+      "zh_summary": "谷歌最新的人工智慧實驗 Dreambeans 現在支援 13 種印度語言。",
+      "why_it_matters": "",
+      "tags": []
+    },
     {
       "id": "b2485c91dd17",
       "title": "Trajectory raises $45M to make AI model training accessible to nontechnical experts",
@@ -199,21 +214,6 @@
       "tags": []
     },
     {
-      "id": "c027d75ab851",
-      "title": "Intel foundry push faces critical test after stock's 45% plunge in October",
-      "url": "https://www.cnbc.com/2026/11/02/intel-foundry-faces-critical-test-after-stocks-45percent-plunge-in-october.html",
-      "source": "CNBC Technology",
-      "summary": "Intel’s turnaround now hinges on proving its foundry strategy can deliver, as customers look for signs the company will add fab capacity and catch TSMC",
-      "published": "2026-11-02T21:59:48+00:00",
-      "guess": "ai_company",
-      "category": "ai_company",
-      "importance": 3,
-      "zh_title": "10 月股價暴跌 45% 後，英特爾代工業務面臨嚴峻考驗",
-      "zh_summary": "英特爾的轉型現在取決於證明其代工策略可以實現，因為客戶正在尋找該公司將增加晶圓廠產能並追趕台積電的跡象",
-      "why_it_matters": "",
-      "tags": []
-    },
-    {
       "id": "31255b2b57a8",
       "title": "Omen AI adds liquid know-how in $16 million Aquatic Labs acquisition",
       "url": "https://techcrunch.com/2026/11/02/omen-ai-adds-liquid-know-how-in-16-million-aquatic-labs-acquisition",
@@ -230,6 +230,6 @@
     }
   ],
   "engine": "keyword + free translate",
-  "translated": "15/15",
+  "translated": "1/1",
   "translate_errors": []
 }
