@@ -1,8 +1,23 @@
 {
   "date": "2026-11-04",
-  "generated_at": "2026-11-04T11:02:56.138762+08:00",
+  "generated_at": "2026-11-04T16:05:20.597614+08:00",
   "headline": "",
   "stories": [
+    {
+      "id": "46dcaa1a4bf4",
+      "title": "Treasury yields fall as investors crowd into bonds for safety amid election stock sell-off",
+      "url": "https://www.cnbc.com/2026/11/03/treasury-yields-fall-as-democrats-win-big-in-us-midterm-elections.html",
+      "source": "CNBC Finance",
+      "summary": "Treasury yields fell on Tuesday night, as investors sought shelter from a sell-off in equity futures sparked by big victories from Democrats in the U.S. midterm elections.",
+      "published": "2026-11-04T07:27:48+00:00",
+      "guess": "finance",
+      "category": "finance",
+      "importance": 3,
+      "zh_title": "由於選舉股票拋售，投資人湧入債券以求安全，國債殖利率下跌",
+      "zh_summary": "週二晚間，美國中期選舉民主黨大獲全勝，投資者尋求股票期貨拋售，美國公債殖利率下跌。",
+      "why_it_matters": "",
+      "tags": []
+    },
     {
       "id": "74f570e595a0",
       "title": "Shopify’s stock slides after earnings. This is what’s worrying Wall Street.",
@@ -109,21 +124,6 @@
       "tags": []
     },
     {
-      "id": "0abe351e420f",
-      "title": "Shopify falls over 8% after Q3 revenue and merchandise volume miss estimates",
-      "url": "https://www.cnbc.com/2026/11/03/shopify-q3-2026-earnings-gmv.html",
-      "source": "CNBC Technology",
-      "summary": "Shopify's stock fell after the e-commerce platform's Q3 revenue and gross merchandise volume missed estimates, despite an adjusted earnings beat.",
-      "published": "2026-11-03T21:03:30+00:00",
-      "guess": "finance",
-      "category": "finance",
-      "importance": 3,
-      "zh_title": "第三季營收和商品數量未達預期後，Shopify 下跌超過 8%",
-      "zh_summary": "儘管調整後的獲利超出預期，但電子商務平台第三季營收和商品總銷量未達預期，導致 Shopify 股價下跌。",
-      "why_it_matters": "",
-      "tags": []
-    },
-    {
       "id": "42ec3b43220b",
       "title": "AI inference startup Fal doubles its valuation to $16B as demand surges",
       "url": "https://techcrunch.com/2026/11/03/ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-surges",
@@ -214,6 +214,7 @@
       "tags": []
     }
   ],
-  "engine": "none",
+  "engine": "keyword + free translate",
+  "translated": "1/1",
   "translate_errors": []
 }
