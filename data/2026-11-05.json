@@ -1,8 +1,53 @@
 {
   "date": "2026-11-05",
-  "generated_at": "2026-11-05T11:31:34.871691+08:00",
+  "generated_at": "2026-11-05T16:34:26.538822+08:00",
   "headline": "",
   "stories": [
+    {
+      "id": "9d3fe801add8",
+      "title": "Dow scores its best day in 18 months in a broad relief rally after Democrats sweep to power in Congress",
+      "url": "https://www.marketwatch.com/story/dow-scores-its-best-day-in-18-months-in-a-broad-relief-rally-after-democrats-sweep-to-power-in-congress-d7348fc0?mod=mw_rss_topstories",
+      "source": "MarketWatch Top Stories",
+      "summary": "Stocks surged, oil prices plunged and bond yields fell Wednesday on optimism around a quicker end to the Iran war now that Democrats have clinched control of Congress.",
+      "published": "2026-11-05T08:13:00+00:00",
+      "guess": "finance",
+      "category": "finance",
+      "importance": 3,
+      "zh_title": "民主黨在國會上台後，道瓊指數在廣泛的救濟性反彈中創下 18 個月來的最佳單日表現",
+      "zh_summary": "由於民主黨已經控制了國會，人們對伊朗戰爭更快結束感到樂觀，週三股市飆升，油價暴跌，債券殖利率下跌。",
+      "why_it_matters": "",
+      "tags": []
+    },
+    {
+      "id": "90df4aceea65",
+      "title": "Most investors are blind to the possibility of a market crash. Here is the five-part strategy to survive one.",
+      "url": "https://www.marketwatch.com/story/most-investors-are-blind-to-the-possibility-of-a-market-crash-here-is-the-five-part-strategy-to-survive-one-a1762911?mod=mw_rss_topstories",
+      "source": "MarketWatch Top Stories",
+      "summary": "Wall Street veteran Jared Dillian says the biggest problem is many investors these days have not lived through a major downturn. He’s got a portfolio that offers protection.",
+      "published": "2026-11-05T07:15:00+00:00",
+      "guess": "finance",
+      "category": "finance",
+      "importance": 3,
+      "zh_title": "大多數投資者對市場崩盤的可能性視而不見。這是生存策略的五部分。",
+      "zh_summary": "華爾街資深人士賈里德·迪利安(Jared Dillian)表示，最大的問題是如今許多投資者還沒有經歷過嚴重的低迷時期。他有一個可以提供保護的投資組合。",
+      "why_it_matters": "",
+      "tags": []
+    },
+    {
+      "id": "66fec0a8ef17",
+      "title": "From tanks to drones: South Korea’s defense firms face a new battlefield test",
+      "url": "https://www.cnbc.com/2026/11/05/south-korea-defense-weapon-war-stocks-fall.html",
+      "source": "CNBC Technology",
+      "summary": "South Korean defense stocks rode a wave of global rearmament for the past two years, but they have plunged in 2026.",
+      "published": "2026-11-05T08:07:43+00:00",
+      "guess": "finance",
+      "category": "finance",
+      "importance": 3,
+      "zh_title": "從坦克車到無人機：韓國國防企業面臨新的戰場考驗",
+      "zh_summary": "過去兩年，韓國國防股經歷了全球重新軍備浪潮，但在 2026 年出現暴跌。",
+      "why_it_matters": "",
+      "tags": []
+    },
     {
       "id": "e6833d998802",
       "title": "Hyperscalers and Apple surge after election results remove investor uncertainty",
@@ -124,21 +169,6 @@
       "tags": []
     },
     {
-      "id": "bde8dbc2e821",
-      "title": "Qualcomm stock drops 7% on weak earnings forecast as memory shortage weighs on smartphone sales",
-      "url": "https://www.cnbc.com/2026/11/04/qualcomm-qcom-earnings-report-q4-2026.html",
-      "source": "CNBC Technology",
-      "summary": "Qualcomm delivered better-than-expected results but issued a weak earnings forecast.",
-      "published": "2026-11-04T23:38:11+00:00",
-      "guess": "finance",
-      "category": "finance",
-      "importance": 3,
-      "zh_title": "由於記憶體短缺影響智慧型手機銷售，高通股價因獲利預測疲軟而下跌 7%",
-      "zh_summary": "高通公佈的業績好於預期，但發布了疲軟的獲利預測。",
-      "why_it_matters": "",
-      "tags": []
-    },
-    {
       "id": "858a2ce3283f",
       "title": "Nothing CEO says company’s mysterious AI-first device is dropping next month",
       "url": "https://techcrunch.com/2026/11/04/nothing-ceo-says-companys-mysterious-ai-first-device-is-dropping-next-month",
@@ -182,38 +212,9 @@
       "zh_summary": "OpenAI 的 Chris Lehane 希望人工智慧能夠定義 2028 年的選舉，提出一項新的社會契約，既可以讓美國人受益，同時也可以促進人工智慧巨頭自身的商業利益。",
       "why_it_matters": "",
       "tags": []
-    },
-    {
-      "id": "eca281252075",
-      "title": "Qualcomm’s stock falls as twin forces pressure sales",
-      "url": "https://www.marketwatch.com/story/qualcomms-stock-falls-as-twin-forces-pressure-sales-fa161159?mod=mw_rss_topstories",
-      "source": "MarketWatch Top Stories",
-      "summary": "Qualcomm faces the loss of Apple’s business and the negative impact of high memory costs on overall smartphone demand.",
-      "published": "2026-11-05T01:06:00+00:00",
-      "guess": "finance",
-      "category": "finance",
-      "importance": 3,
-      "zh_title": "高通公司股價下跌，因雙重壓力銷售",
-      "zh_summary": "高通面臨蘋果業務的損失以及高記憶體成本對智慧型手機整體需求的負面影響。",
-      "why_it_matters": "",
-      "tags": []
-    },
-    {
-      "id": "370ce6911741",
-      "title": "Figma’s stock dips as investors worry that AI momentum is coming at a high price",
-      "url": "https://www.marketwatch.com/story/figmas-stock-falls-as-investors-worry-that-ai-momentum-is-coming-at-a-high-price-1aa2134d?mod=mw_rss_topstories",
-      "source": "MarketWatch Top Stories",
-      "summary": "Figma’s investments in AI models and agents are driving usage, but the cost of delivering these features is proving to be expensive",
-      "published": "2026-11-05T01:03:00+00:00",
-      "guess": "finance",
-      "category": "finance",
-      "importance": 3,
-      "zh_title": "Figma 股價下跌，因為投資人擔心人工智慧勢頭正以高價到來",
-      "zh_summary": "Figma 在人工智慧模型和代理商方面的投資正在推動使用，但事實證明提供這些功能的成本非常昂貴",
-      "why_it_matters": "",
-      "tags": []
     }
   ],
-  "engine": "none",
+  "engine": "keyword + free translate",
+  "translated": "3/3",
   "translate_errors": []
 }
