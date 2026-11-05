@@ -1,6 +1,6 @@
 {
   "date": "2026-11-05",
-  "generated_at": "2026-11-05T09:45:08.913834+08:00",
+  "generated_at": "2026-11-05T11:31:34.871691+08:00",
   "headline": "",
   "stories": [
     {
@@ -214,7 +214,6 @@
       "tags": []
     }
   ],
-  "engine": "keyword + free translate",
-  "translated": "14/14",
+  "engine": "none",
   "translate_errors": []
 }
