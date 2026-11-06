@@ -1,8 +1,23 @@
 {
   "date": "2026-11-06",
-  "generated_at": "2026-11-06T09:46:33.601853+08:00",
+  "generated_at": "2026-11-06T11:28:44.977273+08:00",
   "headline": "",
   "stories": [
+    {
+      "id": "cc48f8093c5b",
+      "title": "Airbnb is working on an AI travel agent",
+      "url": "https://www.theverge.com/tech/1028412/airbnb-ai-travel-agent-q3-2026-earnings",
+      "source": "The Verge AI",
+      "summary": "Airbnb plans to roll out an AI agent in the first half of 2027 that will help users plan and book travel, the company said in its Q3 2026 earnings shareholder letter released today. \"Today's AI agents are good at simple, routine tasks, like making a restaurant reservation or scheduling an appointment,\" Airbnb said. \"But […]",
+      "published": "2026-11-06T00:06:12+00:00",
+      "guess": "finance",
+      "category": "finance",
+      "importance": 3,
+      "zh_title": "Airbnb 正在開發人工智慧旅行社",
+      "zh_summary": "Airbnb 在今天發布的 2026 年第三季獲利股東信中表示，該公司計劃在 2027 年上半年推出人工智慧代理，幫助用戶規劃和預訂旅行。 「當今的人工智慧代理商擅長簡單的日常任務，例如預訂餐廳或安排預約",
+      "why_it_matters": "",
+      "tags": []
+    },
     {
       "id": "96a4ab9e9673",
       "title": "Ads in Chatbots Have Arrived. Here’s What’s Working—and What’s Not",
@@ -199,21 +214,6 @@
       "tags": []
     },
     {
-      "id": "4513cd1ca7d8",
-      "title": "Agility Robotics' Nasdaq debut invites scrutiny of humanoid robot market",
-      "url": "https://arstechnica.com/ai/2026/11/agility-robotics-nasdaq-debut-invites-scrutiny-of-humanoid-robot-market",
-      "source": "Ars Technica AI",
-      "summary": "US leader in deploying humanoid robots goes public on the Nasdaq stock exchange.",
-      "published": "2026-11-05T12:00:41+00:00",
-      "guess": "finance",
-      "category": "finance",
-      "importance": 3,
-      "zh_title": "Agility Robotics 納斯達克首秀引發人形機器人市場檢視",
-      "zh_summary": "美國部署人形機器人的領導者在納斯達克證券交易所上市。",
-      "why_it_matters": "",
-      "tags": []
-    },
-    {
       "id": "8e75ec02fc50",
       "title": "Perplexity launches its own take on AI agents for work",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1028302/perplexity-teammates-ai-agents-work",
@@ -275,6 +275,6 @@
     }
   ],
   "engine": "keyword + free translate",
-  "translated": "18/18",
+  "translated": "1/1",
   "translate_errors": []
 }
