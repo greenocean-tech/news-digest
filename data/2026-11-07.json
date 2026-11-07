@@ -1,8 +1,23 @@
 {
   "date": "2026-11-07",
-  "generated_at": "2026-11-07T10:51:52.219610+08:00",
+  "generated_at": "2026-11-07T15:50:04.546782+08:00",
   "headline": "",
   "stories": [
+    {
+      "id": "a0f4bc0ee5c7",
+      "title": "Sequoia shutting down its Scouts program marks the end of an era",
+      "url": "https://techcrunch.com/2026/11/06/sequoia-shutting-down-its-scouts-program-marks-the-end-of-an-era",
+      "source": "TechCrunch Venture",
+      "summary": "Sequoia pioneered the scouts model and many VC firms followed suit, but a consensus now seems to be forming that the model has reached limits in its current form.",
+      "published": "2026-11-07T05:01:54+00:00",
+      "guess": "ai_company",
+      "category": "ai_company",
+      "importance": 3,
+      "zh_title": "紅杉資本關閉其童子軍計劃標誌著一個時代的結束",
+      "zh_summary": "紅杉資本開創了偵察模式，許多創投公司紛紛效仿，但現在似乎正在形成共識，目前的模式形式已達到極限。",
+      "why_it_matters": "",
+      "tags": []
+    },
     {
       "id": "c2107a5a7cf6",
       "title": "Crusoe sells troubled Wyoming data center project to Google",
@@ -105,21 +120,6 @@
       "importance": 3,
       "zh_title": "OpenAI、Arm 和高通高階主管對中期後人工智慧拋售的反應",
       "zh_summary": "儘管中期後遭遇拋售，但主要科技公司的高階主管大多對人工智慧產業的持續成長表示樂觀。",
-      "why_it_matters": "",
-      "tags": []
-    },
-    {
-      "id": "6813d62fd925",
-      "title": "OpenAI valued at $1.25 trillion, as rival Anthropic nears its IPO",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation",
-      "source": "The Verge AI",
-      "summary": "OpenAI is now valued at $1.25 trillion in a new round of funding that has raised another $11 billion, according to Bloomberg. That would make it one of the world's most valuable companies, not long after raising $122 billion from investors in March at a valuation of $852 billion. Echoing FT and Wall Street Journal […]",
-      "published": "2026-11-06T23:46:18+00:00",
-      "guess": "ai_company",
-      "category": "ai_company",
-      "importance": 3,
-      "zh_title": "OpenAI估值為1.25萬億$ ，因為競爭對手Anthropic接近其IPO",
-      "zh_summary": "根據彭博社報道，OpenAI 在新一輪融資中目前估值為 1.25 兆美元，該輪融資又籌集了 110 億美元。這將使其成為世界上最有價值的公司之一，不久之後，該公司於 3 月以 8,520 億美元的估值從投資者那裡籌集了 1,220 億美元。 FT 與 Wall 的呼應",
       "why_it_matters": "",
       "tags": []
     },
@@ -231,9 +231,5 @@
   ],
   "engine": "keyword + free translate",
   "translated": "1/1",
-  "translate_errors": [
-    "gtx: HTTPError: 429 Client Error: Too Many Requests for url: https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=zh-TW&dt=t&q=Crusoe+sells+trouble",
-    "deep-translator: TooManyRequests: Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per d",
-    "gtx: HTTPError: 429 Client Error: Too Many Requests for url: https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=zh-TW&dt=t&q=The+deal+highlights+"
-  ]
+  "translate_errors": []
 }
