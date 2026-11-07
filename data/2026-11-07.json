@@ -1,8 +1,23 @@
 {
   "date": "2026-11-07",
-  "generated_at": "2026-11-07T09:08:21.036786+08:00",
+  "generated_at": "2026-11-07T10:51:52.219610+08:00",
   "headline": "",
   "stories": [
+    {
+      "id": "c2107a5a7cf6",
+      "title": "Crusoe sells troubled Wyoming data center project to Google",
+      "url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google",
+      "source": "TechCrunch AI",
+      "summary": "The deal highlights the challenges of developing massive AI data centers.",
+      "published": "2026-11-07T01:40:28+00:00",
+      "guess": "ai_company",
+      "category": "ai_company",
+      "importance": 3,
+      "zh_title": "Crusoe將陷入困境的懷俄明州數據中心項目出售給Google",
+      "zh_summary": "這筆交易突顯了開發大型AI數據中心的挑戰。",
+      "why_it_matters": "",
+      "tags": []
+    },
     {
       "id": "30ea305ca3ca",
       "title": "Cramer’s week ahead: AI data center stocks face another hurdle and so does the Fed",
@@ -105,21 +120,6 @@
       "importance": 3,
       "zh_title": "OpenAI估值為1.25萬億$ ，因為競爭對手Anthropic接近其IPO",
       "zh_summary": "根據彭博社報道，OpenAI 在新一輪融資中目前估值為 1.25 兆美元，該輪融資又籌集了 110 億美元。這將使其成為世界上最有價值的公司之一，不久之後，該公司於 3 月以 8,520 億美元的估值從投資者那裡籌集了 1,220 億美元。 FT 與 Wall 的呼應",
-      "why_it_matters": "",
-      "tags": []
-    },
-    {
-      "id": "1bc7ba2a28c4",
-      "title": "China reportedly recruited AI exec to spy on Jensen Huang",
-      "url": "https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy",
-      "source": "The Verge AI",
-      "summary": "China's intelligence agency recruited Megaspeed executive Alice Huang to spy on Nvidia CEO Jensen Huang, according to The New York Times. The Ministry of State Security (MSS) enlisted her to glean information about American AI chips and \"potentially influence the company to push for its most advanced chips to be made available to China.\" Megaspeed […]",
-      "published": "2026-11-06T23:00:44+00:00",
-      "guess": "ai_company",
-      "category": "ai_company",
-      "importance": 3,
-      "zh_title": "據報道，中國招募人工智慧高層來監視黃仁勳",
-      "zh_summary": "根據《紐約時報》報道，中國情報機構招募了 Megaspeed 高層 Alice Huang 來監視 Nvidia 執行長 Jensen Huang。國家安全部（MSS）邀請她收集有關美國人工智慧晶片的信息，並“可能影響該公司推動其最先進的技術”",
       "why_it_matters": "",
       "tags": []
     },
@@ -230,11 +230,10 @@
     }
   ],
   "engine": "keyword + free translate",
-  "translated": "15/15",
+  "translated": "1/1",
   "translate_errors": [
-    "gtx: HTTPError: 500 Server Error: Internal Server Error for url: https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=zh-TW&dt=t&q=OpenAI+valued+at",
+    "gtx: HTTPError: 429 Client Error: Too Many Requests for url: https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=zh-TW&dt=t&q=Crusoe+sells+trouble",
     "deep-translator: TooManyRequests: Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per d",
-    "gtx: HTTPError: 500 Server Error: Internal Server Error for url: https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=zh-TW&dt=t&q=China+reportedly",
-    "gtx: HTTPError: 500 Server Error: Internal Server Error for url: https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=zh-TW&dt=t&q=China%27s+intell"
+    "gtx: HTTPError: 429 Client Error: Too Many Requests for url: https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=zh-TW&dt=t&q=The+deal+highlights+"
   ]
 }
