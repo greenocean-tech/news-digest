@@ -1,8 +1,38 @@
 {
   "date": "2026-11-08",
-  "generated_at": "2026-11-08T10:31:53.788658+08:00",
+  "generated_at": "2026-11-08T16:00:35.523644+08:00",
   "headline": "",
   "stories": [
+    {
+      "id": "d9b89ebe47fc",
+      "title": "Cathie Wood 'always feels better when the market is worried' — here's why",
+      "url": "https://www.cnbc.com/2026/11/08/cathie-wood-ai-selloff.html",
+      "source": "CNBC Technology",
+      "summary": "The Ark Invest CEO said there was a \"wall of worry\" gripping markets right now.",
+      "published": "2026-11-08T06:00:01+00:00",
+      "guess": "finance",
+      "category": "finance",
+      "importance": 3,
+      "zh_title": "Cathie Wood「當市場擔憂時總是感覺更好」——原因如下",
+      "zh_summary": "方舟投資執行長表示，目前市場上存在「擔憂之牆」。",
+      "why_it_matters": "",
+      "tags": []
+    },
+    {
+      "id": "f2a884ceac53",
+      "title": "AI is speeding up recruitment — and putting agency fees under pressure",
+      "url": "https://www.cnbc.com/2026/11/08/ai-recruitment-agency-fees.html",
+      "source": "CNBC Technology",
+      "summary": "Recruiters say AI is speeding up screening and reshaping agency work, raising questions about whether percentage-based placement fees can hold.",
+      "published": "2026-11-08T06:00:01+00:00",
+      "guess": "ai_company",
+      "category": "ai_company",
+      "importance": 3,
+      "zh_title": "人工智慧正在加速招聘，並給代理費用帶來壓力",
+      "zh_summary": "招募人員表示，人工智慧正在加速篩選和重塑代理商的工作，這引發了人們對基於百分比的安置費能否持續的質疑。",
+      "why_it_matters": "",
+      "tags": []
+    },
     {
       "id": "d909ae271e19",
       "title": "Tech companies face mounting child safety lawsuits while pushing AI into schools",
@@ -167,23 +197,9 @@
       "zh_summary": "今天，我將與 Cognition 首席安全官、長期網路安全專家 Alex Stamos 討論目前的網路安全狀況有多混亂。本集是探討現實生活中人工智慧的特別系列的一部分。我一直很喜歡和亞歷克斯交談，因為他很直接，你就走吧",
       "why_it_matters": "",
       "tags": []
-    },
-    {
-      "id": "01ebb04662f2",
-      "title": "America's newest small business owners with no employees are off to a hot start in AI era",
-      "url": "https://www.cnbc.com/2026/11/07/americas-new-no-employee-small-business-owners-start-hot-in-ai-era.html",
-      "source": "CNBC Technology",
-      "summary": "New small business formation is rising for owners who can grow with AI serving in finance, marketing and design roles, eliminating the need for hiring.",
-      "published": "2026-11-07T14:45:01+00:00",
-      "guess": "ai_company",
-      "category": "ai_company",
-      "importance": 3,
-      "zh_title": "美國最新的沒有員工的小企業主在人工智慧時代迎來了一個火熱的開端",
-      "zh_summary": "新的小型企業正在興起，業主可以透過人工智慧在財務、行銷和設計崗位上的服務來成長，從而消除招聘的需要。",
-      "why_it_matters": "",
-      "tags": []
     }
   ],
-  "engine": "none",
+  "engine": "keyword + free translate",
+  "translated": "2/2",
   "translate_errors": []
 }
