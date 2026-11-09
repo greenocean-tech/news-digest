@@ -1,6 +1,6 @@
 {
   "date": "2026-11-09",
-  "generated_at": "2026-11-09T09:11:38.064488+08:00",
+  "generated_at": "2026-11-09T10:42:45.926965+08:00",
   "headline": "",
   "stories": [
     {
@@ -124,13 +124,8 @@
       "tags": []
     }
   ],
-  "engine": "keyword + free translate",
-  "translated": "8/8",
-  "translate_errors": [
-    "gtx: HTTPError: 429 Client Error: Too Many Requests for url: https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=zh-TW&dt=t&q=Apple+is+racing+to+m",
-    "deep-translator: TooManyRequests: Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per d",
-    "gtx: HTTPError: 429 Client Error: Too Many Requests for url: https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=zh-TW&dt=t&q=Bloomberg%27s+Mark+G"
-  ],
+  "engine": "none",
+  "translate_errors": [],
   "earnings": {
     "week_start": "2026-11-09",
     "week_end": "2026-11-20",
