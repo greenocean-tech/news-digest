@@ -1,0 +1,186 @@
+{
+  "date": "2026-11-09",
+  "generated_at": "2026-11-09T09:11:38.064488+08:00",
+  "headline": "",
+  "stories": [
+    {
+      "id": "53044e44b3aa",
+      "title": "Apple is racing to make Siri more agentic",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029552/apple-siri-ai-agentic",
+      "source": "The Verge AI",
+      "summary": "Bloomberg's Mark Gurman says CEO John Ternus is pressuring AI czar Craig Federighi to accelerate the Siri roadmap and deliver a powerful AI agent that can compete with OpenAI's Dots or Meta's Muse. While Federighi has delivered a functional version of Siri AI on an incredibly short timeline, the company has no illusions that it's […]",
+      "published": "2026-11-08T19:18:19+00:00",
+      "guess": "ai_company",
+      "category": "ai_company",
+      "importance": 3,
+      "zh_title": "蘋果正在努力使Siri更具代表性",
+      "zh_summary": "彭博社的Mark Gurman表示，首席執行官John Ternus正在向AI沙皇Craig Federighi施加壓力，以加速Siri藍圖，並提供一個強大的AI代理，可以與OpenAI的Dots或Meta的Muse競爭。雖然Federighi在極短的時間內推出了Siri AI的功能版本，但",
+      "why_it_matters": "",
+      "tags": []
+    },
+    {
+      "id": "67abd93f196f",
+      "title": "Here’s the full text of Jensen Huang’s memo to Nvidia",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029595/full-text-jensen-huang-affair-memo-nvidia",
+      "source": "The Verge AI",
+      "summary": "On Sunday, Nvidia announced it was launching an investigation into CEO Jensen Huang's relationship with Alice Huang, an AI executive and agent of the Chinese government. In addition to the Board of Directors announcing the investigation, Huang sent a memo to Nvidia employees acknowledging the affair. You can read the full text below. To my […]",
+      "published": "2026-11-08T22:54:50+00:00",
+      "guess": "ai_company",
+      "category": "ai_company",
+      "importance": 3,
+      "zh_title": "以下是Jensen Huang給Nvidia的備忘錄全文",
+      "zh_summary": "週日，英偉達宣布將對首席執行官Jensen Huang與中國政府人工智能高管兼代理人Alice Huang的關係展開調查。除了董事會宣布調查外， Huang還向Nvidia員工發送了一份備忘錄，確認此事",
+      "why_it_matters": "",
+      "tags": []
+    },
+    {
+      "id": "519fd56ef4e8",
+      "title": "A new setback for the AI trade: Nvidia’s board is probing CEO Huang’s relationship with alleged spy",
+      "url": "https://www.marketwatch.com/story/nvidias-board-will-probe-ceo-jensen-huangs-relationship-with-an-alleged-spy-heres-what-to-know-86656cd9?mod=mw_rss_topstories",
+      "source": "MarketWatch Top Stories",
+      "summary": "Jensen Huang will remain in his role and cooperate with the investigation, though analysts say the matter could cloud over Nvidia’s stock for some time.",
+      "published": "2026-11-08T23:05:00+00:00",
+      "guess": "ai_company",
+      "category": "ai_company",
+      "importance": 3,
+      "zh_title": "人工智慧交易的新挫折： Nvidia董事會正在調查首席執行官Huang與涉嫌間諜的關係",
+      "zh_summary": "Jensen Huang將繼續擔任他的角色並配合調查，儘管分析師表示，此事可能會讓Nvidia的股票蒙上陰影一段時間。",
+      "why_it_matters": "",
+      "tags": []
+    },
+    {
+      "id": "eb3a506a0e30",
+      "title": "Recent AI agent experiments reveal a risky future of machine 'teamwork' inside corporations",
+      "url": "https://www.cnbc.com/2026/11/08/ai-agents-risks.html",
+      "source": "CNBC Technology",
+      "summary": "AI agents are now working together on a regular basis. Research shows they are not always seeking the same goal, or operating with ethics.",
+      "published": "2026-11-08T14:14:11+00:00",
+      "guess": "ai_company",
+      "category": "ai_company",
+      "importance": 3,
+      "zh_title": "最近的AI代理實驗揭示了企業內部機器「團隊合作」的風險未來",
+      "zh_summary": "人工智能代理現在定期合作。研究表明，他們並不總是追求相同的目標，或者遵循道德規範。",
+      "why_it_matters": "",
+      "tags": []
+    },
+    {
+      "id": "f17d4d536b77",
+      "title": "Top Wall Street analysts like these 3 dividend stocks for consistent income",
+      "url": "https://www.cnbc.com/2026/11/08/top-analysts-like-these-3-dividend-stocks-for-consistent-income.html",
+      "source": "CNBC Markets",
+      "summary": "Three dividend-paying stocks that are highlighted by Wall Street’s top pros, as tracked by TipRanks.",
+      "published": "2026-11-08T11:47:24+00:00",
+      "guess": "finance",
+      "category": "finance",
+      "importance": 3,
+      "zh_title": "頂級華爾街分析師，如這3隻股息股票，以獲得穩定的收益",
+      "zh_summary": "TipRanks追蹤的華爾街頂尖專業人士強調的三種支付股息的股票。",
+      "why_it_matters": "",
+      "tags": []
+    },
+    {
+      "id": "8778d2ed26a5",
+      "title": "You follow the rules for smart stock trading. But are they the right rules?",
+      "url": "https://www.marketwatch.com/story/you-follow-the-rules-for-smart-stock-trading-but-are-they-the-right-rules-9bfe5846?mod=mw_rss_topstories",
+      "source": "MarketWatch Top Stories",
+      "summary": "Apply the wisdom of investment pros to develop your own consistent methodology.",
+      "published": "2026-11-08T23:15:00+00:00",
+      "guess": "finance",
+      "category": "finance",
+      "importance": 3,
+      "zh_title": "您遵守智能股票交易的規則。但它們是正確的規則嗎？",
+      "zh_summary": "運用投資專業人士的智慧來開發您自己的一致方法。",
+      "why_it_matters": "",
+      "tags": []
+    },
+    {
+      "id": "d42d09f1aa1d",
+      "title": "He arrested a hacker, then spent 18 months clearing his own name. Now he’s a cybersecurity VC.",
+      "url": "https://techcrunch.com/2026/11/08/the-ex-secret-service-agent-who-flipped-a-hacker-is-now-raising-a-second-250m-cybersecurity-fund",
+      "source": "TechCrunch Venture",
+      "summary": "Stephen Ward, a former Secret Service agent and Home Depot CISO, is preparing a second fund of roughly $250 million for Brightmind Partners.",
+      "published": "2026-11-08T17:30:00+00:00",
+      "guess": "ai_company",
+      "category": "ai_company",
+      "importance": 3,
+      "zh_title": "他逮捕了一名駭客，然後花了18個月的時間為自己洗清罪名。現在他是網路安全風險投資人。",
+      "zh_summary": "前特勤局特工兼家得寶首席信息安全官Stephen Ward正在為Brightmind Partners準備第二個約2.5億$的基金。",
+      "why_it_matters": "",
+      "tags": []
+    },
+    {
+      "id": "ae06ecf71872",
+      "title": "Elvis and Eminem rights holders are suing Suno",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029533/elvis-eminem-suno-ai-music-clone-lawsuit",
+      "source": "The Verge AI",
+      "summary": "Suno is facing yet another pair of lawsuits. A group of rights holders of Elvis Presley's music and the publisher of some of Eminem's biggest records are suing the AI music company, claiming it illegally generates music and lyrics that mimic those artists. The lawyers in the Presley suit claim that Suno has violated Tennessee's […]",
+      "published": "2026-11-08T17:23:19+00:00",
+      "guess": "ai_company",
+      "category": "ai_company",
+      "importance": 3,
+      "zh_title": "Elvis和Eminem版權持有人正在起訴Suno",
+      "zh_summary": "Suno正面臨另一對訴訟。一羣埃爾維斯·普雷斯利（ Elvis Presley ）音樂的版權持有人和阿姆（ Eminem ）一些最大唱片的出版商正在起訴這家AI音樂公司，聲稱它非法製作模仿這些藝術家的音樂和歌詞。Presley訴訟的律師聲稱",
+      "why_it_matters": "",
+      "tags": []
+    }
+  ],
+  "engine": "keyword + free translate",
+  "translated": "8/8",
+  "translate_errors": [
+    "gtx: HTTPError: 429 Client Error: Too Many Requests for url: https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=zh-TW&dt=t&q=Apple+is+racing+to+m",
+    "deep-translator: TooManyRequests: Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per d",
+    "gtx: HTTPError: 429 Client Error: Too Many Requests for url: https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=zh-TW&dt=t&q=Bloomberg%27s+Mark+G"
+  ],
+  "earnings": {
+    "week_start": "2026-11-09",
+    "week_end": "2026-11-20",
+    "source": "Nasdaq",
+    "count": 2,
+    "days": [
+      {
+        "date": "2026-11-12",
+        "week": "本週",
+        "label": "11/12（四）",
+        "items": [
+          {
+            "date": "2026-11-12",
+            "symbol": "AMAT",
+            "name": "Applied Materials, Inc.",
+            "time": "盤後",
+            "eps_forecast": "$4.06",
+            "market_cap": 253355983000.0,
+            "zh_name": "應用材料"
+          }
+        ]
+      },
+      {
+        "date": "2026-11-17",
+        "week": "下週",
+        "label": "11/17（二）",
+        "items": [
+          {
+            "date": "2026-11-17",
+            "symbol": "NVDA",
+            "name": "NVIDIA Corporation",
+            "time": "盤後",
+            "eps_forecast": "$2.49",
+            "market_cap": 4376559880000.0,
+            "zh_name": "輝達"
+          }
+        ]
+      }
+    ],
+    "none": [
+      "TSM",
+      "AMD",
+      "SPCX",
+      "META",
+      "KLAC",
+      "DELL",
+      "ARM",
+      "MU",
+      "SKHY",
+      "SNDK"
+    ]
+  }
+}
