@@ -1,8 +1,38 @@
 {
   "date": "2026-11-10",
-  "generated_at": "2026-11-10T12:40:25.178463+08:00",
+  "generated_at": "2026-11-10T16:51:32.819445+08:00",
   "headline": "",
   "stories": [
+    {
+      "id": "c1692305c9ca",
+      "title": "A New AI Tool From Google DeepMind Proved the Signal Protocol Is Secure",
+      "url": "https://www.wired.com/story/a-new-ai-tool-from-google-deepmind-formally-verified-the-signal-protocol",
+      "source": "Wired AI",
+      "summary": "DeepMind researchers were able to formally verify that the widely used encryption protocol works as intended. Their stretch goal? Do the same for “all the software of the world.”",
+      "published": "2026-11-10T05:01:00+00:00",
+      "guess": "ai_company",
+      "category": "ai_company",
+      "importance": 3,
+      "zh_title": "谷歌 DeepMind 的新人工智慧工具證明訊號協定是安全的",
+      "zh_summary": "DeepMind 研究人員能夠正式驗證廣泛使用的加密協定是否如預期般運作。他們的延伸目標？對「世界上所有的軟體」做同樣的事情。",
+      "why_it_matters": "",
+      "tags": []
+    },
+    {
+      "id": "0cb7ad579ad8",
+      "title": "Otter AI can now follow conversations across 30+ languages",
+      "url": "https://techcrunch.com/2026/11/09/otter-ai-can-now-follow-conversations-across-30-languages",
+      "source": "TechCrunch AI",
+      "summary": "Otter AI just added support for 27 languages and revealed an upcoming feature that can follow along if speakers switch between languages.",
+      "published": "2026-11-10T07:00:00+00:00",
+      "guess": "ai_company",
+      "category": "ai_company",
+      "importance": 3,
+      "zh_title": "Otter AI 現在可以追蹤 30 多種語言的對話",
+      "zh_summary": "Otter AI 剛剛添加了對 27 種語言的支持，並透露了一項即將推出的功能，如果說話者在語言之間切換，該功能也可以跟進。",
+      "why_it_matters": "",
+      "tags": []
+    },
     {
       "id": "6289435bdbbd",
       "title": "Anthropic reportedly plans to move forward with IPO plans",
@@ -139,36 +169,6 @@
       "tags": []
     },
     {
-      "id": "62176b389e01",
-      "title": "Are AMD and Broadcom the real winners of the Nvidia spy scandal?",
-      "url": "https://www.marketwatch.com/story/are-amd-and-broadcom-the-real-winners-of-the-nvidia-spy-scandal-d2343072?mod=mw_rss_topstories",
-      "source": "MarketWatch Top Stories",
-      "summary": "The chip makers’ shares were posting big gains Monday — but those companies could also be subject to greater scrutiny over their sales practices, analysts say.",
-      "published": "2026-11-09T21:43:00+00:00",
-      "guess": "ai_company",
-      "category": "ai_company",
-      "importance": 3,
-      "zh_title": "AMD 和博通是 Nvidia 間諜醜聞的真正贏家嗎？",
-      "zh_summary": "分析師表示，晶片製造商的股價週一大幅上漲，但這些公司的銷售行為也可能受到更嚴格的審查。",
-      "why_it_matters": "",
-      "tags": []
-    },
-    {
-      "id": "3541a994b8f0",
-      "title": "Jensen Huang pulls out of ElevenLabs Summit amid Nvidia controversy",
-      "url": "https://techcrunch.com/2026/11/09/jensen-huang-pulls-out-of-elevenlabs-summit-amid-nvidia-controversy",
-      "source": "TechCrunch AI",
-      "summary": "The Nvidia CEO also pulled out of an Anthropic event earlier.",
-      "published": "2026-11-09T20:09:06+00:00",
-      "guess": "ai_company",
-      "category": "ai_company",
-      "importance": 3,
-      "zh_title": "由於 Nvidia 爭議，黃仁勳退出 ElevenLabs 峰會",
-      "zh_summary": "英偉達執行長早前也退出了 Anthropic 活動。",
-      "why_it_matters": "",
-      "tags": []
-    },
-    {
       "id": "2f74281a7706",
       "title": "Goldman CEO Solomon says AI financing remains strong despite market jitters",
       "url": "https://www.cnbc.com/2026/11/09/goldman-ceo-ai-financing-market.html",
@@ -229,6 +229,7 @@
       "tags": []
     }
   ],
-  "engine": "none",
+  "engine": "keyword + free translate",
+  "translated": "2/2",
   "translate_errors": []
 }
