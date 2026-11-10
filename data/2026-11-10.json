@@ -1,6 +1,6 @@
 {
   "date": "2026-11-10",
-  "generated_at": "2026-11-10T11:56:15.153095+08:00",
+  "generated_at": "2026-11-10T12:40:25.178463+08:00",
   "headline": "",
   "stories": [
     {
@@ -229,9 +229,6 @@
       "tags": []
     }
   ],
-  "engine": "keyword + free translate",
-  "translated": "15/15",
-  "translate_errors": [
-    "gtx: HTTPError: 500 Server Error: Internal Server Error for url: https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=zh-TW&dt=t&q=The+chip+makers%"
-  ]
+  "engine": "none",
+  "translate_errors": []
 }
