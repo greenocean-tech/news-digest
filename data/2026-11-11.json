@@ -1,8 +1,53 @@
 {
   "date": "2026-11-11",
-  "generated_at": "2026-11-11T10:50:29.410846+08:00",
+  "generated_at": "2026-11-11T16:26:33.941431+08:00",
   "headline": "",
   "stories": [
+    {
+      "id": "627f3bd372c1",
+      "title": "Alibaba announces plans to list T-Head, its Nvidia chip rival",
+      "url": "https://www.cnbc.com/2026/11/11/alibaba-pr.html",
+      "source": "CNBC Finance",
+      "summary": "Alibaba noted it had already filed confidentially on Sept. 11 to list T-Head on the Hong Kong Stock Exchange.",
+      "published": "2026-11-11T07:47:54+00:00",
+      "guess": "finance",
+      "category": "finance",
+      "importance": 3,
+      "zh_title": "阿里巴巴宣布計畫讓英偉達晶片競爭對手 T-Head 上市",
+      "zh_summary": "阿里巴巴指出，它已於 9 月 11 日秘密提交 T-Head 在香港證券交易所上市的申請。",
+      "why_it_matters": "",
+      "tags": []
+    },
+    {
+      "id": "17a88325dc58",
+      "title": "Investors pivot to defensive stocks as markets enter a ‘state of alert’",
+      "url": "https://www.cnbc.com/2026/11/11/tech-selloff-defensive-pivot.html",
+      "source": "CNBC Technology",
+      "summary": "Technology stocks have lost momentum while defensive sectors gain ground, as investors reassess risks.",
+      "published": "2026-11-11T06:00:01+00:00",
+      "guess": "finance",
+      "category": "finance",
+      "importance": 3,
+      "zh_title": "隨著市場進入“警戒狀態”，投資者轉向防禦性股票",
+      "zh_summary": "隨著投資者重新評估風險，科技股失去了動力，而防禦性板塊則上漲。",
+      "why_it_matters": "",
+      "tags": []
+    },
+    {
+      "id": "8181e961dff0",
+      "title": "U.S., China should ‘harbor no illusions’ as they cooperate, compete on AI, Bessent says",
+      "url": "https://www.cnbc.com/2026/11/11/trump-xi-summit-ai-nvidia-.html",
+      "source": "CNBC Technology",
+      "summary": "During Xi's September visit, Washington and Beijing agreed to launch an AI dialogue with a communications channel to help defuse serious incidents.",
+      "published": "2026-11-11T05:15:50+00:00",
+      "guess": "ai_company",
+      "category": "ai_company",
+      "importance": 3,
+      "zh_title": "貝森特表示，中美不應在人工智慧領域合作和競爭時抱持任何幻想",
+      "zh_summary": "在習近平 9 月訪問期間，華盛頓和北京同意透過通訊管道啟動人工智慧對話，以協助化解嚴重事件。",
+      "why_it_matters": "",
+      "tags": []
+    },
     {
       "id": "3bbd319f62a6",
       "title": "Anthropic opens Australian retail IPO offering as AI scrutiny intensifies",
@@ -124,21 +169,6 @@
       "tags": []
     },
     {
-      "id": "445fc6287a33",
-      "title": "OpenAI rolls out new business profiles, making ChatGPT just a little bit more like Google",
-      "url": "https://techcrunch.com/2026/11/10/openai-rolls-out-new-business-profiles-making-chatgpt-just-a-little-bit-more-like-google",
-      "source": "TechCrunch AI",
-      "summary": "OpenAI is looking to make ChatGPT a more robust consumer discovery engine, and a host of new features seek to empower businesses to help it do that.",
-      "published": "2026-11-10T18:49:52+00:00",
-      "guess": "ai_company",
-      "category": "ai_company",
-      "importance": 3,
-      "zh_title": "OpenAI推出新的企業基本資料，使ChatGPT更像Google",
-      "zh_summary": "OpenAI正在尋求使ChatGPT成為更強大的消費者發現引擎，而許多新功能旨在幫助企業實現這一目標。",
-      "why_it_matters": "",
-      "tags": []
-    },
-    {
       "id": "22aea30bc784",
       "title": "CoreWeave’s stock pops as new financing playbook eases debt concerns",
       "url": "https://www.marketwatch.com/story/coreweaves-stock-pops-as-new-financing-playbook-eases-debt-concerns-70241525?mod=mw_rss_topstories",
@@ -212,43 +242,9 @@
       "zh_summary": "前SignalFire投資者Sahir Raoof籌集了2750萬$ ，用於製藥業的人工智能新基金。",
       "why_it_matters": "",
       "tags": []
-    },
-    {
-      "id": "79239226f8cb",
-      "title": "Fed Governor Waller sees December hike likely, opens door to possible half-point increase",
-      "url": "https://www.cnbc.com/2026/11/10/fed-governor-waller-sees-december-hike-likely.html",
-      "source": "CNBC Finance",
-      "summary": "The policymaker said he \"is leaning toward\" a rate increase in December and could support a half-point hike depending on inflation data.",
-      "published": "2026-11-10T17:13:44+00:00",
-      "guess": "finance",
-      "category": "finance",
-      "importance": 3,
-      "zh_title": "聯準會理事沃勒認為12月可能加息，為可能加息半點打開大門",
-      "zh_summary": "這位政策制定者表示，他「傾向於」在12月加息，並可能支持根據通脹數據加息半個點。",
-      "why_it_matters": "",
-      "tags": []
-    },
-    {
-      "id": "d095bcb8c92d",
-      "title": "Polymarket says annualized revenue has topped $1.8 billion",
-      "url": "https://www.cnbc.com/2026/11/10/polymarket-annualized-revenue-us-growth.html",
-      "source": "CNBC Finance",
-      "summary": "Amid growth of its U.S. exchange, the prediction market platform’s current annual run-rate is $1.8 billion.",
-      "published": "2026-11-10T13:00:01+00:00",
-      "guess": "finance",
-      "category": "finance",
-      "importance": 3,
-      "zh_title": "Polymarket表示年化收入已超過18億$",
-      "zh_summary": "隨著美國交易所的增長，該預測市場平臺目前的年運行率為18億$。",
-      "why_it_matters": "",
-      "tags": []
     }
   ],
   "engine": "keyword + free translate",
-  "translated": "1/1",
-  "translate_errors": [
-    "gtx: HTTPError: 429 Client Error: Too Many Requests for url: https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=zh-TW&dt=t&q=Anthropic+opens+Aust",
-    "deep-translator: TooManyRequests: Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per d",
-    "gtx: HTTPError: 429 Client Error: Too Many Requests for url: https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=zh-TW&dt=t&q=Anthropic+opened+its"
-  ]
+  "translated": "3/3",
+  "translate_errors": []
 }
