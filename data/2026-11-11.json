@@ -1,8 +1,23 @@
 {
   "date": "2026-11-11",
-  "generated_at": "2026-11-11T09:27:40.218552+08:00",
+  "generated_at": "2026-11-11T10:50:29.410846+08:00",
   "headline": "",
   "stories": [
+    {
+      "id": "3bbd319f62a6",
+      "title": "Anthropic opens Australian retail IPO offering as AI scrutiny intensifies",
+      "url": "https://www.cnbc.com/2026/11/11/anthopic-australian-retail-ipo-offering-.html",
+      "source": "CNBC Technology",
+      "summary": "Anthropic opened its Australia retail IPO offering on Wednesday, allowing individual investors to apply for shares ahead of its planned IPO.",
+      "published": "2026-11-11T01:52:56+00:00",
+      "guess": "ai_startup",
+      "category": "ai_startup",
+      "importance": 3,
+      "zh_title": "隨著人工智能審查的加強， Anthropic在澳大利亞開放零售IPO",
+      "zh_summary": "Anthropic於週三開啟了澳大利亞零售IPO發行，允許個人投資者在計劃的IPO之前申請股票。",
+      "why_it_matters": "",
+      "tags": []
+    },
     {
       "id": "a14681e2ddce",
       "title": "Google releases Gemini 4 Carbon with agent ‘swarm’ feature",
@@ -230,10 +245,10 @@
     }
   ],
   "engine": "keyword + free translate",
-  "translated": "15/15",
+  "translated": "1/1",
   "translate_errors": [
-    "gtx: HTTPError: 429 Client Error: Too Many Requests for url: https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=zh-TW&dt=t&q=Google+releases+Gemi",
+    "gtx: HTTPError: 429 Client Error: Too Many Requests for url: https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=zh-TW&dt=t&q=Anthropic+opens+Aust",
     "deep-translator: TooManyRequests: Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per d",
-    "gtx: HTTPError: 429 Client Error: Too Many Requests for url: https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=zh-TW&dt=t&q=Google+is+rolling+ou"
+    "gtx: HTTPError: 429 Client Error: Too Many Requests for url: https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=zh-TW&dt=t&q=Anthropic+opened+its"
   ]
 }
