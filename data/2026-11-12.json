@@ -1,8 +1,38 @@
 {
   "date": "2026-11-12",
-  "generated_at": "2026-11-12T11:51:06.003892+08:00",
+  "generated_at": "2026-11-12T16:52:13.678033+08:00",
   "headline": "",
   "stories": [
+    {
+      "id": "0aa17a8f2ed1",
+      "title": "Jensen Huang built Nvidia into a behemoth. His scandal puts the entire AI boom in jeopardy.",
+      "url": "https://www.marketwatch.com/story/jensen-huang-built-nvidia-into-a-behemoth-his-scandal-puts-the-entire-ai-boom-in-jeopardy-c374b079?mod=mw_rss_topstories",
+      "source": "MarketWatch Top Stories",
+      "summary": "Huang fueled his company and the AI ecosystem with advanced chips and creative financing deals across the supply chain. What happens if he’s gone?",
+      "published": "2026-11-12T07:30:00+00:00",
+      "guess": "ai_company",
+      "category": "ai_company",
+      "importance": 3,
+      "zh_title": "黃仁勳將 Nvidia 打造成一個龐然大物。他的醜聞使整個人工智慧熱潮陷入危險之中。",
+      "zh_summary": "黃仁勳透過整個供應鏈的先進晶片和創意融資交易為他的公司和人工智慧生態系統提供了動力。如果他走了怎麼辦？",
+      "why_it_matters": "",
+      "tags": []
+    },
+    {
+      "id": "8eecf18e838f",
+      "title": "Jensen Huang's affair with alleged spy revives push to tighten China chip curbs ahead of Trump-Xi summit",
+      "url": "https://www.cnbc.com/2026/11/12/nvidia-trump-jensen-chip-export-controls-china-xi-.html",
+      "source": "CNBC Technology",
+      "summary": "The scandal engulfing Jensen Huang is fueling calls for tighter restrictions on China's access to advanced AI chips, just days before the Trump-Xi summit.",
+      "published": "2026-11-12T07:50:34+00:00",
+      "guess": "ai_company",
+      "category": "ai_company",
+      "importance": 3,
+      "zh_title": "黃仁勳與涉嫌間諜的戀情再次推動川普與習近平峰會前加強對中國晶片的限制",
+      "zh_summary": "就在特習峰會召開前幾天，黃仁勳的醜聞引發了對中國獲取先進人工智慧晶片實施更嚴格限制的呼聲。",
+      "why_it_matters": "",
+      "tags": []
+    },
     {
       "id": "9025751a9769",
       "title": "Falling oil prices are no longer enough to bring down borrowing costs in the world’s most important bond market",
@@ -109,36 +139,6 @@
       "tags": []
     },
     {
-      "id": "d8ef3fe6591f",
-      "title": "Jensen Huang accused of having another affair — with an Nvidia exec",
-      "url": "https://techcrunch.com/2026/11/11/jensen-huang-accused-of-having-another-affair-with-a-nvidia-exec",
-      "source": "TechCrunch AI",
-      "summary": "Jensen Huang, who has come under fire for admitting to an affair with a woman accused of being a Chinese intelligence agent, has been accused of having a separate affair with an Nvidia subordinate.",
-      "published": "2026-11-11T23:17:05+00:00",
-      "guess": "ai_company",
-      "category": "ai_company",
-      "importance": 3,
-      "zh_title": "黃仁勳被指控與英偉達高層有另一樁婚外情",
-      "zh_summary": "黃仁勳因承認與一名被指控為中國情報特工的女性有染而受到批評，他還被指控與英偉達的一名下屬有染。",
-      "why_it_matters": "",
-      "tags": []
-    },
-    {
-      "id": "44087d608320",
-      "title": "Jensen Huang affair in D.C.: Resignation calls and moves to tighten Nvidia China exports",
-      "url": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-congress-resign-ai-chips.html",
-      "source": "CNBC Technology",
-      "summary": "Huang was notably opposed to strict export controls on AI chips to China, which ruffled feathers with congressional China hawks.",
-      "published": "2026-11-11T22:46:29+00:00",
-      "guess": "ai_company",
-      "category": "ai_company",
-      "importance": 3,
-      "zh_title": "黃仁勳事件在華盛頓：辭職呼籲並收緊英偉達中國出口的舉措",
-      "zh_summary": "黃仁勳特別反對對中國人工智慧晶片進行嚴格的出口管制，激怒了國會對華萊士派人士。",
-      "why_it_matters": "",
-      "tags": []
-    },
-    {
       "id": "a2a353c597a4",
       "title": "Why this ‘big idea’ to fix Social Security relies on a massive stock-market gamble",
       "url": "https://www.marketwatch.com/story/why-this-big-idea-to-fix-social-security-relies-on-a-massive-stock-market-gamble-5423f50f?mod=mw_rss_topstories",
@@ -199,6 +199,7 @@
       "tags": []
     }
   ],
-  "engine": "none",
+  "engine": "keyword + free translate",
+  "translated": "2/2",
   "translate_errors": []
 }
