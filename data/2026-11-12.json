@@ -1,6 +1,6 @@
 {
   "date": "2026-11-12",
-  "generated_at": "2026-11-12T10:28:43.383987+08:00",
+  "generated_at": "2026-11-12T11:51:06.003892+08:00",
   "headline": "",
   "stories": [
     {
@@ -199,9 +199,6 @@
       "tags": []
     }
   ],
-  "engine": "keyword + free translate",
-  "translated": "13/13",
-  "translate_errors": [
-    "gtx: HTTPError: 500 Server Error: Internal Server Error for url: https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=zh-TW&dt=t&q=Radical+Numerics"
-  ]
+  "engine": "none",
+  "translate_errors": []
 }
