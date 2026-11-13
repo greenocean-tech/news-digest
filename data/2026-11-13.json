@@ -1,8 +1,38 @@
 {
   "date": "2026-11-13",
-  "generated_at": "2026-11-13T11:26:30.276047+08:00",
+  "generated_at": "2026-11-13T16:48:40.982746+08:00",
   "headline": "",
   "stories": [
+    {
+      "id": "00ccf51f4f6e",
+      "title": "Nvidia on track for longest weekly losing streak since 2012 as market value sinks by $1.6 trillion",
+      "url": "https://www.cnbc.com/2026/11/13/nvidia-stock-jensen-affair-ai.html",
+      "source": "CNBC Technology",
+      "summary": "Jensen Huang's resignation added to Nvidia's market woes, with the stock already in a downward slide since early October.",
+      "published": "2026-11-13T05:51:34+00:00",
+      "guess": "finance",
+      "category": "finance",
+      "importance": 3,
+      "zh_title": "英偉達市值下跌 1.6 兆美元，預計將錄得自 2012 年以來最長的單週虧損",
+      "zh_summary": "黃仁勳的辭職加劇了英偉達的市場困境，該股自 10 月初以來一直在下滑。",
+      "why_it_matters": "",
+      "tags": []
+    },
+    {
+      "id": "1a1165928e28",
+      "title": "Nvidia’s turmoil is prompting a rotation across chip stocks. Here's what we know",
+      "url": "https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-affairs-amd-broadcom-tsmc.html",
+      "source": "CNBC Technology",
+      "summary": "That shift comes as Nvidia grapples with the fallout from Huang's resignation, following revelations about his multiple affairs.",
+      "published": "2026-11-13T08:27:07+00:00",
+      "guess": "finance",
+      "category": "finance",
+      "importance": 3,
+      "zh_title": "英偉達的動盪正在引發晶片股的輪動。這是我們所知道的",
+      "zh_summary": "這一轉變發生之際，英偉達正努力應對黃仁勳的辭職所帶來的影響，此前黃仁勳的多起婚外情被曝光。",
+      "why_it_matters": "",
+      "tags": []
+    },
     {
       "id": "b66f4c01151b",
       "title": "The bond market now has an even bigger fear than AI fallout",
@@ -184,21 +214,6 @@
       "tags": []
     },
     {
-      "id": "1ba52ba6ab37",
-      "title": "In a policy switch, the Fed says its October 2027 meeting will not see a vote on interest rates",
-      "url": "https://www.cnbc.com/2026/11/12/in-policy-switch-fed-says-its-october-2027-meeting-will-not-see-a-vote-on-interest-rates.html",
-      "source": "CNBC Finance",
-      "summary": "There will be seven voting meetings next year, with the October session set up as extra time for policy deliberation without a formal vote or post-meeting statement.",
-      "published": "2026-11-12T19:05:25+00:00",
-      "guess": "finance",
-      "category": "finance",
-      "importance": 3,
-      "zh_title": "聯準會表示，在政策轉變中，2027 年 10 月的會議不會進行利率投票",
-      "zh_summary": "明年將舉行七次投票會議，十月會議將作為政策審議的額外時間，無需正式投票或會後聲明。",
-      "why_it_matters": "",
-      "tags": []
-    },
-    {
       "id": "5c8a7e2ce9e4",
       "title": "Hugging Face CEO vows to keep fighting for open source AI after Jensen Huang’s exit",
       "url": "https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit",
@@ -227,23 +242,9 @@
       "zh_summary": "這些新創公司涉足深度科技領域，包括醫療保健、金融科技、能源、半導體和人工智慧。所有九人都希望進入美國",
       "why_it_matters": "",
       "tags": []
-    },
-    {
-      "id": "34e0c6bf964a",
-      "title": "The 10 best stocks for a year-end momentum trade",
-      "url": "https://www.marketwatch.com/story/the-10-best-stocks-for-a-year-end-momentum-trade-8d4cf8f7?mod=mw_rss_topstories",
-      "source": "MarketWatch Top Stories",
-      "summary": "Why December is the best month of the year for momentum strategies",
-      "published": "2026-11-12T21:50:00+00:00",
-      "guess": "finance",
-      "category": "finance",
-      "importance": 3,
-      "zh_title": "年終動量交易的 10 隻最佳股票",
-      "zh_summary": "為什麼十二月是一年中動量策略的最佳月份",
-      "why_it_matters": "",
-      "tags": []
     }
   ],
-  "engine": "none",
+  "engine": "keyword + free translate",
+  "translated": "2/2",
   "translate_errors": []
 }
