@@ -1,6 +1,6 @@
 {
   "date": "2026-11-13",
-  "generated_at": "2026-11-13T10:05:14.148891+08:00",
+  "generated_at": "2026-11-13T11:26:30.276047+08:00",
   "headline": "",
   "stories": [
     {
@@ -244,10 +244,6 @@
       "tags": []
     }
   ],
-  "engine": "keyword + free translate",
-  "translated": "16/16",
-  "translate_errors": [
-    "gtx: HTTPError: 500 Server Error: Internal Server Error for url: https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=zh-TW&dt=t&q=I+reviewed+the+A",
-    "deep-translator: TooManyRequests: Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per d"
-  ]
+  "engine": "none",
+  "translate_errors": []
 }
