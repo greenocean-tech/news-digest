@@ -1,8 +1,23 @@
 {
   "date": "2026-11-14",
-  "generated_at": "2026-11-14T09:42:05.423022+08:00",
+  "generated_at": "2026-11-14T11:21:39.446746+08:00",
   "headline": "",
   "stories": [
+    {
+      "id": "669c23ed07c3",
+      "title": "14 dividend stocks selected for long-term growth",
+      "url": "https://www.marketwatch.com/story/14-dividend-stocks-selected-for-long-term-growth-0a095c0d?mod=mw_rss_topstories",
+      "source": "MarketWatch Top Stories",
+      "summary": "These stocks feature attractive dividend payouts and are trading low to the companies’ intrinsic value, according to John Buckingham of Value87 Investment Partners.",
+      "published": "2026-11-14T01:58:00+00:00",
+      "guess": "finance",
+      "category": "finance",
+      "importance": 3,
+      "zh_title": "14檔股息股被選為長期成長股",
+      "zh_summary": "Value87 Investment Partners 的 John Buckingham 表示，這些股票的股息支付頗具吸引力，而且其交易價格低於公司的內在價值。",
+      "why_it_matters": "",
+      "tags": []
+    },
     {
       "id": "38741df50e34",
       "title": "AI agent startup LangChain hits $3B valuation",
@@ -227,29 +242,9 @@
       "zh_summary": "市場大大低估了 50 歲及以上美國人的經濟影響。",
       "why_it_matters": "",
       "tags": []
-    },
-    {
-      "id": "a663158ee53e",
-      "title": "A trading strategy to ride out the Nvidia uncertainty and generate income in the process",
-      "url": "https://www.cnbc.com/2026/11/13/a-trading-strategy-to-ride-out-the-nvidia-uncertainty-and-generate-income-in-the-process.html",
-      "source": "CNBC Markets",
-      "summary": "By deploying a persistent covered call strategy, investors can leverage the exact fear driving the stock down to generate robust, risk-reducing income.",
-      "published": "2026-11-13T19:30:36+00:00",
-      "guess": "finance",
-      "category": "finance",
-      "importance": 3,
-      "zh_title": "一種能夠度過輝達 (Nvidia) 不確定性，並在此過程中創造收入的交易策略",
-      "zh_summary": "透過部署持續的備兌買權策略，投資者可以利用推動股價下跌的恐懼情緒來產生強勁的、降低風險的收入。",
-      "why_it_matters": "",
-      "tags": []
     }
   ],
   "engine": "keyword + free translate",
-  "translated": "16/16",
-  "translate_errors": [
-    "gtx: HTTPError: 500 Server Error: Internal Server Error for url: https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=zh-TW&dt=t&q=Investors+may+ha",
-    "gtx: HTTPError: 500 Server Error: Internal Server Error for url: https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=zh-TW&dt=t&q=The+market+is+dr",
-    "gtx: HTTPError: 500 Server Error: Internal Server Error for url: https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=zh-TW&dt=t&q=A+trading+strate",
-    "deep-translator: TooManyRequests: Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per d"
-  ]
+  "translated": "1/1",
+  "translate_errors": []
 }
