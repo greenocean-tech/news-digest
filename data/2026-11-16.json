@@ -1,8 +1,38 @@
 {
   "date": "2026-11-16",
-  "generated_at": "2026-11-16T10:47:36.501332+08:00",
+  "generated_at": "2026-11-16T16:38:00.888970+08:00",
   "headline": "",
   "stories": [
+    {
+      "id": "9c68e8f48757",
+      "title": "Why this 40-year market veteran is making a lonely bet on a 40% stock-market crash — and $500 oil",
+      "url": "https://www.marketwatch.com/story/why-this-40-year-market-veteran-is-making-a-lonely-bet-on-a-40-stock-market-crash-and-500-oil-c62aefdb?mod=mw_rss_topstories",
+      "source": "MarketWatch Top Stories",
+      "summary": "Ulf Lindahl says a storm is brewing for investors in the U.S. stock market, who will also be facing $500 oil in a few years. Here is where he’d shelter.",
+      "published": "2026-11-16T08:06:00+00:00",
+      "guess": "finance",
+      "category": "finance",
+      "importance": 3,
+      "zh_title": "為什麼這位擁有 40 年市場經驗的資深人士孤注一擲地押注 40% 的股市崩盤以及 500 美元的石油價格",
+      "zh_summary": "烏爾夫林達爾表示，美國股市的投資人正在醞釀一場風暴，幾年後他們也將面臨500美元的油價。這裡是他避難的地方。",
+      "why_it_matters": "",
+      "tags": []
+    },
+    {
+      "id": "7a4d164cc1d8",
+      "title": "A big chunk of your 401(k) is likely invested in Nvidia",
+      "url": "https://www.marketwatch.com/story/the-scandal-at-nvidia-is-exactly-whats-wrong-with-the-s-p-500-7307457e?mod=mw_rss_topstories",
+      "source": "MarketWatch Top Stories",
+      "summary": "The scandal at the computer-chip giant is exactly what’s wrong with the S&P 500.",
+      "published": "2026-11-16T03:11:00+00:00",
+      "guess": "finance",
+      "category": "finance",
+      "importance": 3,
+      "zh_title": "您的 401(k) 的很大一部分可能投資於 Nvidia",
+      "zh_summary": "這家電腦晶片巨頭的醜聞正是標準普爾 500 指數的問題所在。",
+      "why_it_matters": "",
+      "tags": []
+    },
     {
       "id": "09862cd7036c",
       "title": "Apple launches new app to study how people use AI for health",
