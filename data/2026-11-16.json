@@ -1,8 +1,38 @@
 {
   "date": "2026-11-16",
-  "generated_at": "2026-11-16T09:21:42.028833+08:00",
+  "generated_at": "2026-11-16T10:47:36.501332+08:00",
   "headline": "",
   "stories": [
+    {
+      "id": "09862cd7036c",
+      "title": "Apple launches new app to study how people use AI for health",
+      "url": "https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health",
+      "source": "TechCrunch AI",
+      "summary": "Apple's new app for a study will answer everyday medical questions",
+      "published": "2026-11-16T01:30:00+00:00",
+      "guess": "ai_company",
+      "category": "ai_company",
+      "importance": 3,
+      "zh_title": "蘋果推出新應用程式來研究人們如何利用人工智慧促進健康",
+      "zh_summary": "蘋果的新研究應用程式將回答日常醫療問題",
+      "why_it_matters": "",
+      "tags": []
+    },
+    {
+      "id": "f7214e14d1e1",
+      "title": "Apple’s new study looks to improve the effectiveness of AI health tools",
+      "url": "https://www.theverge.com/tech/1033355/apples-new-study-looks-to-improve-the-effectiveness-of-ai-health-tools",
+      "source": "The Verge AI",
+      "summary": "Apple announced a new study today with the goal of better understanding how people interact with conversational AI health tools and how useful their responses actually are. The company is conducting the Apple Health AI Usage Study in collaboration with OpenEvidence, a clinical AI platform used by healthcare professionals that generates answers based on medical […]",
+      "published": "2026-11-16T01:26:56+00:00",
+      "guess": "ai_company",
+      "category": "ai_company",
+      "importance": 3,
+      "zh_title": "蘋果的新研究旨在提高人工智慧健康工具的有效性",
+      "zh_summary": "蘋果今天宣布了一項新研究，旨在更好地了解人們如何與對話式人工智慧健康工具互動以及他們的反應實際上有多有用。該公司正在與 OpenEvidence 合作進行 Apple Health AI 使用研究，OpenEvidence 是他使用的臨床 AI 平台。",
+      "why_it_matters": "",
+      "tags": []
+    },
     {
       "id": "fc91828979fb",
       "title": "Indian chip startup Bharat Semi lands $24M seed round as it eyes global AI sensor market",
@@ -140,7 +170,7 @@
     }
   ],
   "engine": "keyword + free translate",
-  "translated": "9/9",
+  "translated": "2/2",
   "translate_errors": [],
   "earnings": {
     "week_start": "2026-11-16",
