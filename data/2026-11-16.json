@@ -1,0 +1,197 @@
+{
+  "date": "2026-11-16",
+  "generated_at": "2026-11-16T09:21:42.028833+08:00",
+  "headline": "",
+  "stories": [
+    {
+      "id": "fc91828979fb",
+      "title": "Indian chip startup Bharat Semi lands $24M seed round as it eyes global AI sensor market",
+      "url": "https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market",
+      "source": "TechCrunch AI",
+      "summary": "Bharat Semi says it has secured design wins for its AI-enabled sensor technology with companies including General Atomics.",
+      "published": "2026-11-15T23:30:00+00:00",
+      "guess": "ai_startup",
+      "category": "ai_startup",
+      "importance": 3,
+      "zh_title": "印度晶片新創公司 Bharat Semi 獲得 2,400 萬美元種子輪融資，著眼於全球人工智慧感測器市場",
+      "zh_summary": "Bharat Semi 表示，其人工智慧感測器技術已獲得包括通用原子公司在內的公司的設計勝利。",
+      "why_it_matters": "",
+      "tags": []
+    },
+    {
+      "id": "2cb612de9116",
+      "title": "Is bad news for Jensen Huang also bad news for the AI industry?",
+      "url": "https://techcrunch.com/2026/11/15/is-bad-news-for-jensen-huang-also-bad-news-for-the-ai-industry",
+      "source": "TechCrunch AI",
+      "summary": "\"Jensen is Nvidia, right? And so much of this economy is riding on Nvidia.\"",
+      "published": "2026-11-15T21:56:35+00:00",
+      "guess": "ai_company",
+      "category": "ai_company",
+      "importance": 3,
+      "zh_title": "黃仁勳的壞消息對人工智慧產業也是壞消息嗎？",
+      "zh_summary": "“Jensen 就是 Nvidia，對吧？而且經濟的大部分發展都依賴 Nvidia。”",
+      "why_it_matters": "",
+      "tags": []
+    },
+    {
+      "id": "d842a4d076ed",
+      "title": "Nvidia is gearing up for one of Wall Street’s most anticipated earnings calls in years",
+      "url": "https://www.marketwatch.com/story/nvidia-is-gearing-up-for-one-of-wall-streets-most-anticipated-earnings-calls-in-years-91855b1e?mod=mw_rss_topstories",
+      "source": "MarketWatch Top Stories",
+      "summary": "Jensen Huang’s sudden departure has made Tuesday’s earnings call “the most important in the company’s history.”",
+      "published": "2026-11-15T21:32:00+00:00",
+      "guess": "finance",
+      "category": "finance",
+      "importance": 3,
+      "zh_title": "英偉達正在為華爾街多年來最受期待的財報電話會議之一做準備",
+      "zh_summary": "黃仁勳的突然離職使得周二的財報電話會議成為「公司歷史上最重要的一次」。",
+      "why_it_matters": "",
+      "tags": []
+    },
+    {
+      "id": "1207b5c1c70b",
+      "title": "Congress wants to tighten export rules on AI chips after Nvidia spy scandal",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china",
+      "source": "The Verge AI",
+      "summary": "Unsurprisingly, following the scandal involving now-former Nvidia CEO Jensen Huang and a suspected Chinese spy, Congress is looking to further restrict exports of AI chips. Both Democrats and Republicans have voiced support for various measures and bills that would tighten rules and have demanded that Huang and other Nvidia leaders testify before Congress. Senate Minority […]",
+      "published": "2026-11-15T19:15:43+00:00",
+      "guess": "ai_company",
+      "category": "ai_company",
+      "importance": 3,
+      "zh_title": "在英偉達間諜醜聞後，國會希望收緊人工智慧晶片的出口規定",
+      "zh_summary": "不出所料，在涉及英偉達前首席執行官黃仁勳和一名涉嫌中國間諜的醜聞之後，國會正在尋求進一步限制人工智慧晶片的出口。民主黨和共和黨人都表示支持各種收緊規則的措施和法案，並要求",
+      "why_it_matters": "",
+      "tags": []
+    },
+    {
+      "id": "3effc3d40526",
+      "title": "Anthropic’s IPO lands as the embattled AI trade looks for a much-needed bright spot",
+      "url": "https://www.cnbc.com/2026/11/15/anthropic-ipo-is-make-or-break-for-the-technology-industry.html",
+      "source": "CNBC Technology",
+      "summary": "Anthropic's IPO has outsized importance in the tech industry, which is heavily invested in the AI lab and is desperate for some positive momentum.",
+      "published": "2026-11-15T12:00:01+00:00",
+      "guess": "ai_startup",
+      "category": "ai_startup",
+      "importance": 3,
+      "zh_title": "Anthropic 首次公開募股，陷入困境的人工智慧產業正在尋找急需的亮點",
+      "zh_summary": "Anthropic 的 IPO 在科技業中具有極其重要的意義，該行業在人工智慧實驗室上投入了大量資金，並且迫切需要一些積極的勢頭。",
+      "why_it_matters": "",
+      "tags": []
+    },
+    {
+      "id": "e8a69c14b036",
+      "title": "Budget airlines are going upscale with first-class seats and faster wifi",
+      "url": "https://www.marketwatch.com/story/budget-airlines-are-going-upscale-with-first-class-seats-and-faster-wifi-999868ab?mod=mw_rss_topstories",
+      "source": "MarketWatch Top Stories",
+      "summary": "Forget no-frills: Frontier and JetBlue are chasing luxury flyers, and Wall Street is buying in.",
+      "published": "2026-11-15T21:31:00+00:00",
+      "guess": "finance",
+      "category": "finance",
+      "importance": 3,
+      "zh_title": "廉價航空公司正在向高檔化發展，提供頭等艙座位和更快的無線網絡",
+      "zh_summary": "忘掉簡單的裝飾：邊疆航空和捷藍航空正在追逐豪華機票，而華爾街也在買進。",
+      "why_it_matters": "",
+      "tags": []
+    },
+    {
+      "id": "8956f4d4e1c4",
+      "title": "China’s hottest stocks these days have one thing in common: names that sound like sheep",
+      "url": "https://www.marketwatch.com/story/chinas-hottest-stocks-these-days-have-one-thing-in-common-names-that-sound-like-sheep-6176e521?mod=mw_rss_topstories",
+      "source": "MarketWatch Top Stories",
+      "summary": "Shares of fish processors, lighting manufacturers and appliance makers have soared ahead of the Year of the Sheep. Investor appetite has had little to do with the status of their businesses.",
+      "published": "2026-11-15T15:22:00+00:00",
+      "guess": "finance",
+      "category": "finance",
+      "importance": 3,
+      "zh_title": "如今中國最熱門的股票有一個共同點：名字聽起來像羊",
+      "zh_summary": "魚類加工商、照明製造商和電器製造商的股價在羊年到來之前飆升。投資者的興趣與其企業的狀況無關。",
+      "why_it_matters": "",
+      "tags": []
+    },
+    {
+      "id": "437c9a05119d",
+      "title": "AI DJs Completely Kill My Groove",
+      "url": "https://www.wired.com/story/ai-djs-completely-kill-my-groove",
+      "source": "Wired AI",
+      "summary": "YouTube Music and Spotify want synthetic hosts to curate your playlists. Their awkward banter and bogus song trivia are ruining the vibe.",
+      "published": "2026-11-15T12:00:00+00:00",
+      "guess": "ai_company",
+      "category": "ai_company",
+      "importance": 3,
+      "zh_title": "AI DJ 徹底消滅我的音樂風格",
+      "zh_summary": "YouTube Music 和 Spotify 希望合成主機來管理您的播放清單。他們尷尬的玩笑和虛假的歌曲瑣事破壞了氣氛。",
+      "why_it_matters": "",
+      "tags": []
+    },
+    {
+      "id": "5b202e7c7931",
+      "title": "This AI Tamagotchi Turns Everyday Objects Into Needy Virtual Pets",
+      "url": "https://www.wired.com/story/this-ai-tamagotchi-oats-turns-everyday-objects-into-needy-virtual-pets",
+      "source": "Wired AI",
+      "summary": "A Carnegie Mellon student’s tiny E Ink gadgets, called OATs, give houseplants, skateboards, and dumbbells expressive personalities to nudge you toward better habits.",
+      "published": "2026-11-15T11:00:00+00:00",
+      "guess": "ai_company",
+      "category": "ai_company",
+      "importance": 3,
+      "zh_title": "這個人工智慧電子寵物將日常物品變成了需要幫助的虛擬寵物",
+      "zh_summary": "卡內基美隆大學學生的電子墨水小玩意兒（OAT）賦予室內植物、滑板和啞鈴富有表現力的個性，促使你養成更好的習慣。",
+      "why_it_matters": "",
+      "tags": []
+    }
+  ],
+  "engine": "keyword + free translate",
+  "translated": "9/9",
+  "translate_errors": [],
+  "earnings": {
+    "week_start": "2026-11-16",
+    "week_end": "2026-11-27",
+    "source": "Nasdaq",
+    "count": 2,
+    "days": [
+      {
+        "date": "2026-11-17",
+        "week": "本週",
+        "label": "11/17（二）",
+        "items": [
+          {
+            "date": "2026-11-17",
+            "symbol": "NVDA",
+            "name": "NVIDIA Corporation",
+            "time": "盤後",
+            "eps_forecast": "$2.49",
+            "market_cap": 4005178900000.0,
+            "zh_name": "輝達"
+          }
+        ]
+      },
+      {
+        "date": "2026-11-24",
+        "week": "下週",
+        "label": "11/24（二）",
+        "items": [
+          {
+            "date": "2026-11-24",
+            "symbol": "DELL",
+            "name": "Dell Technologies Inc.",
+            "time": "盤後",
+            "eps_forecast": "$6.41",
+            "market_cap": 235994612000.0,
+            "zh_name": "戴爾"
+          }
+        ]
+      }
+    ],
+    "none": [
+      "TSM",
+      "AMD",
+      "SPCX",
+      "META",
+      "KLAC",
+      "AMAT",
+      "ARM",
+      "MU",
+      "SKHY",
+      "SNDK"
+    ]
+  }
+}
