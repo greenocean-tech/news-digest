@@ -1,8 +1,53 @@
 {
   "date": "2026-11-17",
-  "generated_at": "2026-11-17T13:06:24.543884+08:00",
+  "generated_at": "2026-11-17T17:45:43.181763+08:00",
   "headline": "",
   "stories": [
+    {
+      "id": "7d91861a30f2",
+      "title": "U.S. companies from Nvidia to Apple face a growing China dilemma",
+      "url": "https://www.cnbc.com/2026/11/17/us-tech-firms-china-ties-political-pressure.html",
+      "source": "CNBC Finance",
+      "summary": "The stakes have just gotten higher for businesses navigating the U.S. and China markets.",
+      "published": "2026-11-17T08:52:45+00:00",
+      "guess": "ai_company",
+      "category": "ai_company",
+      "importance": 3,
+      "zh_title": "從英偉達到蘋果等美國公司面臨日益嚴重的中國困境",
+      "zh_summary": "對於開拓美國和中國市場的企業來說，風險變得越來越大。",
+      "why_it_matters": "",
+      "tags": []
+    },
+    {
+      "id": "e0912a6cf8de",
+      "title": "Nvidia warns chip buyers of legal risks tied to China AI access, sources tell CNBC",
+      "url": "https://www.cnbc.com/2026/11/17/nvidia-china-cloud-ai-chip-access.html",
+      "source": "CNBC Technology",
+      "summary": "The U.S. Commerce Department is making moves to tighten export controls.",
+      "published": "2026-11-17T07:07:35+00:00",
+      "guess": "ai_company",
+      "category": "ai_company",
+      "importance": 3,
+      "zh_title": "消息人士告訴 CNBC，英偉達警告晶片買家注意與中國人工智慧接入相關的法律風險",
+      "zh_summary": "美國商務部正在採取措施收緊出口管制。",
+      "why_it_matters": "",
+      "tags": []
+    },
+    {
+      "id": "e647f4e0e29c",
+      "title": "Here’s how much of Deutsche Bank’s market cap has been wiped away after reports on 15 million leaked documents",
+      "url": "https://www.marketwatch.com/story/heres-how-much-of-deutsche-banks-market-cap-has-been-wiped-away-after-reports-on-15-million-leaked-documents-fe3db078?mod=mw_rss_topstories",
+      "source": "MarketWatch Top Stories",
+      "summary": "Deutsche Bank saw as much as €3.8 billion ($4.2 billion) of its market cap wiped away after a team of media organizations wrote about a trove of 15 million leaked documents.",
+      "published": "2026-11-17T09:35:00+00:00",
+      "guess": "finance",
+      "category": "finance",
+      "importance": 3,
+      "zh_title": "以下是 1500 萬份文件外洩的報告後，德意志銀行的市值縮水了多少",
+      "zh_summary": "在一組媒體組織通報了 1,500 萬份外洩文件後，德意志銀行的市值蒸發了 38 億歐元（42 億美元）。",
+      "why_it_matters": "",
+      "tags": []
+    },
     {
       "id": "bec78e9702b1",
       "title": "Cybersecurity AI startup Corma reaches $1B valuation in about 3 months",
@@ -109,36 +154,6 @@
       "tags": []
     },
     {
-      "id": "81e420a7570a",
-      "title": "OpenAI inks agreements with four independent evaluators to boost company's safety work",
-      "url": "https://www.cnbc.com/2026/11/16/openai-independent-ai-safety-evaluators.html",
-      "source": "CNBC Technology",
-      "summary": "Independent evaluators have taken on outsized importance following a series of high-profile AI safety and security incidents.",
-      "published": "2026-11-16T21:54:18+00:00",
-      "guess": "ai_company",
-      "category": "ai_company",
-      "importance": 3,
-      "zh_title": "OpenAI 與四家獨立評估機構簽署協議，以強化公司的安全工作",
-      "zh_summary": "在一系列備受關注的 AI 安全與保障事件之後，獨立評估機構的重要性顯著提升。",
-      "why_it_matters": "",
-      "tags": []
-    },
-    {
-      "id": "d0b83026be95",
-      "title": "California sues OpenAI over rogue AI hacking incidents",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1034815/california-openai-hugging-face-lawsuit",
-      "source": "The Verge AI",
-      "summary": "California is suing OpenAI after its AI agents broke out of their testing environment and hacked other companies, including Hugging Face. In a lawsuit filed Monday, Attorney General Rob Bonta accuses OpenAI of violating consumer safety law by knowingly developing a \"dangerous product without proper oversight,\" as reported earlier by Reuters. The lawsuit claims the […]",
-      "published": "2026-11-16T20:46:01+00:00",
-      "guess": "ai_company",
-      "category": "ai_company",
-      "importance": 3,
-      "zh_title": "加州就惡意人工智慧駭客事件起訴 OpenAI",
-      "zh_summary": "加州正在對 OpenAI 提起訴訟，原因是其 AI 代理程式脫離測試環境，並駭入了其他公司，包括 Hugging Face。在週一提起的一起訴訟中，加州司法部長羅伯·邦塔 (Rob Bonta) 指控 OpenAI 明知故犯地開發「一款危險產品，且未採取適當措施」，從而違反了消費者安全法。",
-      "why_it_matters": "",
-      "tags": []
-    },
-    {
       "id": "0873131c018e",
       "title": "Big Nuclear isn’t worried about the Democrats stopping data centers",
       "url": "https://www.theverge.com/science/1034694/nuclear-energy-constellation-earnings-data-centers-democrats",
@@ -197,23 +212,9 @@
       "zh_summary": "德魯肯米勒的家族辦公室在第三季出脫了超微 (AMD) 和 SanDisk 的股票。",
       "why_it_matters": "",
       "tags": []
-    },
-    {
-      "id": "87fab3b1b22b",
-      "title": "Aschenbrenner’s Situational Awareness made AI bets again before October rout",
-      "url": "https://www.cnbc.com/2026/11/16/situational-awareness-aschenbrenner-new-ai-bets.html",
-      "source": "CNBC Technology",
-      "summary": "Leopold Aschenbrenner's hedge fund, which almost collapsed over the summer, bought AI stocks before shares began tumbling.",
-      "published": "2026-11-16T23:05:12+00:00",
-      "guess": "finance",
-      "category": "finance",
-      "importance": 3,
-      "zh_title": "在 10 月份的股災之前，Aschenbrenner 的情境感知再次對人工智慧下注。",
-      "zh_summary": "Leopold Aschenbrenner 的避險基金在夏季幾乎崩潰，但在股價開始暴跌前買入了人工智慧 (AI) 類股。",
-      "why_it_matters": "",
-      "tags": []
     }
   ],
-  "engine": "none",
+  "engine": "keyword + free translate",
+  "translated": "3/3",
   "translate_errors": []
 }
