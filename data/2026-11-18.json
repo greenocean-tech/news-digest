@@ -1,8 +1,53 @@
 {
   "date": "2026-11-18",
-  "generated_at": "2026-11-18T12:27:46.074307+08:00",
+  "generated_at": "2026-11-18T17:15:12.157582+08:00",
   "headline": "",
   "stories": [
+    {
+      "id": "3e998454ab3a",
+      "title": "The S&P 500 just broke a crucial support level. Here’s what history shows may happen now.",
+      "url": "https://www.marketwatch.com/story/the-s-p-500-just-broke-a-crucial-support-level-heres-what-history-shows-may-happen-now-776f6da2?mod=mw_rss_topstories",
+      "source": "MarketWatch Top Stories",
+      "summary": "Breaching a 200-day moving average is taken as a bearish signal. That may not be the case for this market, says Bespoke Investment",
+      "published": "2026-11-18T08:50:00+00:00",
+      "guess": "finance",
+      "category": "finance",
+      "importance": 3,
+      "zh_title": "標準普爾 500 指數剛剛突破了關鍵支撐位。歷史表明現在可能會發生以下情況。",
+      "zh_summary": "突破200日移動平均線被視為看跌訊號。 Bespoke Investment 表示，這個市場的情況可能並非如此",
+      "why_it_matters": "",
+      "tags": []
+    },
+    {
+      "id": "dc8e46ad8c79",
+      "title": "Southeast Asia’s data center boom leaned on Chinese demand. New U.S. rules put that pipeline at risk",
+      "url": "https://www.cnbc.com/2026/11/18/nvidia-us-ai-chip-export-controls-data-centers-.html",
+      "source": "CNBC Technology",
+      "summary": "The rules require data centers in Southeast Asia to seek U.S. approval to buy advanced AI chips, threatening to slow a build-out fueled heavily on Chinese demand.",
+      "published": "2026-11-18T08:09:43+00:00",
+      "guess": "ai_company",
+      "category": "ai_company",
+      "importance": 3,
+      "zh_title": "東南亞資料中心的繁榮依賴中國的需求。美國新規定使該管道面臨風險",
+      "zh_summary": "這些規定要求東南亞的資料中心購買先進的人工智慧晶片必須獲得美國的批准，這可能會減緩主要依賴中國需求的資料中心的建設。",
+      "why_it_matters": "",
+      "tags": []
+    },
+    {
+      "id": "40b0d40abbdb",
+      "title": "Over a Third of Gen Z-ers Rely on AI for Friendship",
+      "url": "https://www.wired.com/story/over-a-third-of-gen-z-rely-on-ai-for-friendship",
+      "source": "Wired AI",
+      "summary": "Young people who have online-only friends or use AI as a social companion face higher odds of loneliness than those who do not, a new Gallup report reveals.",
+      "published": "2026-11-18T05:01:00+00:00",
+      "guess": "ai_company",
+      "category": "ai_company",
+      "importance": 3,
+      "zh_title": "超過三分之一的 Z 世代依靠人工智慧來建立友誼",
+      "zh_summary": "蓋洛普的一份新報告顯示，那些只在網路上有朋友或使用人工智慧作為社交伴侶的年輕人比沒有這些朋友的年輕人面臨更高的孤獨感。",
+      "why_it_matters": "",
+      "tags": []
+    },
     {
       "id": "5442c44eeb4b",
       "title": "With Jensen Huang gone, Colette Kress shows Nvidia is still at the center of AI",
@@ -105,36 +150,6 @@
       "importance": 3,
       "zh_title": "Model ML 融資 2.5 億美元，用於自動化投資銀行的繁重工作",
       "zh_summary": "該新創公司表示，其代理商了解銀行家和顧問正在進行的交易的全部背景，並且當新的發展影響他們的分析時，可以自動更新財務模型和簡報。",
-      "why_it_matters": "",
-      "tags": []
-    },
-    {
-      "id": "6ab4eb3121ad",
-      "title": "Proton’s Lumo, a privacy-focused alternative to ChatGPT and Claude, arrives on desktop",
-      "url": "https://techcrunch.com/2026/11/17/protons-lumo-a-privacy-focused-alternative-to-chatgpt-and-claude-arrives-on-desktop",
-      "source": "TechCrunch AI",
-      "summary": "Proton's new Lumo Desktop app for Windows, Mac, and Linux lets users automate tasks across files and connected apps, with granular controls over what its AI can access.",
-      "published": "2026-11-17T17:32:25+00:00",
-      "guess": "ai_company",
-      "category": "ai_company",
-      "importance": 3,
-      "zh_title": "Proton 的 Lumo 是 ChatGPT 和 Claude 的注重隱私的替代品，現已登陸桌面",
-      "zh_summary": "Proton 以 Windows、Mac 和 Linux 為導向的全新 Lumo 桌面應用程式可讓使用者跨檔案和連接的應用程式自動執行任務，並對其 AI 可存取的內容進行精細控制。",
-      "why_it_matters": "",
-      "tags": []
-    },
-    {
-      "id": "bfe144881fd6",
-      "title": "Google makes it easier to use Gemini without training AI on your data",
-      "url": "https://arstechnica.com/ai/2026/11/google-will-let-you-opt-out-of-ai-training-in-gemini-without-losing-your-history",
-      "source": "Ars Technica AI",
-      "summary": "AI training and chat history will now have separate toggles in the Gemini activity settings.",
-      "published": "2026-11-17T16:50:10+00:00",
-      "guess": "ai_company",
-      "category": "ai_company",
-      "importance": 3,
-      "zh_title": "Google 讓 Gemini 的使用變得更容易，無需對您的資料進行 AI 訓練",
-      "zh_summary": "人工智慧訓練和聊天歷史現在將在 Gemini 活動設定中單獨切換。",
       "why_it_matters": "",
       "tags": []
     },
@@ -257,24 +272,9 @@
       "zh_summary": "儘管英偉達在其創始人兼首席執行官黃仁勳離職後陷入了混亂，但該公司預計其創紀錄的收入記錄不會停止。",
       "why_it_matters": "",
       "tags": []
-    },
-    {
-      "id": "8ff4425c7ffa",
-      "title": "Costco is benefiting from ‘apocalyptic concerns’ as customers stock up on goods, analysts say",
-      "url": "https://www.marketwatch.com/story/costco-is-benefiting-from-apocalyptic-concerns-as-customers-stock-up-on-goods-analysts-say-24f611ab?mod=mw_rss_topstories",
-      "source": "MarketWatch Top Stories",
-      "summary": "Mizuho analysts have seen an “acceleration on emergency prep sales” at the warehouse chain following the Microsoft outage and nationwide flight stoppage.",
-      "published": "2026-11-17T22:46:00+00:00",
-      "guess": "finance",
-      "category": "finance",
-      "importance": 3,
-      "zh_title": "分析師稱，隨著顧客囤積商品，好市多正受益於“世界末日擔憂”",
-      "zh_summary": "瑞穗分析師發現，在微軟停電和全國航班停飛之後，連鎖倉庫「緊急準備品銷售加速」。",
-      "why_it_matters": "",
-      "tags": []
     }
   ],
   "engine": "keyword + free translate",
-  "translated": "2/2",
+  "translated": "3/3",
   "translate_errors": []
 }
