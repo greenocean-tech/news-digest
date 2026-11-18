@@ -1,8 +1,38 @@
 {
   "date": "2026-11-18",
-  "generated_at": "2026-11-18T11:07:09.888225+08:00",
+  "generated_at": "2026-11-18T12:27:46.074307+08:00",
   "headline": "",
   "stories": [
+    {
+      "id": "5442c44eeb4b",
+      "title": "With Jensen Huang gone, Colette Kress shows Nvidia is still at the center of AI",
+      "url": "https://www.cnbc.com/2026/11/17/jensen-huang-may-be-gone-nvidia-shows-its-still-at-the-center-of-ai-.html",
+      "source": "CNBC Technology",
+      "summary": "In her first earnings report as interim CEO, Nvidia's Colette Kress calmed investors' nerves, at least for the moment.",
+      "published": "2026-11-18T03:15:00+00:00",
+      "guess": "ai_company",
+      "category": "ai_company",
+      "importance": 3,
+      "zh_title": "隨著黃仁勳的離開，Colette Kress 表明 Nvidia 仍然處於人工智慧的中心",
+      "zh_summary": "英偉達的科萊特·克雷斯(Colette Kress)在作為臨時首席執行官的第一份收益報告中安撫了投資者的緊張情緒，至少目前如此。",
+      "why_it_matters": "",
+      "tags": []
+    },
+    {
+      "id": "d63b9cff00dc",
+      "title": "'Who and what comes next': Analysts expect Nvidia investor uncertainty despite earnings beat",
+      "url": "https://www.cnbc.com/2026/11/18/nvidia-earnings-market-analysis.html",
+      "source": "CNBC Technology",
+      "summary": "Nvidia’s Q3 results should help ease short-term concerns, but uncertainty remains around long-term leadership.",
+      "published": "2026-11-18T04:04:26+00:00",
+      "guess": "finance",
+      "category": "finance",
+      "importance": 3,
+      "zh_title": "「接下來是誰以及會發生什麼事」：儘管獲利超出預期，分析師預計英偉達投資者仍存在不確定性",
+      "zh_summary": "英偉達第三季的業績應該有助於緩解短期擔憂，但長期領導地位仍存在不確定性。",
+      "why_it_matters": "",
+      "tags": []
+    },
     {
       "id": "72284a47c9d9",
       "title": "Google’s Spark AI agent becomes ‘Tasks’ — and now it’s free",
@@ -105,21 +135,6 @@
       "importance": 3,
       "zh_title": "Google 讓 Gemini 的使用變得更容易，無需對您的資料進行 AI 訓練",
       "zh_summary": "人工智慧訓練和聊天歷史現在將在 Gemini 活動設定中單獨切換。",
-      "why_it_matters": "",
-      "tags": []
-    },
-    {
-      "id": "82a0f3f37665",
-      "title": "Grok Bot took unapproved actions, ignored orders to stop, and then denied it",
-      "url": "https://arstechnica.com/security/2026/11/grok-bot-took-unapproved-actions-ignored-orders-to-stop-and-then-denied-it",
-      "source": "Ars Technica AI",
-      "summary": "AI agent takes unapproved actions even when laptop lid is closed and told not to.",
-      "published": "2026-11-17T14:00:29+00:00",
-      "guess": "ai_company",
-      "category": "ai_company",
-      "importance": 3,
-      "zh_title": "Grok Bot 採取了未經批准的行動，無視停止命令，然後否認",
-      "zh_summary": "即使筆記型電腦蓋子關閉並被告知不要這樣​​做，人工智慧代理也會採取未經批准的操作。",
       "why_it_matters": "",
       "tags": []
     },
@@ -257,27 +272,9 @@
       "zh_summary": "瑞穗分析師發現，在微軟停電和全國航班停飛之後，連鎖倉庫「緊急準備品銷售加速」。",
       "why_it_matters": "",
       "tags": []
-    },
-    {
-      "id": "5aca005e2cdf",
-      "title": "‘Nvidia’s turmoil has me spooked’: Has the time come to sell my stocks?",
-      "url": "https://www.marketwatch.com/story/nvidia-spooked-me-should-i-sell-my-stocks-or-ride-out-the-market-turmoil-560583c6?mod=mw_rss_topstories",
-      "source": "MarketWatch Top Stories",
-      "summary": "“Real estate here in Florida seems to be presenting some interesting opportunities.”",
-      "published": "2026-11-17T22:15:00+00:00",
-      "guess": "finance",
-      "category": "finance",
-      "importance": 3,
-      "zh_title": "「英偉達的動盪讓我感到害怕」：是時候出售我的股票了嗎？",
-      "zh_summary": "“佛羅裡達州的房地產似乎提供了一些有趣的機會。”",
-      "why_it_matters": "",
-      "tags": []
     }
   ],
   "engine": "keyword + free translate",
-  "translated": "18/18",
-  "translate_errors": [
-    "gtx: HTTPError: 500 Server Error: Internal Server Error for url: https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=zh-TW&dt=t&q=Google+makes+it+",
-    "gtx: HTTPError: 500 Server Error: Internal Server Error for url: https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=zh-TW&dt=t&q=AI+training+and+"
-  ]
+  "translated": "2/2",
+  "translate_errors": []
 }
