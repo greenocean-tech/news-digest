@@ -1,6 +1,6 @@
 {
   "date": "2026-11-19",
-  "generated_at": "2026-11-19T10:46:49.398056+08:00",
+  "generated_at": "2026-11-19T12:14:19.000711+08:00",
   "headline": "",
   "stories": [
     {
@@ -274,11 +274,6 @@
       "tags": []
     }
   ],
-  "engine": "keyword + free translate",
-  "translated": "18/18",
-  "translate_errors": [
-    "gtx: HTTPError: 429 Client Error: Too Many Requests for url: https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=zh-TW&dt=t&q=Remember+the+frontie",
-    "deep-translator: TooManyRequests: Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per d",
-    "gtx: HTTPError: 429 Client Error: Too Many Requests for url: https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=zh-TW&dt=t&q=This+summer%2C+OpenA"
-  ]
+  "engine": "none",
+  "translate_errors": []
 }
