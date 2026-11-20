@@ -1,8 +1,53 @@
 {
   "date": "2026-11-20",
-  "generated_at": "2026-11-20T12:00:37.158148+08:00",
+  "generated_at": "2026-11-20T17:13:46.944700+08:00",
   "headline": "",
   "stories": [
+    {
+      "id": "33a579c95f01",
+      "title": "This 16-Year-Old Founded an AI Missile Startup. He’s Targeting ‘Cost per Kill’",
+      "url": "https://www.wired.com/story/henrijs-dandzbergs-polemos-missiles-ai-warfare",
+      "source": "Wired AI",
+      "summary": "Henrijs Dandzbergs dropped out of high school to join startup accelerator Y Combinator. With a new breed of missile, he wants to make killing as efficient as possible for the US and its military allies.",
+      "published": "2026-11-20T07:00:00+00:00",
+      "guess": "ai_startup",
+      "category": "ai_startup",
+      "importance": 3,
+      "zh_title": "這位 16 歲的年輕人創立了一家人工智慧飛彈新創公司。他的目標是“每次擊殺成本”",
+      "zh_summary": "Henrijs Dandzbergs 高中輟學，加入創業加速器 Y Combinator。他希望透過新型飛彈，讓美國及其軍事盟友盡可能有效率地進行殺戮。",
+      "why_it_matters": "",
+      "tags": []
+    },
+    {
+      "id": "f164454e2e48",
+      "title": "‘More than just a game’: How GTA VI’s blockbuster launch fuels a booming content economy",
+      "url": "https://www.cnbc.com/2026/11/20/gta-vi-launch-streaming-content-economy.html",
+      "source": "CNBC Technology",
+      "summary": "GTA VI’s blockbuster launch is creating a wider economy around livestreams, social clips and high-volume content farms as millions tune in to watch others play.",
+      "published": "2026-11-20T07:08:36+00:00",
+      "guess": "finance",
+      "category": "finance",
+      "importance": 3,
+      "zh_title": "「不僅僅是一款遊戲」：GTA VI 的重磅發佈如何推動內容經濟的蓬勃發展",
+      "zh_summary": "《GTA VI》的重磅發布正在圍繞直播、社交剪輯和大容量內容農場創造更廣泛的經濟，因為數百萬人會觀看其他人的遊戲。",
+      "why_it_matters": "",
+      "tags": []
+    },
+    {
+      "id": "c956e5a3c351",
+      "title": "AI is changing software engineering — and some developers miss the struggle",
+      "url": "https://www.cnbc.com/2026/11/20/ai-coding-tools-software-engineers.html",
+      "source": "CNBC Technology",
+      "summary": "AI coding tools are making software engineers faster, but developers tell CNBC the work has lost its \"sense of joy and fun.\"",
+      "published": "2026-11-20T06:00:01+00:00",
+      "guess": "ai_company",
+      "category": "ai_company",
+      "importance": 3,
+      "zh_title": "人工智慧正在改變軟體工程——一些開發人員錯過了這場鬥爭",
+      "zh_summary": "人工智慧編碼工具正在使軟體工程師變得更快，但開發人員告訴 CNBC，這項工作已經失去了「歡樂和樂趣」。",
+      "why_it_matters": "",
+      "tags": []
+    },
     {
       "id": "4ace466209c6",
       "title": "Senate passes BAAJA permitting reform bill backed by AI, energy sectors",
@@ -90,21 +135,6 @@
       "importance": 3,
       "zh_title": "Meta 的 Muse Charm 可能售價 300 美元",
       "zh_summary": "根據 The Information 報導，Meta 計劃將 Muse Charm 定價為 300 美元，這是一款帶有螢幕的小工具，可以讓你與 Muse AI 代理聊天。執行長馬克祖克柏今年稍早透露了這款小工具，並表示該公司預計將「在 12 月的假期前」發貨。",
-      "why_it_matters": "",
-      "tags": []
-    },
-    {
-      "id": "d9d2fba47fd3",
-      "title": "Meta’s AI agent Muse is mixing up conversations and could be exposing private data, report says",
-      "url": "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says",
-      "source": "TechCrunch AI",
-      "summary": "In some of these instances, employees said Muse surfaced messages about childcare requests they never made, career advice they never asked for, product orders they never placed, and bank account balances that didn't belong to them.",
-      "published": "2026-11-19T17:38:40+00:00",
-      "guess": "ai_company",
-      "category": "ai_company",
-      "importance": 3,
-      "zh_title": "報導稱，Meta 的人工智慧代理 Muse 正在混淆對話，可能會洩露私人數據",
-      "zh_summary": "員工表示，在其中一些情況下，Muse 會顯示有關他們從未提出過的兒童保育請求、他們從未要求過的職業建議、他們從未下過的產品訂單以及不屬於他們的銀行帳戶餘額的資訊。",
       "why_it_matters": "",
       "tags": []
     },
@@ -229,21 +259,6 @@
       "tags": []
     },
     {
-      "id": "d0946e26531a",
-      "title": "Anthropic starts trading on Wall Street",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1035384/anthropic-ipo-trading-nasdaq",
-      "source": "The Verge AI",
-      "summary": "Anthropic has officially gone public. It began trading on the Nasdaq under the ticker symbol \"ANT\" at $111.50 per share, up from its initial $83 per share price that put company's value at around $1.5 trillion. The listing comes nearly a month after Anthropic revealed its plans to go public. In its lengthy S-1 filing, […]",
-      "published": "2026-11-19T16:52:01+00:00",
-      "guess": "finance",
-      "category": "finance",
-      "importance": 3,
-      "zh_title": "Anthropic 開始在華爾街交易",
-      "zh_summary": "Anthropic已正式上市。該公司開始在納斯達克上市，股票代碼為“ANT”，價格為每股 111.50 美元，高於最初每股 83 美元的價格，當時該公司的估值約為 1.5 兆美元。此次上市是在 Anthropic 公佈其上市計劃近一個月後進行的。在其",
-      "why_it_matters": "",
-      "tags": []
-    },
-    {
       "id": "824e87dcfa8e",
       "title": "Anthropic’s IPO puts AI’s circular financing boom to the test",
       "url": "https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test",
@@ -257,24 +272,11 @@
       "zh_summary": "Anthropic 在上市時面臨著巨大的計算承諾，但即使 Anthropic 失去領先地位，其最大的基礎設施合作夥伴（包括亞馬遜和谷歌）也可以繼續從人工智慧中獲利。",
       "why_it_matters": "",
       "tags": []
-    },
-    {
-      "id": "0b3a38ae0a19",
-      "title": "With the biggest IPO of all time, Anthropic’s ‘good guy’ reputation is on the line",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1037459/anthropic-ipo-safe-ai-reputation-power-structure",
-      "source": "The Verge AI",
-      "summary": "Today is a new beginning for Anthropic: a years-in-the-making IPO that beat out SpaceX for most valuable of all time, having raised $81.3 billion and set an important precedent for the other public AI lab debuts to come. But it's not simply a financial milestone. Anthropic was founded on the idea that it prioritized safety […]",
-      "published": "2026-11-19T14:25:37+00:00",
-      "guess": "ai_startup",
-      "category": "ai_startup",
-      "importance": 3,
-      "zh_title": "有史以來最大的 IPO，Anthropic 的「好人」聲譽岌岌可危",
-      "zh_summary": "今天對 Anthropic 來說是一個新的開始：歷時數年的首次公開募股擊敗了 SpaceX，成為有史以來最有價值的公司，籌集了 813 億美元資金，並為其他公共人工智慧實驗室的首次亮相樹立了重要先例。但這不僅僅是一個財務里程碑。 Anthropic 的創立理念是",
-      "why_it_matters": "",
-      "tags": []
     }
   ],
   "engine": "keyword + free translate",
-  "translated": "1/1",
-  "translate_errors": []
+  "translated": "3/3",
+  "translate_errors": [
+    "gtx: HTTPError: 500 Server Error: Internal Server Error for url: https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=zh-TW&dt=t&q=Henrijs+Dandzber"
+  ]
 }
