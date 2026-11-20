@@ -1,8 +1,23 @@
 {
   "date": "2026-11-20",
-  "generated_at": "2026-11-20T10:38:20.105650+08:00",
+  "generated_at": "2026-11-20T12:00:37.158148+08:00",
   "headline": "",
   "stories": [
+    {
+      "id": "4ace466209c6",
+      "title": "Senate passes BAAJA permitting reform bill backed by AI, energy sectors",
+      "url": "https://www.cnbc.com/2026/11/20/baaja-bill-senate-passes-permitting-reform.html",
+      "source": "CNBC Technology",
+      "summary": "The permitting bill's Senate passage is a key step to it becoming law, but it would also need to clear the House before heading to President Trump's desk.",
+      "published": "2026-11-20T03:56:17+00:00",
+      "guess": "ai_company",
+      "category": "ai_company",
+      "importance": 3,
+      "zh_title": "參議院通過由人工智慧、能源部門支持的 BAAJA 許可改革法案",
+      "zh_summary": "該法案在參議院獲得通過是其成為法律的關鍵一步，但在提交川普總統辦公桌之前還需要獲得眾議院的批准。",
+      "why_it_matters": "",
+      "tags": []
+    },
     {
       "id": "2ed09bbf2a0c",
       "title": "Apple may be developing its own AI agent that runs your Mac",
@@ -90,21 +105,6 @@
       "importance": 3,
       "zh_title": "報導稱，Meta 的人工智慧代理 Muse 正在混淆對話，可能會洩露私人數據",
       "zh_summary": "員工表示，在其中一些情況下，Muse 會顯示有關他們從未提出過的兒童保育請求、他們從未要求過的職業建議、他們從未下過的產品訂單以及不屬於他們的銀行帳戶餘額的資訊。",
-      "why_it_matters": "",
-      "tags": []
-    },
-    {
-      "id": "029ded4e9a8f",
-      "title": "I let Apple’s always-listening AI summarize my life for two weeks",
-      "url": "https://www.theverge.com/tech/1037100/apple-siri-recap-audio-intelligence-hands-on",
-      "source": "The Verge AI",
-      "summary": "Was it worth it? I've been asking myself this quite a bit over the last month or so while testing both the Amazon Bee Frontier and Siri Recap on the Apple Watch Ultra 4. Both enable a wearable to ambiently listen to your conversations and, using AI, summarize them for you. Why? So you can […]",
-      "published": "2026-11-19T13:00:00+00:00",
-      "guess": "ai_company",
-      "category": "ai_company",
-      "importance": 3,
-      "zh_title": "我讓蘋果永遠傾聽的人工智慧總結了我兩週的生活",
-      "zh_summary": "值得嗎？在過去一個月左右的時間裡，當我在 Apple Watch Ultra 4 上測試 Amazon Bee Frontier 和 Siri Recap 時，我一直在問自己這個問題。這兩款裝置都可以讓穿戴式裝置在環境中監聽你的對話，並使用 AI 為你總結對話內容。為什麼？所以你可以[...]",
       "why_it_matters": "",
       "tags": []
     },
@@ -275,6 +275,6 @@
     }
   ],
   "engine": "keyword + free translate",
-  "translated": "18/18",
+  "translated": "1/1",
   "translate_errors": []
 }
