@@ -1,0 +1,170 @@
+{
+  "date": "2026-11-23",
+  "generated_at": "2026-11-23T09:57:23.316397+08:00",
+  "headline": "",
+  "stories": [
+    {
+      "id": "05744626c0d6",
+      "title": "OpenAI’s chief scientist has thoughts on how to limit AI development",
+      "url": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development",
+      "source": "TechCrunch AI",
+      "summary": "To establish a speed limit on AI development, you need to agree on how to measure speed.",
+      "published": "2026-11-22T21:14:07+00:00",
+      "guess": "ai_company",
+      "category": "ai_company",
+      "importance": 3,
+      "zh_title": "OpenAI首席科學家對如何限制AI發展有思考",
+      "zh_summary": "要確定人工智慧開發的速度限制，您需要就如何衡量速度達成一致。",
+      "why_it_matters": "",
+      "tags": []
+    },
+    {
+      "id": "459286d9475e",
+      "title": "These little-known investments could be among the best bargains in a crash",
+      "url": "https://www.marketwatch.com/story/these-little-known-investments-could-be-among-the-best-bargains-in-a-crash-78a379b4?mod=mw_rss_topstories",
+      "source": "MarketWatch Top Stories",
+      "summary": "If this stock market turmoil turns into a full-blown crash, look for low-risk investment bargains among closed-end funds.",
+      "published": "2026-11-22T18:23:00+00:00",
+      "guess": "finance",
+      "category": "finance",
+      "importance": 3,
+      "zh_title": "這些鮮為人知的投資可能是股市崩盤時最划算的投資",
+      "zh_summary": "如果股市動盪演變成全面崩盤，請在封閉式基金中尋找低創投機會。",
+      "why_it_matters": "",
+      "tags": []
+    },
+    {
+      "id": "41788f30a1d5",
+      "title": "Top Wall Street analysts favor these 3 dividend stocks for strong returns",
+      "url": "https://www.cnbc.com/2026/11/22/top-wall-street-analysts-favor-these-stocks-for-strong-returns.html",
+      "source": "CNBC Markets",
+      "summary": "Wall Street analysts can help shortlist attractive dividend-paying stocks, as their recommendations are backed by thorough analysis of a company's financials.",
+      "published": "2026-11-22T12:13:56+00:00",
+      "guess": "finance",
+      "category": "finance",
+      "importance": 3,
+      "zh_title": "華爾街頂級分析師青睞這三隻股息股，以獲得強勁回報",
+      "zh_summary": "華爾街分析師可以協助篩選出具吸引力的派息股，因為他們的建議是基於對公司財務狀況的徹底分析。",
+      "why_it_matters": "",
+      "tags": []
+    },
+    {
+      "id": "bb3fc249a39b",
+      "title": "The Nasdaq is in freefall. Here's one stock to look at",
+      "url": "https://www.cnbc.com/2026/11/22/the-nasdaq-is-in-freefall-heres-one-stock-to-look-at.html",
+      "source": "CNBC Markets",
+      "summary": "Elevated options premiums are creating an opportunity in Amazon",
+      "published": "2026-11-22T12:10:39+00:00",
+      "guess": "finance",
+      "category": "finance",
+      "importance": 3,
+      "zh_title": "納斯達克指數正在自由落體式下跌。這是一檔值得關注的股票",
+      "zh_summary": "期權費上漲正在為亞馬遜創造機會",
+      "why_it_matters": "",
+      "tags": []
+    },
+    {
+      "id": "5077f698fa6f",
+      "title": "Banks Have Had It Up to Here With Your AI Agent",
+      "url": "https://www.wired.com/story/banks-are-cracking-down-on-ai-agents",
+      "source": "Wired AI",
+      "summary": "Major US financial institutions are banning third-party bots from logging into your accounts—and warning that any costly bot mistakes are strictly your problem.",
+      "published": "2026-11-22T11:00:00+00:00",
+      "guess": "ai_company",
+      "category": "ai_company",
+      "importance": 3,
+      "zh_title": "銀行已經透過人工智慧代理做到了這一點",
+      "zh_summary": "美國主要金融機構禁止第三方機器人登入您的帳戶，並警告說，任何代價高昂的機器人錯誤都完全是您的問題。",
+      "why_it_matters": "",
+      "tags": []
+    },
+    {
+      "id": "7c92d479beaf",
+      "title": "Corporate America hunts for ‘generational’ growth in AI, trading cards and the L.A. airport",
+      "url": "https://www.marketwatch.com/story/corporate-america-hunts-for-generational-growth-in-ai-trading-cards-and-the-l-a-airport-3072eb1a?mod=mw_rss_topstories",
+      "source": "MarketWatch Top Stories",
+      "summary": "There’s been no shortage of trends deemed once-in-a-generation by executives on earnings calls.",
+      "published": "2026-11-22T21:51:00+00:00",
+      "guess": "finance",
+      "category": "finance",
+      "importance": 3,
+      "zh_title": "美國企業界尋求人工智慧、交易卡和洛杉磯機場的「世代」成長",
+      "zh_summary": "在財報電話會議上，不乏被高階主管視為一代一次的趨勢。",
+      "why_it_matters": "",
+      "tags": []
+    },
+    {
+      "id": "265c68ec3a4c",
+      "title": "Binding of Isaac developer removes AI music from Repentance Plus",
+      "url": "https://www.theverge.com/games/1039770/binding-of-isaac-ai-music",
+      "source": "The Verge AI",
+      "summary": "The Binding of Isaac: Repentance Plus has spent the last few days getting review-bombed on Steam after it was discovered that a particular segment of the game used AI music. Reddit user ShweetsStuff discovered the songs used during a Grand Theft Auto-themed section. They found several audio files with Suno metadata that pointed back to […]",
+      "published": "2026-11-22T17:25:20+00:00",
+      "guess": "ai_company",
+      "category": "ai_company",
+      "importance": 3,
+      "zh_title": "《以撒的結合》開發商從 Repentance Plus 中刪除了 AI 音樂",
+      "zh_summary": "《以撒的結合：懺悔 Plus》在被發現遊戲的某個特定部分使用了 AI 音樂後，過去幾天在 Steam 上遭到了評論轟炸。 Reddit 用戶 ShweetsStuff 發現了俠盜獵車手主題部分中使用的歌曲。他們發現了幾個音訊文件",
+      "why_it_matters": "",
+      "tags": []
+    },
+    {
+      "id": "0f50037c76f2",
+      "title": "The vibe-coding revolution is coming to all the gadgets",
+      "url": "https://www.theverge.com/column/1039139/vibe-coding-gadgets-tv-camera",
+      "source": "The Verge AI",
+      "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on the vibe-hacking of everything, follow David Pierce. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How it started Like so many things with AI, it's not […]",
+      "published": "2026-11-22T13:00:00+00:00",
+      "guess": "ai_company",
+      "category": "ai_company",
+      "importance": 3,
+      "zh_title": "振動編碼革命即將席捲所有電子設備",
+      "zh_summary": "這是《The Stepback》，一份每週簡訊，詳細介紹了科技界的重要故事。有關一切事物的振動黑客的更多信息，請關注大衛·皮爾斯。 《Stepback》將於美國東部時間週日上午 8 點到達我們訂閱者的收件匣。在此選擇加入「後退」。它是如何開始的就像很多事情一樣",
+      "why_it_matters": "",
+      "tags": []
+    }
+  ],
+  "engine": "keyword + free translate",
+  "translated": "8/8",
+  "translate_errors": [
+    "gtx: HTTPError: 500 Server Error: Internal Server Error for url: https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=zh-TW&dt=t&q=Wall+Street+anal",
+    "deep-translator: TooManyRequests: Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per d"
+  ],
+  "earnings": {
+    "week_start": "2026-11-23",
+    "week_end": "2026-12-04",
+    "source": "Nasdaq",
+    "count": 1,
+    "days": [
+      {
+        "date": "2026-11-24",
+        "week": "本週",
+        "label": "11/24（二）",
+        "items": [
+          {
+            "date": "2026-11-24",
+            "symbol": "DELL",
+            "name": "Dell Technologies Inc.",
+            "time": "盤後",
+            "eps_forecast": "$6.55",
+            "market_cap": 198716916000.0,
+            "zh_name": "戴爾"
+          }
+        ]
+      }
+    ],
+    "none": [
+      "TSM",
+      "NVDA",
+      "AMD",
+      "SPCX",
+      "META",
+      "KLAC",
+      "AMAT",
+      "ARM",
+      "MU",
+      "SKHY",
+      "SNDK"
+    ]
+  }
+}
