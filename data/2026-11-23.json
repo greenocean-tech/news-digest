@@ -1,6 +1,6 @@
 {
   "date": "2026-11-23",
-  "generated_at": "2026-11-23T09:57:23.316397+08:00",
+  "generated_at": "2026-11-23T11:45:20.883923+08:00",
   "headline": "",
   "stories": [
     {
@@ -124,12 +124,8 @@
       "tags": []
     }
   ],
-  "engine": "keyword + free translate",
-  "translated": "8/8",
-  "translate_errors": [
-    "gtx: HTTPError: 500 Server Error: Internal Server Error for url: https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=zh-TW&dt=t&q=Wall+Street+anal",
-    "deep-translator: TooManyRequests: Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per d"
-  ],
+  "engine": "none",
+  "translate_errors": [],
   "earnings": {
     "week_start": "2026-11-23",
     "week_end": "2026-12-04",
