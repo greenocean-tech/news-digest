@@ -1,6 +1,6 @@
 {
   "date": "2026-11-25",
-  "generated_at": "2026-11-25T12:32:31.979038+08:00",
+  "generated_at": "2026-11-25T13:27:56.480702+08:00",
   "headline": "",
   "stories": [
     {
@@ -214,9 +214,6 @@
       "tags": []
     }
   ],
-  "engine": "keyword + free translate",
-  "translated": "14/14",
-  "translate_errors": [
-    "gtx: HTTPError: 500 Server Error: Internal Server Error for url: https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=zh-TW&dt=t&q=Jim+Cramer+said+"
-  ]
+  "engine": "none",
+  "translate_errors": []
 }
