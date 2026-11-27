@@ -1,8 +1,53 @@
 {
   "date": "2026-11-27",
-  "generated_at": "2026-11-27T13:05:51.669582+08:00",
+  "generated_at": "2026-11-27T18:10:19.791768+08:00",
   "headline": "",
   "stories": [
+    {
+      "id": "a56b5173d8fa",
+      "title": "Hollywood Hills home of the late Presley Gerber listed for $3.6 million, 2 months after his death",
+      "url": "https://www.marketwatch.com/story/hollywood-hills-home-of-the-late-presley-gerber-listed-for-3-6-million-2-months-after-his-death-92497183?mod=mw_rss_topstories",
+      "source": "MarketWatch Top Stories",
+      "summary": "Presley Gerber’s Hollywood Hills home has hit the market for $3.59 million, less than two months after the model’s death at age 27.",
+      "published": "2026-11-27T09:59:00+00:00",
+      "guess": "finance",
+      "category": "finance",
+      "importance": 3,
+      "zh_title": "已故普雷斯利·格伯 (Presley Gerber) 去世 2 個月後，其位於好萊塢山的住宅以 360 萬美元掛牌出售",
+      "zh_summary": "普雷斯利·格伯 (Presley Gerber) 在好萊塢山的住宅以 359 萬美元的價格掛牌出售，距離這位模特兒 27 歲去世後不到兩個月。",
+      "why_it_matters": "",
+      "tags": []
+    },
+    {
+      "id": "5e1a9f2828d1",
+      "title": "Tech German software major SAP is reportedly weighing cutting at least 10,000 jobs in AI push",
+      "url": "https://www.cnbc.com/2026/11/27/sap-job-cuts-ai-restructuring.html",
+      "source": "CNBC Technology",
+      "summary": "SAP is weighing cuts of at least 10,000 jobs as it reshapes its software business around AI, Bloomberg reported.",
+      "published": "2026-11-27T07:15:44+00:00",
+      "guess": "ai_company",
+      "category": "ai_company",
+      "importance": 3,
+      "zh_title": "據報道，德國軟體巨頭 SAP 正考慮在人工智慧推動方面裁員至少 1 萬人",
+      "zh_summary": "根據彭博社報道，SAP 正在考慮裁員至少 10,000 人，以圍繞人工智慧重塑其軟體業務。",
+      "why_it_matters": "",
+      "tags": []
+    },
+    {
+      "id": "a73645a794d1",
+      "title": "A New Breed of Chip Runs AI Models Using Waves of Light",
+      "url": "https://www.wired.com/story/a-new-breed-of-chip-runs-ai-models-using-waves-of-light",
+      "source": "Wired AI",
+      "summary": "German company Q.ANT is trying to cut the amount of energy required to run AI models by using light to perform the toughest calculations.",
+      "published": "2026-11-27T07:00:00+00:00",
+      "guess": "ai_company",
+      "category": "ai_company",
+      "importance": 3,
+      "zh_title": "一種新型晶片利用光波運行人工智慧模型",
+      "zh_summary": "德國公司 Q.ANT 正試圖透過使用光來執行最困難的計算來減少運行人工智慧模型所需的能量。",
+      "why_it_matters": "",
+      "tags": []
+    },
     {
       "id": "0554dcf41080",
       "title": "Is the stock market open on Black Friday?",
@@ -110,8 +155,6 @@
     }
   ],
   "engine": "keyword + free translate",
-  "translated": "1/1",
-  "translate_errors": [
-    "gtx: HTTPError: 500 Server Error: Internal Server Error for url: https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=zh-TW&dt=t&q=Is+the+stock+mar"
-  ]
+  "translated": "3/3",
+  "translate_errors": []
 }
