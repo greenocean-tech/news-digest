@@ -1,8 +1,23 @@
 {
   "date": "2026-11-27",
-  "generated_at": "2026-11-27T11:45:22.827278+08:00",
+  "generated_at": "2026-11-27T13:05:51.669582+08:00",
   "headline": "",
   "stories": [
+    {
+      "id": "0554dcf41080",
+      "title": "Is the stock market open on Black Friday?",
+      "url": "https://www.marketwatch.com/story/is-the-stock-market-open-on-black-friday-0a735c45?mod=mw_rss_topstories",
+      "source": "MarketWatch Top Stories",
+      "summary": "Here’s how the day after Thanksgiving will affect trading on Wall Street",
+      "published": "2026-11-27T05:01:00+00:00",
+      "guess": "finance",
+      "category": "finance",
+      "importance": 3,
+      "zh_title": "黑色星期五股市開市嗎？",
+      "zh_summary": "以下是感恩節後一天將如何影響華爾街的交易",
+      "why_it_matters": "",
+      "tags": []
+    },
     {
       "id": "c881f1e71110",
       "title": "Nvidia hits pause on chip shipments to Southeast Asia",
@@ -95,6 +110,8 @@
     }
   ],
   "engine": "keyword + free translate",
-  "translated": "6/6",
-  "translate_errors": []
+  "translated": "1/1",
+  "translate_errors": [
+    "gtx: HTTPError: 500 Server Error: Internal Server Error for url: https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=zh-TW&dt=t&q=Is+the+stock+mar"
+  ]
 }
